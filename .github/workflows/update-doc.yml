@@ -1,9 +1,9 @@
-name: Update Site from Google Doc
+name: Create iframe index.html for published Google Doc
 
 on:
-  workflow_dispatch:    # Manual trigger from GitHub UI
+  workflow_dispatch:
   schedule:
-    - cron: '0 12 * * SUN'  # Every Sunday at noon UTC
+    - cron: '0 0,12 * * 5-7'  # Every 12 hours on Fri–Sun (UTC)
 
 jobs:
   update:
@@ -13,10 +13,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch published Google Doc HTML
+      - name: Create index.html with iframe
         run: |
-          curl -f -L "https://docs.google.com/document/d/e/2PACX-1vTWu0kV3LI2k21O2iPNr41qkUrSg_3SPEujWjlAsVwqCQOqCRFLHB4eArr9AscqNxd9PpJUQg5B6k0k/pub?embedded=true" -o index.html
-
+          cat <<EOF > index.html
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <title>Clarkston Ward Program</title>
+            <style>
+              html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                overflow: hidden;
+              }
+              iframe {
+                border: none;
+                width: 100%;
+                height: 100%;
+              }
+            </style>
+          </head>
+          <body>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vTWu0kV3LI2k21O2iPNr41qkUrSg_3SPEujWjlAsVwqCQOqCRFLHB4eArr9AscqNxd9PpJUQg5B6k0k/pub?embedded=true"></iframe>
+          </body>
+          </html>
+          EOF
 
       - name: Configure Git
         run: |
@@ -27,7 +50,7 @@ jobs:
         run: |
           git add index.html
           if ! git diff --cached --quiet; then
-            git commit -m "📄 Auto-update from published Google Doc"
+            git commit -m "📄 Regenerated iframe-based index.html"
             git push
           else
             echo "No changes to commit"
