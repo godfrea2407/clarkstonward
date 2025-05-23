@@ -15,7 +15,7 @@ jobs:
 
       - name: Fetch published Google Doc HTML
         run: |
-          curl -L "https://docs.google.com/document/d/e/2PACX-1vTWu0kV3LI2k21O2iPNr41qkUrSg_3SPEujWjlAsVwqCQOqCRFLHB4eArr9AscqNxd9PpJUQg5B6k0k/pub" -o index.html
+          curl -f -L "https://docs.google.com/document/d/e/2PACX-1vTWu0kV3LI2k21O2iPNr41qkUrSg_3SPEujWjlAsVwqCQOqCRFLHB4eArr9AscqNxd9PpJUQg5B6k0k/pub" -o index.html
 
       - name: Configure Git
         run: |
