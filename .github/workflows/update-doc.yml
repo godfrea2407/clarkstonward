@@ -3,8 +3,13 @@ name: Create iframe index.html for published Google Doc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 5-7'   # Midnight UTC (Fri–Sun)
-    - cron: '0 12 * * 5-7'  # Noon UTC (Fri–Sun)
+    - cron: '0 0 * * 5'  # Friday at 00:00 UTC
+    - cron: '0 12 * * 5' # Friday at 12:00 UTC
+    - cron: '0 0 * * 6'  # Saturday at 00:00 UTC
+    - cron: '0 12 * * 6' # Saturday at 12:00 UTC
+    - cron: '0 0 * * 0'  # Sunday at 00:00 UTC
+    - cron: '0 12 * * 0' # Sunday at 12:00 UTC
+
 
 jobs:
   update:
