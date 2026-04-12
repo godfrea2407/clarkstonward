@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sacrament Meeting – Clarkston Ward</title>
+  <style>
+    :root {
+      --navy: #1a2e4a;
+      --gold:  #c9a84c;
+      --light: #f7f5f0;
+      --white: #ffffff;
+      --text:  #222222;
+      --muted: #666666;
+      --rule:  #d0c9bc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 1.6rem 1rem 1.2rem;
+      text-align: center;
+    }
+    header img.logo {
+      width: 72px;
+      filter: brightness(0) invert(1);
+      margin-bottom: .6rem;
+    }
+    header h1 { font-size: 1.6rem; font-weight: normal; letter-spacing: .04em; }
+    header .date { font-size: 1.05rem; color: var(--gold); margin-top: .25rem; }
+    header .ward { font-size: .85rem; opacity: .8; margin-top: .4rem; letter-spacing: .05em; }
+    header .time { font-size: .9rem; color: var(--gold); margin-top: .2rem; }
+
+    /* ── MAIN CARD ── */
+    main {
+      max-width: 680px;
+      margin: 1.6rem auto;
+      padding: 0 1rem 3rem;
+    }
+
+    /* ── SECTION BLOCKS ── */
+    .section {
+      background: var(--white);
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.08);
+      margin-bottom: 1.2rem;
+      overflow: hidden;
+    }
+    .section-header {
+      background: var(--navy);
+      color: var(--white);
+      font-size: .7rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      padding: .45rem 1rem;
+    }
+    .section-body { padding: .8rem 1rem; }
+
+    /* ── OFFICER GRID ── */
+    .officers {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .2rem .8rem;
+      font-size: .88rem;
+    }
+    .officer-item { display: flex; gap: .3rem; align-items: baseline; }
+    .officer-label { font-weight: bold; white-space: nowrap; color: var(--navy); }
+    .officer-name  { color: var(--muted); }
+
+    /* ── PROGRAM TABLE ── */
+    .program-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+    .program-table tr { border-bottom: 1px solid var(--rule); }
+    .program-table tr:last-child { border-bottom: none; }
+    .program-table td { padding: .55rem .2rem; vertical-align: top; }
+    .program-table td:first-child {
+      font-weight: bold;
+      color: var(--navy);
+      width: 52%;
+      padding-right: .8rem;
+    }
+    .program-table td:last-child { color: var(--muted); }
+    .program-table .separator td {
+      background: #f0ede8;
+      font-size: .7rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: .3rem .2rem;
+      font-weight: normal;
+    }
+
+    /* ── ANNOUNCEMENTS ── */
+    .announcement { margin-bottom: 1rem; }
+    .announcement:last-child { margin-bottom: 0; }
+    .announcement h3 {
+      font-size: .95rem;
+      color: var(--navy);
+      margin-bottom: .2rem;
+    }
+    .announcement .ann-date {
+      font-size: .82rem;
+      color: var(--gold);
+      font-style: italic;
+      margin-bottom: .2rem;
+    }
+    .announcement p { font-size: .88rem; color: var(--muted); }
+
+    /* ── CLEANING TABLE ── */
+    .cleaning-leader {
+      text-align: center;
+      font-weight: bold;
+      color: var(--navy);
+      font-size: 1rem;
+      padding: .4rem 0 .5rem;
+    }
+    .cleaning-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .1rem .8rem;
+      font-size: .88rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    .cleaning-grid span { padding: .15rem 0; }
+
+    /* ── LINKS SECTION ── */
+    .links-list { list-style: none; font-size: .88rem; }
+    .links-list li { padding: .35rem 0; border-bottom: 1px solid var(--rule); }
+    .links-list li:last-child { border-bottom: none; }
+    .links-list a { color: var(--navy); text-decoration: none; }
+    .links-list a:hover { text-decoration: underline; }
+    .links-list .link-label { font-weight: bold; color: var(--text); }
+
+    /* ── PDF DOWNLOAD ── */
+    .pdf-btn {
+      display: block;
+      text-align: center;
+      background: var(--navy);
+      color: var(--white);
+      padding: .75rem 1rem;
+      border-radius: 6px;
+      font-size: .9rem;
+      text-decoration: none;
+      margin-top: .5rem;
+      letter-spacing: .03em;
+    }
+    .pdf-btn:hover { background: #243d60; }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      font-size: .75rem;
+      color: var(--muted);
+      padding: 1.5rem 1rem;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 480px) {
+      .officers { grid-template-columns: 1fr; }
+      header h1 { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="images/word_media_image1.png" alt="The Church of Jesus Christ of Latter-day Saints" />
+  <h1>Sacrament Meeting</h1>
+  <div class="date">Sunday, April 12, 2026</div>
+  <div class="ward">Clarkston Ward &bull; Farmington Hills Michigan Stake</div>
+  <div class="time">9:00 AM – 10:00 AM</div>
+</header>
+
+<main>
+
+  <!-- Officers -->
+  <div class="section">
+    <div class="section-header">Meeting Officers</div>
+    <div class="section-body">
+      <div class="officers">
+        <div class="officer-item">
+          <span class="officer-label">Presiding:</span>
+          <span class="officer-name">Bishop Ryan Johnson</span>
+        </div>
+        <div class="officer-item">
+          <span class="officer-label">Chorister:</span>
+          <span class="officer-name">Sister Sherry Stucki</span>
+        </div>
+        <div class="officer-item">
+          <span class="officer-label">Conducting:</span>
+          <span class="officer-name">Bro. Gary Neumann, Bishopric 2nd Counselor</span>
+        </div>
+        <div class="officer-item">
+          <span class="officer-label">Pianist:</span>
+          <span class="officer-name">Sister Laura Zundel</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Program -->
+  <div class="section">
+    <div class="section-header">2nd Sunday &mdash; Fast Sunday</div>
+    <div class="section-body">
+      <table class="program-table">
+        <tbody>
+          <tr>
+            <td>Welcome &amp; Announcements</td>
+            <td>Bro. Gary Neumann, Bishopric 2nd Counselor</td>
+          </tr>
+          <tr>
+            <td>Opening Hymn</td>
+            <td>#137 Testimony</td>
+          </tr>
+          <tr>
+            <td>Opening Prayer</td>
+            <td>By Invitation</td>
+          </tr>
+          <tr>
+            <td>Ward Business</td>
+            <td>Bro. Gary Neumann, Bishopric 2nd Counselor</td>
+          </tr>
+          <tr>
+            <td>Sacrament Hymn</td>
+            <td>#175 O God, the Eternal Father</td>
+          </tr>
+          <tr>
+            <td>Blessing &amp; Passing of the Sacrament</td>
+            <td></td>
+          </tr>
+          <tr class="separator"><td colspan="2">Fast Sunday Testimonies</td></tr>
+          <tr>
+            <td colspan="2" style="color:#333; font-style:italic; text-align:center; padding:.65rem .2rem;">
+              Testimonies by the congregation until ~09:50 AM
+            </td>
+          </tr>
+          <tr class="separator"><td colspan="2">Closing</td></tr>
+          <tr>
+            <td>Closing Hymn</td>
+            <td>#1021 I Know That My Savior Loves Me</td>
+          </tr>
+          <tr>
+            <td>Closing Prayer</td>
+            <td>By Invitation</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Announcements -->
+  <div class="section">
+    <div class="section-header">Announcements</div>
+    <div class="section-body">
+
+      <!-- Ward Temple Night -->
+      <div class="announcement">
+        <h3>Ward Temple Night</h3>
+        <div class="ann-date">Thursday, April 16, 2026</div>
+        <p>Gather together with your ward family for an evening at the temple. Contact your Elders Quorum or Relief Society president for session times and carpooling.</p>
+      </div>
+
+      <hr style="border:none;border-top:1px solid var(--rule);margin:.8rem 0;" />
+
+      <!-- Building Cleaning -->
+      <div class="announcement">
+        <h3>Building Cleaning Assignment</h3>
+        <div class="ann-date">Saturday, April 25, 2026</div>
+        <div class="cleaning-leader">Pabst, S</div>
+        <div class="cleaning-grid">
+          <span>Pabst, GL &amp; K</span><span>Condie</span>
+          <span>Mayo</span><span>Asbury</span>
+          <span>Lee</span><span>Morley</span>
+          <span>Briggs</span><span>Turner</span>
+        </div>
+        <p style="margin-top:.5rem;font-size:.8rem;text-align:center;">Cleaning time TBD by team leader</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PDF Download -->
+  <div class="section">
+    <div class="section-body">
+      <a class="pdf-btn" href="program.pdf" target="_blank">
+        📄 Download / Print Full Program (PDF)
+      </a>
+    </div>
+  </div>
+
+  <!-- Links -->
+  <div class="section">
+    <div class="section-header">Ward Links</div>
+    <div class="section-body">
+      <ul class="links-list">
+        <li>
+          <span class="link-label">Clarkston Ward Website</span><br />
+          <a href="https://local.churchofjesuschrist.org/en/units/us/mi/clarkston-ward">local.churchofjesuschrist.org</a>
+        </li>
+        <li>
+          <span class="link-label">Ward History</span><br />
+          <a href="https://unithistory.churchofjesuschrist.org/">unithistory.churchofjesuschrist.org</a>
+        </li>
+        <li>
+          <span class="link-label">Clarkston Ward Facebook</span><br />
+          <a href="http://tiny.cc/clarkstonfb">tiny.cc/clarkstonfb</a>
+        </li>
+        <li>
+          <span class="link-label">Farmington Hills Stake Facebook</span><br />
+          <a href="http://tiny.cc/farmingtonhillsfb">tiny.cc/farmingtonhillsfb</a>
+        </li>
+        <li>
+          <span class="link-label">Stake Youth Instagram</span><br />
+          @fhstakeyouth
+        </li>
+        <li>
+          <span class="link-label">Emergency Action Plan</span><br />
+          <a href="https://docs.google.com/document/d/1j_DFRv2XKlnHsu-Hh0mNoQG2S_QdeqUgVxPTIgz0oCw/edit?usp=sharing">View Document</a>
+        </li>
+        <li>
+          <span class="link-label">Senior Missionary Opportunities</span><br />
+          <a href="https://seniormissionary.churchofjesuschrist.org/srsite/cs/search?lang=eng">Senior Missionary Site</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  Clarkston Ward &bull; Farmington Hills Michigan Stake &bull; The Church of Jesus Christ of Latter-day Saints
+</footer>
+
+</body>
+</html>
