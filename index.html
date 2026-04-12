@@ -87,15 +87,12 @@
       padding-right: .8rem;
     }
     .program-table td:last-child { color: var(--muted); }
-    .program-table .separator td {
-      background: #f0ede8;
-      font-size: .7rem;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      padding: .3rem .2rem;
-      font-weight: normal;
+    .hymn-link {
+      color: var(--navy);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--gold);
     }
+    .hymn-link:hover { border-bottom-style: solid; }
 
     /* ── ANNOUNCEMENTS ── */
     .announcement { margin-bottom: 1rem; }
@@ -182,7 +179,7 @@
 <header>
   <img class="logo" src="images/word_media_image1.png" alt="The Church of Jesus Christ of Latter-day Saints" />
   <h1>Sacrament Meeting</h1>
-  <div class="date">Sunday, April 12, 2026</div>
+  <div class="date">Sunday, April 19, 2026</div>
   <div class="ward">Clarkston Ward &bull; Farmington Hills Michigan Stake</div>
   <div class="time">9:00 AM – 10:00 AM</div>
 </header>
@@ -224,7 +221,7 @@
           </tr>
           <tr>
             <td>Opening Hymn</td>
-            <td>#137 Testimony</td>
+            <td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/precious-savior-dear-redeemer?lang=eng" target="_blank">#103 Precious Savior, Dear Redeemer</a></td>
           </tr>
           <tr>
             <td>Opening Prayer</td>
@@ -236,15 +233,31 @@
           </tr>
           <tr>
             <td>Sacrament Hymn</td>
-            <td>#175 O God, the Eternal Father</td>
+            <td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/father-in-heaven-we-do-believe?lang=eng" target="_blank">#180 Father in Heaven, We Do Believe</a></td>
           </tr>
           <tr>
             <td>Blessing &amp; Passing of the Sacrament</td>
             <td></td>
           </tr>
           <tr>
+            <td>Speaker</td>
+            <td>Lincoln Christensen</td>
+          </tr>
+          <tr>
+            <td>Intermediate Hymn</td>
+            <td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/come-o-thou-king-of-kings?lang=eng" target="_blank">#59 Come, O Thou King of Kings</a></td>
+          </tr>
+          <tr>
+            <td>Speaker</td>
+            <td>John Tremonti</td>
+          </tr>
+          <tr>
+            <td>Speaker (HC)</td>
+            <td>Tyler Ruby</td>
+          </tr>
+          <tr>
             <td>Closing Hymn</td>
-            <td>#1021 I Know That My Savior Loves Me</td>
+            <td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/abide-with-me-tis-eventide?lang=eng" target="_blank">#165 Abide with Me ‘Tis Eventide</a></td>
           </tr>
           <tr>
             <td>Closing Prayer</td>
@@ -259,35 +272,26 @@
   <div class="section">
     <div class="section-header">Announcements</div>
     <div class="section-body">
-
-      <!-- Come Etch with Me -->
-      <div class="announcement">
-        <img class="flyer" src="images/event1.jpg" alt="Come Etch with Me – Thursday April 16, 7:00–8:30 pm at the Clarkston Ward Building" />
-      </div>
-
-      <hr style="border:none;border-top:1px solid var(--rule);margin:.8rem 0;" />
-
-      <!-- Building Cleaning -->
       <div class="announcement">
         <h3>Building Cleaning Assignment</h3>
         <div class="ann-date">Saturday, April 25, 2026</div>
         <div class="cleaning-leader">Pabst, S</div>
         <div class="cleaning-grid">
-          <span>Pabst, GL &amp; K</span><span>Condie</span>
-          <span>Mayo</span><span>Asbury</span>
-          <span>Lee</span><span>Morley</span>
-          <span>Briggs</span><span>Turner</span>
+          <span>Pabst, GL &amp; K</span>
+          <span>Condie</span>
+          <span>Mayo</span>
+          <span>Asbury</span>
+          <span>Lee</span>
+          <span>Morley</span>
+          <span>Briggs</span>
+          <span>Turner</span>
         </div>
         <p style="margin-top:.5rem;font-size:.8rem;text-align:center;">Cleaning time TBD by team leader</p>
       </div>
-
       <hr style="border:none;border-top:1px solid var(--rule);margin:.8rem 0;" />
-
-      <!-- Operation Backpack -->
       <div class="announcement">
         <img class="flyer" src="images/event2.jpg" alt="Grand Blanc Youth Service Project – Operation Backpack – Saturday April 25, 10 AM–2 PM at Farmington Hills Stake Center" />
       </div>
-
     </div>
   </div>
 
@@ -295,7 +299,7 @@
   <div class="section">
     <div class="section-body">
       <a class="pdf-btn" href="program.pdf" target="_blank">
-        📄 Download / Print Full Program (PDF)
+        &#x1F4C4; Download / Print Full Program (PDF)
       </a>
     </div>
   </div>
