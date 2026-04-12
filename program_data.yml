@@ -49,12 +49,12 @@ program:
   - role:   "Speaker"
     person: "Lincoln Christensen"
 
+  - role:   "Speaker"
+    person: "John Tremonti"
+
   - role:        "Intermediate Hymn"
     hymn_number: 59
     hymn_title:  "Come, O Thou King of Kings"
-
-  - role:   "Speaker"
-    person: "John Tremonti"
 
   - role:   "Speaker (HC)"
     person: "Tyler Ruby"
