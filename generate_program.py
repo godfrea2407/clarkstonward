@@ -148,17 +148,19 @@ def build(data: dict) -> str:
     /* ── Shared card styles ── */
     .card {{
       border-bottom: 1px solid var(--rule);
-      padding: .55rem .9rem;
     }}
-    .card-label {{
-      font-size: .6rem;
-      letter-spacing: .13em;
-      text-transform: uppercase;
-      color: var(--white);
+    .card-body {{ padding: .55rem .9rem; }}
+
+    /* ── Full-width section banner ── */
+    .banner {{
       background: var(--navy);
-      display: inline-block;
-      padding: .15rem .5rem;
-      margin-bottom: .35rem;
+      color: var(--white);
+      font-size: .65rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      padding: .3rem .9rem;
+      width: 100%;
+      display: block;
     }}
 
     /* ── Officers ── */
@@ -261,27 +263,33 @@ def build(data: dict) -> str:
 
   <!-- Officers -->
   <div class="card">
-    <div class="officers">
-      <div class="off-item"><span class="off-label">Presiding:</span><span class="off-name">{presiding}</span></div>
-      <div class="off-item"><span class="off-label">Chorister:</span><span class="off-name">{chorister}</span></div>
-      <div class="off-item"><span class="off-label">Conducting:</span><span class="off-name">{conducting}</span></div>
-      <div class="off-item"><span class="off-label">Pianist:</span><span class="off-name">{pianist}</span></div>
+    <div class="card-body">
+      <div class="officers">
+        <div class="off-item"><span class="off-label">Presiding:</span><span class="off-name">{presiding}</span></div>
+        <div class="off-item"><span class="off-label">Chorister:</span><span class="off-name">{chorister}</span></div>
+        <div class="off-item"><span class="off-label">Conducting:</span><span class="off-name">{conducting}</span></div>
+        <div class="off-item"><span class="off-label">Pianist:</span><span class="off-name">{pianist}</span></div>
+      </div>
     </div>
   </div>
 
   <!-- Program -->
   <div class="card">
-    <table class="prog-table">
-      <tbody>
+    <div class="card-body">
+      <table class="prog-table">
+        <tbody>
 {program_rows}
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <!-- Announcements -->
   <div class="card">
-    <div class="card-label">Announcements</div>
+    <span class="banner">Announcements</span>
+    <div class="card-body">
 {ann_body}
+    </div>
   </div>
 
   <!-- PDF Download -->
@@ -289,7 +297,8 @@ def build(data: dict) -> str:
 
   <!-- Ward Links -->
   <div class="card">
-    <div class="card-label">Ward Links</div>
+    <span class="banner">Ward Links</span>
+    <div class="card-body">
     <ul class="links-list">
       <li><span class="link-label">Clarkston Ward Website</span><br /><a href="https://local.churchofjesuschrist.org/en/units/us/mi/clarkston-ward">local.churchofjesuschrist.org</a></li>
       <li><span class="link-label">Ward History</span><br /><a href="https://unithistory.churchofjesuschrist.org/">unithistory.churchofjesuschrist.org</a></li>
@@ -299,6 +308,7 @@ def build(data: dict) -> str:
       <li><span class="link-label">Emergency Action Plan</span><br /><a href="https://docs.google.com/document/d/1j_DFRv2XKlnHsu-Hh0mNoQG2S_QdeqUgVxPTIgz0oCw/edit?usp=sharing">View Document</a></li>
       <li><span class="link-label">Senior Missionary Opportunities</span><br /><a href="https://seniormissionary.churchofjesuschrist.org/srsite/cs/search?lang=eng">Senior Missionary Site</a></li>
     </ul>
+    </div>
   </div>
 
   <footer>Clarkston Ward &bull; Farmington Hills Michigan Stake &bull; The Church of Jesus Christ of Latter-day Saints</footer>
@@ -327,13 +337,13 @@ if __name__ == "__main__":
         import subprocess, os
         env = os.environ.copy()
         env["PATH"] = env.get("PATH", "") + ":/sessions/awesome-nifty-allen/.local/bin"
+        base_url = out_html.parent.as_uri() + "/"   # lets WeasyPrint resolve images/
         result = subprocess.run(
-            ["weasyprint", str(out_html), str(out_pdf)],
+            ["weasyprint", "--base-url", base_url, str(out_html), str(out_pdf)],
             capture_output=True, text=True, env=env
         )
         if result.returncode == 0:
-            import os as _os
-            size = _os.path.getsize(out_pdf)
+            size = os.path.getsize(out_pdf)
             print(f"✓ Wrote {out_pdf} ({size//1024}KB)")
         else:
             print("WeasyPrint error:", result.stderr[:300])
