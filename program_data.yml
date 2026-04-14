@@ -87,3 +87,5 @@ building_cleaning:
 events:
   - image: "images/event2.jpg"
     alt:   "Grand Blanc Youth Service Project \u2013 Operation Backpack \u2013 Saturday April 25, 10 AM\u20132 PM at Farmington Hills Stake Center"
+  - image: "images/event3.jpg"
+    alt:   "School Supply Drive \u2013 Foster Closet of Oakland County \u2013 Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors."
