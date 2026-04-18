@@ -35,8 +35,12 @@ def esc(s: str) -> str:
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 # ── Section renderers ─────────────────────────────────────────────────────────
+CENTERED_ROLES = {"Blessing & Passing of the Sacrament"}
+
 def render_program_row(item: dict) -> str:
     role = esc(item.get("role", ""))
+    if item.get("role", "") in CENTERED_ROLES:
+        return f'          <tr><td class="centered-row" colspan="2">{role}</td></tr>'
     if "hymn_number" in item:
         right = hymn_link(item["hymn_number"], item["hymn_title"])
     else:
@@ -189,6 +193,13 @@ def build(data: dict) -> str:
       border-bottom: 1px dotted var(--gold);
     }}
     .hymn-link:hover {{ border-bottom-style: solid; }}
+    .centered-row {{
+      text-align: center;
+      font-weight: bold;
+      color: var(--navy);
+      font-style: italic;
+      padding: .4rem 0;
+    }}
 
     /* ── Announcements ── */
     .ann-block {{ margin-bottom: .5rem; }}
