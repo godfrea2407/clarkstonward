@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Original uncompressed source flyers (keep only compressed versions)
+images/*.png
+!images/word_media_image1.png
