@@ -58,17 +58,17 @@ program:
 
 # ── Announcements ─────────────────────────────────────────────
 building_cleaning:
-  date:   "Saturday, August 1, 2026"
-  leader: "Pabst, S"
+  date:   "Saturday, May 30, 2026"
+  leader: "Harrison"
   families:
-    - "Pabst, GL & K"
-    - "Condie"
-    - "Mayo"
-    - "Asbury"
-    - "Lee"
-    - "Morley"
-    - "Briggs"
-    - "Turner"
+    - "Harrison"
+    - "Godfrey"
+    - "Bell, Z & C"
+    - "Zundel"
+    - "Warren"
+    - "Mickle"
+    - "Bean"
+    - "Crisp"
 
 events:
   - image: "images/event3.jpg"
