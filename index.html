@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sacrament Meeting &ndash; Clarkston Ward</title>
   <style>
+    /* ── Variables ── */
     :root {
       --navy:  #1a2e4a;
       --gold:  #c9a84c;
@@ -14,6 +15,8 @@
       --muted: #555555;
       --rule:  #d4cec4;
     }
+
+    /* ── Reset & base ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { font-size: 13px; }
     body {
@@ -22,12 +25,16 @@
       color: var(--text);
       line-height: 1.4;
     }
+
+    /* ── Page wrapper — single-column, max 680px ── */
     .page {
       max-width: 680px;
       margin: 0 auto;
       background: var(--white);
       box-shadow: 0 2px 12px rgba(0,0,0,.10);
     }
+
+    /* ── Header ── */
     header {
       background: var(--navy);
       color: var(--white);
@@ -46,8 +53,14 @@
     header .hdate { font-size: .95rem; color: var(--gold); margin-top: .15rem; }
     header .hward { font-size: .72rem; opacity: .75; margin-top: .2rem; letter-spacing: .05em; }
     header .htime { font-size: .8rem; color: var(--gold); margin-top: .1rem; }
-    .card { border-bottom: 1px solid var(--rule); }
+
+    /* ── Shared card styles ── */
+    .card {
+      border-bottom: 1px solid var(--rule);
+    }
     .card-body { padding: .55rem .9rem; }
+
+    /* ── Full-width section banner ── */
     .banner {
       background: var(--navy);
       color: var(--white);
@@ -58,6 +71,8 @@
       width: 100%;
       display: block;
     }
+
+    /* ── Officers ── */
     .officers {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -67,6 +82,8 @@
     .off-item  { display: flex; gap: .25rem; align-items: baseline; }
     .off-label { font-weight: bold; color: var(--navy); white-space: nowrap; }
     .off-name  { color: var(--muted); }
+
+    /* ── Program table ── */
     .prog-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
     .prog-table tr { border-bottom: 1px solid var(--rule); }
     .prog-table tr:last-child { border-bottom: none; }
@@ -88,6 +105,8 @@
       font-style: italic;
       padding: .4rem 0;
     }
+
+    /* ── Announcements ── */
     .ann-block { margin-bottom: .5rem; }
     .ann-block:last-child { margin-bottom: 0; }
     .ann-title { font-size: .8rem; font-weight: bold; color: var(--navy); margin-bottom: .15rem; }
@@ -106,6 +125,8 @@
       margin: .35rem auto 0; border-radius: 3px;
       box-shadow: 0 1px 5px rgba(0,0,0,.12);
     }
+
+    /* ── PDF button ── */
     .pdf-btn {
       display: block; text-align: center;
       background: var(--navy); color: var(--white);
@@ -113,21 +134,29 @@
       text-decoration: none; letter-spacing: .03em;
     }
     .pdf-btn:hover { background: #243d60; }
+
+    /* ── Links ── */
     .links-list { list-style: none; font-size: .78rem; }
     .links-list li { padding: .28rem 0; border-bottom: 1px solid var(--rule); }
     .links-list li:last-child { border-bottom: none; }
     .links-list a { color: var(--navy); text-decoration: none; }
     .links-list a:hover { text-decoration: underline; }
     .link-label { font-weight: bold; color: var(--text); }
+
+    /* ── Footer ── */
     footer {
       background: var(--navy); color: rgba(255,255,255,.6);
       text-align: center; font-size: .65rem;
       padding: .45rem .5rem; letter-spacing: .04em;
     }
+
+    /* ── Responsive ── */
     @media (max-width: 480px) {
       html { font-size: 12px; }
       .officers { grid-template-columns: 1fr; }
     }
+
+    /* ── Print ── */
     @media print {
       html { font-size: 11px; }
       body { background: white; }
@@ -148,6 +177,7 @@
     <div class="htime">9:00 AM – 10:00 AM</div>
   </header>
 
+  <!-- Officers -->
   <div class="card">
     <div class="card-body">
       <div class="officers">
@@ -159,6 +189,7 @@
     </div>
   </div>
 
+  <!-- Program -->
   <div class="card">
     <div class="card-body">
       <table class="prog-table">
@@ -180,6 +211,7 @@
     </div>
   </div>
 
+  <!-- Announcements -->
   <div class="card">
     <span class="banner">Announcements</span>
     <div class="card-body">
@@ -193,8 +225,10 @@
     </div>
   </div>
 
+  <!-- PDF Download -->
   <a class="pdf-btn" href="program.pdf" target="_blank">&#x1F4C4;&nbsp; Download / Print Program (PDF)</a>
 
+  <!-- Ward Links -->
   <div class="card">
     <span class="banner">Ward Links</span>
     <div class="card-body">
