@@ -1,0 +1,46 @@
+name: Generate Program
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - program_data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies (WeasyPrint)
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y \
+            libpango-1.0-0 libpangoft2-1.0-0 \
+            libharfbuzz0b libpangocairo-1.0-0 \
+            libcairo2 libgdk-pixbuf2.0-0 \
+            shared-mime-info fonts-liberation
+
+      - name: Install Python dependencies
+        run: pip install pyyaml weasyprint
+
+      - name: Generate HTML and PDF
+        run: python generate_program.py --pdf
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html program.pdf
+          git diff --staged --quiet || git commit -m "Auto-generate program [skip ci]"
+          git push
