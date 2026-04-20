@@ -1,7 +1,7 @@
 # ─────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
 # Edit this file each week, then push to GitHub.
-# GitHub Actions will auto-generate index.html.
+# GitHub Actions will auto-generate index.html and program.pdf.
 # ─────────────────────────────────────────────────────────────
 
 date: "Sunday, April 26, 2026"
@@ -72,4 +72,4 @@ building_cleaning:
 
 events:
   - image: "images/event3.jpg"
-    alt:   "School Supply Drive \u2013 Foster Closet of Oakland County \u2013 Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors."
+    alt:   "School Supply Drive – Foster Closet of Oakland County – Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors."
