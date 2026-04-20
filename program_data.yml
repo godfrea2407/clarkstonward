@@ -4,7 +4,7 @@
 # GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────
 
-date: "Sunday, April 19, 2026"
+date: "Sunday, April 26, 2026"
 time: "9:00 AM – 10:00 AM"
 
 # ── Officers ──────────────────────────────────────────────────
@@ -15,23 +15,13 @@ officers:
   pianist:    "Sister Laura Zundel"
 
 # ── Program items ─────────────────────────────────────────────
-# Each item has a "role" and either:
-#   person: "Name"           (for prayers, speakers, etc.)
-#   hymn_number: 103         (for hymns — triggers auto-link)
-#   hymn_title: "Title"
-# Leave person blank ("") for items with no named participant.
-#
-# For Fast Sunday, replace the speakers block with:
-#   - role: "Testimonies"
-#     person: "By the congregation until ~09:50 AM"
-
 program:
   - role:   "Welcome & Announcements"
     person: "Bro. Gary Neumann, Bishopric 2nd Counselor"
 
   - role:        "Opening Hymn"
-    hymn_number: 103
-    hymn_title:  "Precious Savior, Dear Redeemer"
+    hymn_number: 107
+    hymn_title:  "Lord, Accept Our True Devotion"
 
   - role:   "Opening Prayer"
     person: "By Invitation"
@@ -40,37 +30,35 @@ program:
     person: "Bro. Gary Neumann, Bishopric 2nd Counselor"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 180
-    hymn_title:  "Father in Heaven, We Do Believe"
+    hymn_number: 172
+    hymn_title:  "In Humility, Our Savior"
 
   - role:   "Blessing & Passing of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Lincoln Christensen"
+    person: "Sis. Emma Benson"
 
   - role:   "Speaker"
-    person: "Bro. John Tremonti"
+    person: "Bro. Brad Abell"
 
   - role:        "Intermediate Hymn"
-    hymn_number: 59
-    hymn_title:  "Come, O Thou King of Kings"
+    hymn_number: 89
+    hymn_title:  "The Lord Is My Light"
 
-  - role:   "Speaker (HC)"
-    person: "Bro. Tyler Ruby"
+  - role:   "Speaker"
+    person: "Sis. Laura Zundel"
 
   - role:        "Closing Hymn"
-    hymn_number: 165
-    hymn_title:  "Abide with Me \u2018Tis Eventide"
+    hymn_number: 220
+    hymn_title:  "Lord, I Would Follow Thee"
 
   - role:   "Closing Prayer"
     person: "By Invitation"
 
 # ── Announcements ─────────────────────────────────────────────
-
-# Building cleaning assignment (leave blank to omit)
 building_cleaning:
-  date:   "Saturday, April 25, 2026"
+  date:   "Saturday, August 1, 2026"
   leader: "Pabst, S"
   families:
     - "Pabst, GL & K"
@@ -82,10 +70,6 @@ building_cleaning:
     - "Briggs"
     - "Turner"
 
-# Event flyers — images must be in the images/ folder.
-# Remove items (or leave list empty) when no events.
 events:
-  - image: "images/event2.jpg"
-    alt:   "Grand Blanc Youth Service Project \u2013 Operation Backpack \u2013 Saturday April 25, 10 AM\u20132 PM at Farmington Hills Stake Center"
   - image: "images/event3.jpg"
     alt:   "School Supply Drive \u2013 Foster Closet of Oakland County \u2013 Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors."
