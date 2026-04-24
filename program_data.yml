@@ -1,13 +1,13 @@
 # ─────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
 # Edit this file each week, then push to GitHub.
-# GitHub Actions will auto-generate index.html and program.pdf.
+# GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────
 
 date: "Sunday, April 26, 2026"
 time: "9:00 AM – 10:00 AM"
 
-# ── Officers ──────────────────────────────────────────────────
+# ── Officers ────────────────────────────────────────────
 officers:
   presiding:  "Bishop Ryan Johnson"
   conducting: "Bro. Gary Neumann, Bishopric 2nd Counselor"
@@ -15,6 +15,16 @@ officers:
   pianist:    "Sister Laura Zundel"
 
 # ── Program items ─────────────────────────────────────────────
+# Each item has a "role" and either:
+#   person: "Name"           (for prayers, speakers, etc.)
+#   hymn_number: 103         (for hymns — triggers auto-link)
+#   hymn_title: "Title"
+# Leave person blank ("") for items with no named participant.
+#
+# For Fast Sunday, replace the speakers block with:
+#   - role: "Testimonies"
+#     person: "By the congregation until ~09:50 AM"
+
 program:
   - role:   "Welcome & Announcements"
     person: "Bro. Gary Neumann, Bishopric 2nd Counselor"
@@ -57,19 +67,31 @@ program:
     person: "By Invitation"
 
 # ── Announcements ─────────────────────────────────────────────
-building_cleaning:
-  date:   "Saturday, May 30, 2026"
-  leader: "Harrison"
-  families:
-    - "Harrison"
-    - "Godfrey"
-    - "Bell, Z & C"
-    - "Zundel"
-    - "Warren"
-    - "Mickle"
-    - "Bean"
-    - "Crisp"
 
+# Building cleaning assignment (leave blank to omit)
+building_cleaning:
+  date:   "Saturday, August 1, 2026"
+  leader: "Pabst, S"
+  families:
+    - "Pabst, GL & K"
+    - "Condie"
+    - "Mayo"
+    - "Asbury"
+    - "Lee"
+    - "Morley"
+    - "Briggs"
+    - "Turner"
+
+# Event flyers — images must be in the images/ folder.
+# Remove items (or leave list empty) when no events.
 events:
   - image: "images/event3.jpg"
     alt:   "School Supply Drive – Foster Closet of Oakland County – Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors."
+
+# Text-only announcements (title + body, no image required)
+text_announcements:
+  - title: "Stake Conference Family Choir – May 31"
+    body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing \u201cI Am a Child of God,\u201d including a portion in Spanish. All are welcome \u2014 even if you cannot attend a practice!\n\nChoir Practices:\n\u00b7 May 3 \u2013 4:00 pm, Farmington Hills Building (Chapel)\n\u00b7 May 17 \u2013 4:00 pm, Farmington Hills Building (Chapel)\n\u00b7 May 31 \u2013 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
+
+  - title: "Ward Temple and Family History Plan"
+    body: "DISCOVER \u2014 Find out who your family members are.\nGATHER \u2014 Collect names and information of family members and ancestors and add them to your family tree.\nUNITE \u2014 Attend the Temple. Unite yourself and your ancestors to the Lord. Seal families together for eternity.\n\nContact: Bro. John Tremonti \u2014 jtcarwash@comcast.net"
