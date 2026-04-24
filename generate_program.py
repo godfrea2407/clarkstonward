@@ -63,9 +63,18 @@ def render_cleaning(bc: dict) -> str:
 def render_text_announcements(items: list) -> str:
     parts = []
     for item in items:
-        title = esc(item.get("title", ""))
-        body  = esc(item.get("body", ""))
-        parts.append(f'      <div class="ann-block">\n        <div class="ann-title">{title}</div>\n        <div class="ann-text">{body}</div>\n      </div>')
+        title  = esc(item.get("title", ""))
+        banner = esc(item.get("banner", ""))
+        body   = esc(item.get("body", ""))
+        html = ""
+        if banner:
+            html += f'      <span class="ann-section-banner">{banner}</span>\n'
+        html += '      <div class="ann-block">\n'
+        if title:
+            html += f'        <div class="ann-title">{title}</div>\n'
+        html += f'        <div class="ann-text">{body}</div>\n'
+        html += '      </div>'
+        parts.append(html)
     return "\n".join(parts)
 
 def render_events(events: list) -> str:
@@ -235,6 +244,14 @@ def build(data: dict) -> str:
     .ann-text {{
       font-size: .78rem; color: var(--muted);
       line-height: 1.6; white-space: pre-line;
+    }}
+    .ann-section-banner {{
+      display: block;
+      background: var(--navy); color: var(--white);
+      font-size: .65rem; letter-spacing: .14em; text-transform: uppercase;
+      padding: .3rem .9rem;
+      margin: .2rem -.9rem .4rem;
+      width: calc(100% + 1.8rem);
     }}
 
     /* ── PDF button ── */
