@@ -60,6 +60,14 @@ def render_cleaning(bc: dict) -> str:
         <div class="cleaning-grid">{pairs}</div>
       </div>"""
 
+def render_text_announcements(items: list) -> str:
+    parts = []
+    for item in items:
+        title = esc(item.get("title", ""))
+        body  = esc(item.get("body", ""))
+        parts.append(f'      <div class="ann-block">\n        <div class="ann-title">{title}</div>\n        <div class="ann-text">{body}</div>\n      </div>')
+    return "\n".join(parts)
+
 def render_events(events: list) -> str:
     parts = []
     for ev in events:
@@ -81,16 +89,20 @@ def build(data: dict) -> str:
 
     program_rows = "\n".join(render_program_row(i) for i in data.get("program", []))
 
-    bc            = data.get("building_cleaning", {})
-    events        = data.get("events", [])
-    cleaning_html = render_cleaning(bc)
-    events_html   = render_events(events)
+    bc              = data.get("building_cleaning", {})
+    events          = data.get("events", [])
+    text_anns       = data.get("text_announcements", [])
+    cleaning_html   = render_cleaning(bc)
+    events_html     = render_events(events)
+    text_anns_html  = render_text_announcements(text_anns)
 
     ann_parts = []
     if cleaning_html:
         ann_parts.append(cleaning_html)
     if events_html:
         ann_parts.append(events_html)
+    if text_anns_html:
+        ann_parts.append(text_anns_html)
     ann_body = "\n      <hr class='ann-rule' />\n".join(ann_parts)
 
     return f"""<!DOCTYPE html>
@@ -219,6 +231,10 @@ def build(data: dict) -> str:
       display: block; width: 100%; max-width: 420px;
       margin: .35rem auto 0; border-radius: 3px;
       box-shadow: 0 1px 5px rgba(0,0,0,.12);
+    }}
+    .ann-text {{
+      font-size: .78rem; color: var(--muted);
+      line-height: 1.6; white-space: pre-line;
     }}
 
     /* ── PDF button ── */
