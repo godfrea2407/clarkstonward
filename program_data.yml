@@ -7,7 +7,7 @@
 date: "Sunday, April 26, 2026"
 time: "9:00 AM – 10:00 AM"
 
-# ── Officers ────────────────────────────────────────────
+# ── Officers ──────────────────────────────────────────────
 officers:
   presiding:  "Bishop Ryan Johnson"
   conducting: "Bro. Gary Neumann, Bishopric 2nd Counselor"
@@ -70,30 +70,32 @@ program:
 
 # Building cleaning assignment (leave blank to omit)
 building_cleaning:
-  date:   "Saturday, May 30, 2026"
-  leader: "Harrison"
+  date:   "Saturday, August 1, 2026"
+  leader: "Pabst, S"
   families:
-    - "Godfrey"
-    - "Bell, Z & C"
-    - "Zundel"
-    - "Warren"
-    - "Mickle"
-    - "Bean"
-    - "Crisp"
+    - "Pabst, GL & K"
+    - "Condie"
+    - "Mayo"
+    - "Asbury"
+    - "Lee"
+    - "Morley"
+    - "Briggs"
+    - "Turner"
 
 # Event flyers — images must be in the images/ folder.
+# Remove items (or leave list empty) when no events.
 events:
   - image: "images/event3.jpg"
-    alt:   "School Supply Drive – Foster Closet of Oakland County – Now until May 1."
+    alt:   "School Supply Drive – Foster Closet of Oakland County – Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors."
 
-# Text-only announcements
-# Use "banner" instead of "title" for a full-width navy header.
+# Text-only announcements (title + body, no image required)
+# Use "banner" instead of "title" to render a full-width navy header above the block.
 text_announcements:
   - title: "Combined Meeting with White Lake Ward – April 26"
-    body: "This Sunday we will have a combined Sacrament meeting with White Lake Ward at our normal time (9–10 am). Following Sacrament meeting, we will hold a combined 2nd hour with White Lake Ward and Pontiac Branch (10–11 am) focused on emergency preparedness.\n\n\u00b7 Adults \u2014 Chapel: fire, tornado, and active shooter training\n\u00b7 Youth \u2014 Gym: fire, tornado, and active shooter training\n\u00b7 Primary \u2014 Primary room: singing time (1 hour), no breakout classes"
+    body: "This Sunday we will have a combined Sacrament meeting with White Lake Ward at our normal time (9–10 am). Following Sacrament meeting, we will hold a combined 2nd hour with White Lake Ward and Pontiac Branch (10–11 am) focused on emergency preparedness.\n\n· Adults — Chapel: fire, tornado, and active shooter training\n· Youth — Gym: fire, tornado, and active shooter training\n· Primary — Primary room: singing time (1 hour), no breakout classes"
 
-  - title: "Stake Conference Family Choir \u2013 May 31"
-    body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing \u201cI Am a Child of God,\u201d including a portion in Spanish. All are welcome \u2014 even if you cannot attend a practice!\n\nChoir Practices:\n\u00b7 May 3 \u2013 4:00 pm, Farmington Hills Building (Chapel)\n\u00b7 May 17 \u2013 4:00 pm, Farmington Hills Building (Chapel)\n\u00b7 May 31 \u2013 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
+  - title: "Stake Conference Family Choir – May 31"
+    body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing “I Am a Child of God,” including a portion in Spanish. All are welcome — even if you cannot attend a practice!\n\nChoir Practices:\n· May 3 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 17 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 31 – 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
 
   - banner: "Ward Temple and Family History Plan"
-    body: "DISCOVER \u2014 Find out who your family members are.\nGATHER \u2014 Collect names and information of family members and ancestors and add them to your family tree.\nUNITE \u2014 Attend the Temple. Unite yourself and your ancestors to the Lord. Seal families together for eternity.\n\nWard Temple and Family History Leader: Bro. John Tremonti \u2014 jtcarwash@comcast.net"
+    body: "DISCOVER — Find out who your family members are.\nGATHER — Collect names and information of family members and ancestors and add them to your family tree.\nUNITE — Attend the Temple. Unite yourself and your ancestors to the Lord. Seal families together for eternity.\n\nWard Temple and Family History Leader: Bro. John Tremonti — jtcarwash@comcast.net"
