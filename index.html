@@ -168,13 +168,23 @@
       .officers { grid-template-columns: 1fr; }
     }
 
-    /* ── Print ── */
+    /* ── Print / PDF ── */
+    @page {
+      size: letter;
+      margin: 0.55in 0.5in;
+    }
     @media print {
-      html { font-size: 11px; }
+      html { font-size: 13px; }
       body { background: white; }
       .page { box-shadow: none; max-width: 100%; }
       .pdf-btn { display: none; }
       a { color: inherit !important; border-bottom: none !important; }
+      header { padding: 1.1rem 1rem 1rem; }
+      .card-body { padding: .75rem .9rem; }
+      .officers { gap: .3rem .6rem; font-size: .88rem; }
+      .prog-table td { padding: .42rem .15rem; }
+      .ann-block { margin-bottom: .75rem; }
+      .ann-text { line-height: 1.8; }
     }
   </style>
 </head>
@@ -228,12 +238,12 @@
     <span class="banner">Announcements</span>
     <div class="card-body">
       <div class="ann-block">
-        <div class="ann-title">Building Cleaning &mdash; <span class="ann-date">Saturday, May 30, 2026</span></div>
-        <div class="cleaning-leader">Harrison</div>
-        <div class="cleaning-grid"><span>Godfrey</span><span>Bell, Z &amp; C</span><span>Zundel</span><span>Warren</span><span>Mickle</span><span>Bean</span><span>Crisp</span></div>
+        <div class="ann-title">Building Cleaning &mdash; <span class="ann-date">Saturday, August 1, 2026</span></div>
+        <div class="cleaning-leader">Pabst, S</div>
+        <div class="cleaning-grid"><span>Pabst, GL &amp; K</span><span>Condie</span><span>Mayo</span><span>Asbury</span><span>Lee</span><span>Morley</span><span>Briggs</span><span>Turner</span></div>
       </div>
       <hr class='ann-rule' />
-      <div class="ann-block"><img class="flyer" src="images/event3.jpg" alt="School Supply Drive – Foster Closet of Oakland County – Now until May 1." /></div>
+      <div class="ann-block"><img class="flyer" src="images/event3.jpg" alt="School Supply Drive – Foster Closet of Oakland County – Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors." /></div>
       <hr class='ann-rule' />
       <div class="ann-block">
         <div class="ann-title">Combined Meeting with White Lake Ward – April 26</div>
