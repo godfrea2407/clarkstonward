@@ -19,7 +19,7 @@ BASE_HYMN_URL = "https://www.churchofjesuschrist.org/media/music/songs/{slug}?la
 
 def hymn_url(title: str) -> str:
     slug = title.lower()
-    slug = re.sub(r"[',\.\u2018\u2019\u201c\u201d]", "", slug)
+    slug = re.sub(r"[',\.‘’“”]", "", slug)
     slug = re.sub(r"[^a-z0-9\s-]", "", slug)
     slug = re.sub(r"\s+", "-", slug.strip())
     slug = re.sub(r"-+", "-", slug)
@@ -284,13 +284,23 @@ def build(data: dict) -> str:
       .officers {{ grid-template-columns: 1fr; }}
     }}
 
-    /* ── Print ── */
+    /* ── Print / PDF ── */
+    @page {{
+      size: letter;
+      margin: 0.55in 0.5in;
+    }}
     @media print {{
-      html {{ font-size: 11px; }}
+      html {{ font-size: 13px; }}
       body {{ background: white; }}
       .page {{ box-shadow: none; max-width: 100%; }}
       .pdf-btn {{ display: none; }}
       a {{ color: inherit !important; border-bottom: none !important; }}
+      header {{ padding: 1.1rem 1rem 1rem; }}
+      .card-body {{ padding: .75rem .9rem; }}
+      .officers {{ gap: .3rem .6rem; font-size: .88rem; }}
+      .prog-table td {{ padding: .42rem .15rem; }}
+      .ann-block {{ margin-bottom: .75rem; }}
+      .ann-text {{ line-height: 1.8; }}
     }}
   </style>
 </head>
