@@ -7,7 +7,7 @@
 date: "Sunday, April 26, 2026"
 time: "9:00 AM – 10:00 AM"
 
-# ── Officers ──────────────────────────────────────────────
+# ── Officers ──────────────────────────────────────────────────
 officers:
   presiding:  "Bishop Ryan Johnson"
   conducting: "Bro. Gary Neumann, Bishopric 2nd Counselor"
@@ -84,9 +84,7 @@ building_cleaning:
 
 # Event flyers — images must be in the images/ folder.
 # Remove items (or leave list empty) when no events.
-events:
-  - image: "images/event3.jpg"
-    alt:   "School Supply Drive – Foster Closet of Oakland County – Now until May 1. Primary Activity Day children are gathering pencils, pens, markers, paper, binders, notebooks, tissues, hand sanitizer, and scissors."
+events: []
 
 # Text-only announcements (title + body, no image required)
 # Use "banner" instead of "title" to render a full-width navy header above the block.
