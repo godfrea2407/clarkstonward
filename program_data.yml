@@ -84,7 +84,9 @@ building_cleaning:
 
 # Event flyers — images must be in the images/ folder.
 # Remove items (or leave list empty) when no events.
-events: []
+events:
+  - image: "images/event4.jpg"
+    alt:   "Walk With Me – Farmington Hills Stake Youth Conference – June 25–27, 2026 – Detroit"
 
 # Text-only announcements (title + body, no image required)
 # Use "banner" instead of "title" to render a full-width navy header above the block.
