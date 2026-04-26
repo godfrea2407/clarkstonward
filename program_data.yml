@@ -4,13 +4,13 @@
 # GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────
 
-date: "Sunday, April 26, 2026"
+date: "Sunday, May 3, 2026"
 time: "9:00 AM – 10:00 AM"
 
 # ── Officers ──────────────────────────────────────────────────
 officers:
   presiding:  "Bishop Ryan Johnson"
-  conducting: "Bro. Gary Neumann, Bishopric 2nd Counselor"
+  conducting: "Bishop Ryan Johnson"
   chorister:  "Sister Sherry Stucki"
   pianist:    "Sister Laura Zundel"
 
@@ -27,41 +27,31 @@ officers:
 
 program:
   - role:   "Welcome & Announcements"
-    person: "Bro. Gary Neumann, Bishopric 2nd Counselor"
+    person: "Bishop Ryan Johnson"
 
   - role:        "Opening Hymn"
-    hymn_number: 107
-    hymn_title:  "Lord, Accept Our True Devotion"
+    hymn_number: 26
+    hymn_title:  "Joseph Smith's First Prayer"
 
   - role:   "Opening Prayer"
     person: "By Invitation"
 
   - role:   "Ward Business"
-    person: "Bro. Gary Neumann, Bishopric 2nd Counselor"
+    person: "Bishop Ryan Johnson"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 172
-    hymn_title:  "In Humility, Our Savior"
+    hymn_number: 195
+    hymn_title:  "How Great the Wisdom and the Love"
 
   - role:   "Blessing & Passing of the Sacrament"
     person: ""
 
-  - role:   "Speaker"
-    person: "Sis. Emma Benson"
-
-  - role:   "Speaker"
-    person: "Bro. Brad Abell"
-
-  - role:        "Intermediate Hymn"
-    hymn_number: 89
-    hymn_title:  "The Lord Is My Light"
-
-  - role:   "Speaker"
-    person: "Sis. Laura Zundel"
+  - role:   "Testimonies"
+    person: "By the congregation until ~09:50 AM"
 
   - role:        "Closing Hymn"
-    hymn_number: 220
-    hymn_title:  "Lord, I Would Follow Thee"
+    hymn_number: 21
+    hymn_title:  "Come, Listen to a Prophet's Voice"
 
   - role:   "Closing Prayer"
     person: "By Invitation"
@@ -70,17 +60,16 @@ program:
 
 # Building cleaning assignment (leave blank to omit)
 building_cleaning:
-  date:   "Saturday, August 1, 2026"
-  leader: "Pabst, S"
+  date:   "Saturday, May 30, 2026"
+  leader: "Harrison"
   families:
-    - "Pabst, GL & K"
-    - "Condie"
-    - "Mayo"
-    - "Asbury"
-    - "Lee"
-    - "Morley"
-    - "Briggs"
-    - "Turner"
+    - "Godfrey"
+    - "Bell, Z & C"
+    - "Zundel"
+    - "Warren"
+    - "Mickle"
+    - "Bean"
+    - "Crisp"
 
 # Event flyers — images must be in the images/ folder.
 # Remove items (or leave list empty) when no events.
@@ -91,9 +80,6 @@ events:
 # Text-only announcements (title + body, no image required)
 # Use "banner" instead of "title" to render a full-width navy header above the block.
 text_announcements:
-  - title: "Combined Meeting with White Lake Ward – April 26"
-    body: "This Sunday we will have a combined Sacrament meeting with White Lake Ward at our normal time (9–10 am). Following Sacrament meeting, we will hold a combined 2nd hour with White Lake Ward and Pontiac Branch (10–11 am) focused on emergency preparedness.\n\n· Adults — Chapel: fire, tornado, and active shooter training\n· Youth — Gym: fire, tornado, and active shooter training\n· Primary — Primary room: singing time (1 hour), no breakout classes"
-
   - title: "Stake Conference Family Choir – May 31"
     body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing “I Am a Child of God,” including a portion in Spanish. All are welcome — even if you cannot attend a practice!\n\nChoir Practices:\n· May 3 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 17 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 31 – 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
 
