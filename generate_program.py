@@ -19,7 +19,7 @@ BASE_HYMN_URL = "https://www.churchofjesuschrist.org/media/music/songs/{slug}?la
 
 def hymn_url(title: str) -> str:
     slug = title.lower()
-    slug = re.sub(r"[',\.‘’“”]", "", slug)
+    slug = re.sub(r"[',\.\u2018\u2019\u201c\u201d]", "", slug)
     slug = re.sub(r"[^a-z0-9\s-]", "", slug)
     slug = re.sub(r"\s+", "-", slug.strip())
     slug = re.sub(r"-+", "-", slug)
@@ -108,10 +108,10 @@ def build(data: dict) -> str:
     ann_parts = []
     if cleaning_html:
         ann_parts.append(cleaning_html)
-    if events_html:
-        ann_parts.append(events_html)
     if text_anns_html:
         ann_parts.append(text_anns_html)
+    if events_html:
+        ann_parts.append(events_html)
     ann_body = "\n      <hr class='ann-rule' />\n".join(ann_parts)
 
     return f"""<!DOCTYPE html>
