@@ -7,6 +7,8 @@
 date: "Sunday, May 3, 2026"
 time: "9:00 AM – 10:00 AM"
 
+# v2 — right-aligned RH column
+
 # ── Officers ──────────────────────────────────────────────────
 officers:
   presiding:  "President Day"
