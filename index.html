@@ -105,6 +105,20 @@
       font-style: italic;
       padding: .4rem 0;
     }
+    .centered-role {
+      text-align: center;
+      font-weight: bold;
+      color: var(--navy);
+      font-style: italic;
+      padding: .4rem 0;
+    }
+    .centered-person {
+      text-align: center;
+      font-weight: bold;
+      color: var(--muted);
+      font-style: italic;
+      padding: .4rem 0;
+    }
 
     /* ── Announcements ── */
     .ann-block { margin-bottom: .5rem; }
@@ -136,6 +150,12 @@
       padding: .3rem .9rem;
       margin: .2rem -.9rem .4rem;
       width: calc(100% + 1.8rem);
+    }
+
+    /* ── Page spacer (1 full page of breathing room in PDF) ── */
+    .page-spacer { height: 1.5rem; }
+    @media print {
+      .page-spacer { height: 9.9in; }
     }
 
     /* ── PDF button ── */
@@ -203,9 +223,9 @@
   <div class="card">
     <div class="card-body">
       <div class="officers">
-        <div class="off-item"><span class="off-label">Presiding:</span><span class="off-name">Bishop Ryan Johnson</span></div>
+        <div class="off-item"><span class="off-label">Presiding:</span><span class="off-name">President Day</span></div>
         <div class="off-item"><span class="off-label">Chorister:</span><span class="off-name">Sister Sherry Stucki</span></div>
-        <div class="off-item"><span class="off-label">Conducting:</span><span class="off-name">Bishop Ryan Johnson</span></div>
+        <div class="off-item"><span class="off-label">Conducting:</span><span class="off-name">Bishop Johnson</span></div>
         <div class="off-item"><span class="off-label">Pianist:</span><span class="off-name">Sister Laura Zundel</span></div>
       </div>
     </div>
@@ -216,19 +236,23 @@
     <div class="card-body">
       <table class="prog-table">
         <tbody>
-          <tr><td>Welcome &amp; Announcements</td><td>Bishop Ryan Johnson</td></tr>
           <tr><td>Opening Hymn</td><td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/joseph-smiths-first-prayer?lang=eng" target="_blank">#26 Joseph Smith's First Prayer</a></td></tr>
-          <tr><td>Opening Prayer</td><td>By Invitation</td></tr>
-          <tr><td>Ward Business</td><td>Bishop Ryan Johnson</td></tr>
+          <tr><td>Invocation</td><td>By Invitation</td></tr>
+          <tr><td>Ward Business</td><td>Bishop Johnson</td></tr>
           <tr><td>Sacrament Hymn</td><td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/how-great-the-wisdom-and-the-love?lang=eng" target="_blank">#195 How Great the Wisdom and the Love</a></td></tr>
-          <tr><td class="centered-row" colspan="2">Blessing &amp; Passing of the Sacrament</td></tr>
-          <tr><td>Testimonies</td><td>By the congregation until ~09:50 AM</td></tr>
-          <tr><td>Closing Hymn</td><td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/come-listen-to-a-prophets-voice?lang=eng" target="_blank">#21 Come, Listen to a Prophet's Voice</a></td></tr>
-          <tr><td>Closing Prayer</td><td>By Invitation</td></tr>
+          <tr><td class="centered-row" colspan="2">Administration of Sacrament</td></tr>
+          <tr><td class="centered-row" colspan="2">Program as Directed by the Stake Presidency</td></tr>
+          <tr><td>Intermediate Hymn</td><td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/rejoice-the-lord-is-king?lang=eng" target="_blank">#66 Rejoice, the Lord Is King!</a></td></tr>
+          <tr><td>Closing Remarks</td><td>President Day</td></tr>
+          <tr><td>Closing Hymn</td><td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/ill-go-where-you-want-me-to-go?lang=eng" target="_blank">#270 I'll Go Where You Want Me to Go</a></td></tr>
+          <tr><td>Benediction</td><td>By Invitation</td></tr>
         </tbody>
       </table>
     </div>
   </div>
+
+  <!-- Page spacer: 1 full page of whitespace in PDF -->
+  <div class="page-spacer"></div>
 
   <!-- Announcements -->
   <div class="card">
