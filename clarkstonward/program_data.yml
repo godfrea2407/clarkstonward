@@ -9,8 +9,8 @@ time: "9:00 AM – 10:00 AM"
 
 # ── Officers ──────────────────────────────────────────────────
 officers:
-  presiding:  "Bishop Ryan Johnson"
-  conducting: "Bishop Ryan Johnson"
+  presiding:  "President Day"
+  conducting: "Bishop Johnson"
   chorister:  "Sister Sherry Stucki"
   pianist:    "Sister Laura Zundel"
 
@@ -26,34 +26,38 @@ officers:
 #     person: "By the congregation until ~09:55 AM"
 
 program:
-  - role:   "Welcome & Announcements"
-    person: "Bishop Ryan Johnson"
-
   - role:        "Opening Hymn"
     hymn_number: 26
     hymn_title:  "Joseph Smith's First Prayer"
 
-  - role:   "Opening Prayer"
+  - role:   "Invocation"
     person: "By Invitation"
 
   - role:   "Ward Business"
-    person: "Bishop Ryan Johnson"
+    person: "Bishop Johnson"
 
   - role:        "Sacrament Hymn"
     hymn_number: 195
     hymn_title:  "How Great the Wisdom and the Love"
 
-  - role:   "Blessing & Passing of the Sacrament"
+  - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Testimonies"
-    person: "By the congregation until ~09:55 AM"
+  - role:   "Program as Directed by the Stake Presidency"
+    person: ""
+
+  - role:        "Intermediate Hymn"
+    hymn_number: 66
+    hymn_title:  "Rejoice, the Lord Is King!"
+
+  - role:   "Closing Remarks"
+    person: "President Day"
 
   - role:        "Closing Hymn"
-    hymn_number: 21
-    hymn_title:  "Come, Listen to a Prophet's Voice"
+    hymn_number: 270
+    hymn_title:  "I'll Go Where You Want Me to Go"
 
-  - role:   "Closing Prayer"
+  - role:   "Benediction"
     person: "By Invitation"
 
 # ── Announcements ─────────────────────────────────────────────

@@ -35,7 +35,11 @@ def esc(s: str) -> str:
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 # ── Section renderers ─────────────────────────────────────────────────────────
-CENTERED_ROLES      = {"Blessing & Passing of the Sacrament"}
+CENTERED_ROLES      = {
+    "Blessing & Passing of the Sacrament",
+    "Administration of Sacrament",
+    "Program as Directed by the Stake Presidency",
+}
 BOLD_CENTERED_ROLES = {"Testimonies"}
 
 def render_program_row(item: dict) -> str:
