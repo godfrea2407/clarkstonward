@@ -19,7 +19,7 @@ BASE_HYMN_URL = "https://www.churchofjesuschrist.org/media/music/songs/{slug}?la
 
 def hymn_url(title: str) -> str:
     slug = title.lower()
-    slug = re.sub(r"[',\.\u2018\u2019\u201c\u201d]", "", slug)
+    slug = re.sub(r"[',\.‘’“”]", "", slug)
     slug = re.sub(r"[^a-z0-9\s-]", "", slug)
     slug = re.sub(r"\s+", "-", slug.strip())
     slug = re.sub(r"-+", "-", slug)
@@ -35,12 +35,23 @@ def esc(s: str) -> str:
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 # ── Section renderers ─────────────────────────────────────────────────────────
-CENTERED_ROLES = {"Blessing & Passing of the Sacrament"}
+CENTERED_ROLES      = {
+    "Blessing & Passing of the Sacrament",
+    "Administration of Sacrament",
+    "Program as Directed by the Stake Presidency",
+}
+BOLD_CENTERED_ROLES = {"Testimonies"}
 
 def render_program_row(item: dict) -> str:
     role = esc(item.get("role", ""))
     if item.get("role", "") in CENTERED_ROLES:
         return f'          <tr><td class="centered-row" colspan="2">{role}</td></tr>'
+    if item.get("role", "") in BOLD_CENTERED_ROLES:
+        right = esc(item.get("person", ""))
+        return (f'          <tr>'
+                f'<td class="centered-role">{role}</td>'
+                f'<td class="centered-person">{right}</td>'
+                f'</tr>')
     if "hymn_number" in item:
         right = hymn_link(item["hymn_number"], item["hymn_title"])
     else:
@@ -221,6 +232,20 @@ def build(data: dict) -> str:
       font-style: italic;
       padding: .4rem 0;
     }}
+    .centered-role {{
+      text-align: center;
+      font-weight: bold;
+      color: var(--navy);
+      font-style: italic;
+      padding: .4rem 0;
+    }}
+    .centered-person {{
+      text-align: center;
+      font-weight: bold;
+      color: var(--muted);
+      font-style: italic;
+      padding: .4rem 0;
+    }}
 
     /* ── Announcements ── */
     .ann-block {{ margin-bottom: .5rem; }}
@@ -252,6 +277,12 @@ def build(data: dict) -> str:
       padding: .3rem .9rem;
       margin: .2rem -.9rem .4rem;
       width: calc(100% + 1.8rem);
+    }}
+
+    /* ── Page spacer (1 full page of breathing room in PDF) ── */
+    .page-spacer {{ height: 1.5rem; }}
+    @media print {{
+      .page-spacer {{ height: 9.9in; }}
     }}
 
     /* ── PDF button ── */
@@ -337,6 +368,9 @@ def build(data: dict) -> str:
       </table>
     </div>
   </div>
+
+  <!-- Page spacer: 1 full page of whitespace in PDF -->
+  <div class="page-spacer"></div>
 
   <!-- Announcements -->
   <div class="card">
