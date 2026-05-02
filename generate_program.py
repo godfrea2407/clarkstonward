@@ -219,7 +219,7 @@ def build(data: dict) -> str:
       font-weight: bold; color: var(--navy);
       width: 50%; padding-right: .6rem;
     }}
-    .prog-table td:last-child {{ color: var(--muted); }}
+    .prog-table td:last-child {{ color: var(--muted); text-align: right; }}
     .hymn-link {{
       color: var(--navy); text-decoration: none;
       border-bottom: 1px dotted var(--gold);
