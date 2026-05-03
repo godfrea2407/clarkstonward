@@ -2,12 +2,11 @@
 # Clarkston Ward – Weekly Sacrament Program Data
 # Edit this file each week, then push to GitHub.
 # GitHub Actions will auto-generate index.html.
+# v5
 # ─────────────────────────────────────────────────────────────
 
 date: "Sunday, May 3, 2026"
 time: "9:00 AM – 10:00 AM"
-
-# v3 — right-align RH column, centered rows fixed
 
 # ── Officers ──────────────────────────────────────────────────
 officers:
@@ -17,16 +16,6 @@ officers:
   pianist:    "Sister Laura Zundel"
 
 # ── Program items ─────────────────────────────────────────────
-# Each item has a "role" and either:
-#   person: "Name"           (for prayers, speakers, etc.)
-#   hymn_number: 103         (for hymns — triggers auto-link)
-#   hymn_title: "Title"
-# Leave person blank ("") for items with no named participant.
-#
-# For Fast Sunday, replace the speakers block with:
-#   - role: "Testimonies"
-#     person: "By the congregation until ~09:55 AM"
-
 program:
   - role:        "Opening Hymn"
     hymn_number: 26
@@ -78,13 +67,11 @@ building_cleaning:
     - "Crisp"
 
 # Event flyers — images must be in the images/ folder.
-# Remove items (or leave list empty) when no events.
 events:
   - image: "images/event4.jpg"
     alt:   "Walk With Me – Farmington Hills Stake Youth Conference – June 25–27, 2026 – Detroit"
 
-# Text-only announcements (title + body, no image required)
-# Use "banner" instead of "title" to render a full-width navy header above the block.
+# Text-only announcements
 text_announcements:
   - title: "Stake Conference Family Choir – May 31"
     body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing “I Am a Child of God,” including a portion in Spanish. All are welcome — even if you cannot attend a practice!\n\nChoir Practices:\n· May 3 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 17 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 31 – 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."

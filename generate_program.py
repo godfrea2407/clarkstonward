@@ -207,6 +207,7 @@ def build(data: dict) -> str:
       font-size: .8rem;
     }}
     .off-item  {{ display: flex; gap: .25rem; align-items: baseline; }}
+    .officers .off-item:nth-child(even) {{ justify-content: flex-end; }}
     .off-label {{ font-weight: bold; color: var(--navy); white-space: nowrap; }}
     .off-name  {{ color: var(--muted); }}
 
@@ -279,10 +280,10 @@ def build(data: dict) -> str:
       width: calc(100% + 1.8rem);
     }}
 
-    /* ── Page spacer (1 full page of breathing room in PDF) ── */
+    /* ── Page spacer (forces page break before announcements in PDF) ── */
     .page-spacer {{ height: 1.5rem; }}
     @media print {{
-      .page-spacer {{ height: 9.9in; }}
+      .page-spacer {{ height: 0; page-break-after: always; }}
     }}
 
     /* ── PDF button ── */
@@ -369,7 +370,7 @@ def build(data: dict) -> str:
     </div>
   </div>
 
-  <!-- Page spacer: 1 full page of whitespace in PDF -->
+  <!-- Page break before announcements in PDF -->
   <div class="page-spacer"></div>
 
   <!-- Announcements -->
