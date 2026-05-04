@@ -2,15 +2,14 @@
 # Clarkston Ward – Weekly Sacrament Program Data
 # Edit this file each week, then push to GitHub.
 # GitHub Actions will auto-generate index.html.
-# v5
 # ─────────────────────────────────────────────────────────────
 
-date: "Sunday, May 3, 2026"
+date: "Sunday, May 10, 2026"
 time: "9:00 AM – 10:00 AM"
 
 # ── Officers ──────────────────────────────────────────────────
 officers:
-  presiding:  "President Day"
+  presiding:  "Bishop Johnson"
   conducting: "Bishop Johnson"
   chorister:  "Sister Sherry Stucki"
   pianist:    "Sister Laura Zundel"
@@ -18,35 +17,34 @@ officers:
 # ── Program items ─────────────────────────────────────────────
 program:
   - role:        "Opening Hymn"
-    hymn_number: 26
-    hymn_title:  "Joseph Smith's First Prayer"
+    hymn_number: 87
+    hymn_title:  "God Is Love"
 
   - role:   "Invocation"
     person: "By Invitation"
 
-  - role:   "Ward Business"
-    person: "Bishop Johnson"
-
   - role:        "Sacrament Hymn"
-    hymn_number: 195
-    hymn_title:  "How Great the Wisdom and the Love"
+    hymn_number: 196
+    hymn_title:  "Jesus, Once of Humble Birth"
 
   - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Program as Directed by the Stake Presidency"
-    person: ""
+  - role:   "Speaker"
+    person: "Bro. Hudson Seibold"
 
-  - role:        "Intermediate Hymn"
-    hymn_number: 66
-    hymn_title:  "Rejoice, the Lord Is King!"
+  - role:   "Speaker"
+    person: "Sis. Brandi Richards"
 
-  - role:   "Closing Remarks"
-    person: "President Day"
+  - role:   "Special Musical Number"
+    person: "Primary & Youth"
+
+  - role:   "Speaker"
+    person: "Bro. Steve Zundel"
 
   - role:        "Closing Hymn"
-    hymn_number: 270
-    hymn_title:  "I'll Go Where You Want Me to Go"
+    hymn_number: 294
+    hymn_title:  "Love at Home"
 
   - role:   "Benediction"
     person: "By Invitation"
@@ -74,7 +72,7 @@ events:
 # Text-only announcements
 text_announcements:
   - title: "Stake Conference Family Choir – May 31"
-    body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing “I Am a Child of God,” including a portion in Spanish. All are welcome — even if you cannot attend a practice!\n\nChoir Practices:\n· May 3 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 17 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 31 – 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
+    body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing “I Am a Child of God,” including a portion in Spanish. All are welcome — even if you cannot attend a practice!\n\nChoir Practices:\n· May 17 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 31 – 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
 
   - banner: "Ward Temple and Family History Plan"
     body: "DISCOVER — Find out who your family members are.\nGATHER — Collect names and information of family members and ancestors and add them to your family tree.\nUNITE — Attend the Temple. Unite yourself and your ancestors to the Lord. Seal families together for eternity.\n\nWard Temple and Family History Leader: Bro. John Tremonti — jtcarwash@comcast.net"
