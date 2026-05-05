@@ -4,7 +4,7 @@
 # GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────
 
-date: "Sunday, May 17, 2026"
+date: "Sunday, May 10, 2026"
 time: "9:00 AM – 10:00 AM"
 
 # ── Officers ──────────────────────────────────────────────────
@@ -17,35 +17,34 @@ officers:
 # ── Program items ─────────────────────────────────────────────
 program:
   - role:        "Opening Hymn"
-    hymn_number: 228
-    hymn_title:  "You Can Make the Pathway Bright"
+    hymn_number: 87
+    hymn_title:  "God Is Love"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 177
-    hymn_title:  "'Tis Sweet to Sing the Matchless Love"
+    hymn_number: 196
+    hymn_title:  "Jesus, Once of Humble Birth"
 
   - role:   "Administration of Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Sis. LJ Benson"
+    person: "Bro. Hudson Seibold"
 
   - role:   "Speaker"
-    person: "Sis. Annette Tremonti"
+    person: "Sis. Brandi Richards"
 
-  - role:        "Intermediate Hymn"
-    hymn_number: 243
-    hymn_title:  "Let Us All Press On"
+  - role:   "Special Musical Number"
+    person: "Primary & Youth"
 
   - role:   "Speaker"
-    person: "Bro. Jacob Lee"
+    person: "Bro. Steve Zundel"
 
   - role:        "Closing Hymn"
-    hymn_number: 220
-    hymn_title:  "Lord, I Would Follow Thee"
+    hymn_number: 294
+    hymn_title:  "Love at Home"
 
   - role:   "Benediction"
     person: "By Invitation"
