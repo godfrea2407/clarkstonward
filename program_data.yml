@@ -11,7 +11,7 @@ time: "9:00 AM – 10:00 AM"
 officers:
   presiding:  "Bishop Wilson"
   conducting: "Bishop Wilson"
-  chorister:  "Sister Sherry Stucki"
+  chorister:  "To Be Announced"
   pianist:    "Sister Laura Zundel"
 
 # ── Program items ─────────────────────────────────────────────
@@ -51,7 +51,6 @@ program:
 
 # ── Announcements ─────────────────────────────────────────────
 
-# Building cleaning assignment (leave blank to omit)
 building_cleaning:
   date:   "Saturday, May 30, 2026"
   leader: "Harrison"
@@ -64,12 +63,10 @@ building_cleaning:
     - "Bean"
     - "Crisp"
 
-# Event flyers — images must be in the images/ folder.
 events:
   - image: "images/event4.jpg"
     alt:   "Walk With Me – Farmington Hills Stake Youth Conference – June 25–27, 2026 – Detroit"
 
-# Text-only announcements
 text_announcements:
   - title: "Stake Conference Family Choir – May 31"
     body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing “I Am a Child of God,” including a portion in Spanish. All are welcome — even if you cannot attend a practice!\n\nChoir Practices:\n· May 17 – 4:00 pm, Farmington Hills Building (Chapel)\n· May 31 – 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
