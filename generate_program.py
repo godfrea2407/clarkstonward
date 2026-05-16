@@ -14,12 +14,12 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 
-# ── Slug / hymn-link helpers ──────────────────────────────────────────────────
+# ── Slug / hymn-link helpers ────────────────────────────────────────────
 BASE_HYMN_URL = "https://www.churchofjesuschrist.org/media/music/songs/{slug}?lang=eng"
 
 def hymn_url(title: str) -> str:
     slug = title.lower()
-    slug = re.sub(r"[',\.‘’“”]", "", slug)
+    slug = re.sub(r"[',\.'‘’“”]", "", slug)
     slug = re.sub(r"[^a-z0-9\s-]", "", slug)
     slug = re.sub(r"\s+", "-", slug.strip())
     slug = re.sub(r"-+", "-", slug)
@@ -34,7 +34,7 @@ def esc(s: str) -> str:
             .replace("&", "&amp;").replace("<", "&lt;")
             .replace(">", "&gt;").replace('"', "&quot;"))
 
-# ── Section renderers ─────────────────────────────────────────────────────────
+# ── Section renderers ─────────────────────────────────────────────
 CENTERED_ROLES      = {
     "Blessing & Passing of the Sacrament",
     "Administration of Sacrament",
@@ -72,8 +72,16 @@ def render_cleaning(bc: dict) -> str:
       </div>"""
 
 def render_text_announcements(items: list) -> str:
+    """Render text announcements in order. Items with an 'image' key render as flyer images,
+    allowing flyers to be positioned anywhere within the announcements flow."""
     parts = []
     for item in items:
+        # Image flyer embedded within announcements
+        if "image" in item:
+            img = esc(item.get("image", ""))
+            alt = esc(item.get("alt", ""))
+            parts.append(f'      <div class="ann-block"><img class="flyer" src="{img}" alt="{alt}" /></div>')
+            continue
         title  = esc(item.get("title", ""))
         banner = esc(item.get("banner", ""))
         body   = esc(item.get("body", ""))
@@ -96,7 +104,7 @@ def render_events(events: list) -> str:
         parts.append(f'      <div class="ann-block"><img class="flyer" src="{img}" alt="{alt}" /></div>')
     return "\n".join(parts)
 
-# ── Main HTML builder ─────────────────────────────────────────────────────────
+# ── Main HTML builder ─────────────────────────────────────────────
 def build(data: dict) -> str:
     date     = esc(data.get("date", ""))
     time_str = esc(data.get("time", ""))
@@ -121,7 +129,7 @@ def build(data: dict) -> str:
         ann_parts.append(cleaning_html)
     if text_anns_html:
         ann_parts.append(text_anns_html)
-    if events_html:
+    if events_html:  # legacy: top-level events still render after text_announcements
         ann_parts.append(events_html)
     ann_body = "\n      <hr class='ann-rule' />\n".join(ann_parts)
 
@@ -407,7 +415,7 @@ def build(data: dict) -> str:
 </html>
 """
 
-# ── Entry point ───────────────────────────────────────────────────────────────
+# ── Entry point ─────────────────────────────────────────────────
 if __name__ == "__main__":
     data_path = BASE_DIR / "program_data.yml"
     out_html  = BASE_DIR / "index.html"
