@@ -10,7 +10,7 @@ time: "9:00 AM – 10:00 AM"
 # ── Officers ──────────────────────────────────────────────────────────────────
 officers:
   presiding:  "Bishop Wilson"
-  conducting: "Bishop Wilson"
+  conducting: "Bro. Brock Seibold, First Counselor"
   chorister:  "To Be Announced"
   pianist:    "Sister Laura Zundel"
 
@@ -41,7 +41,7 @@ program:
     hymn_title:  "Let Us All Press On"
 
   - role:   "Speaker"
-    person: "Bro. Brock Seibold"
+    person: "Bro. Jacob Lee"
 
   - role:        "Closing Hymn"
     hymn_number: 220
