@@ -1,20 +1,20 @@
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
 # Edit this file each week, then push to GitHub.
 # GitHub Actions will auto-generate index.html.
-# ─────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, May 17, 2026"
 time: "9:00 AM – 10:00 AM"
 
-# ── Officers ──────────────────────────────────────────────────
+# ── Officers ──────────────────────────────────────────────────────────────────
 officers:
   presiding:  "Bishop Wilson"
   conducting: "Bishop Wilson"
   chorister:  "To Be Announced"
   pianist:    "Sister Laura Zundel"
 
-# ── Program items ─────────────────────────────────────────────
+# ── Program items ─────────────────────────────────────────────────────────────
 program:
   - role:        "Opening Hymn"
     hymn_number: 228
@@ -41,7 +41,7 @@ program:
     hymn_title:  "Let Us All Press On"
 
   - role:   "Speaker"
-    person: "Bro. Jacob Lee"
+    person: "Bro. Brock Seibold"
 
   - role:        "Closing Hymn"
     hymn_number: 220
@@ -50,7 +50,7 @@ program:
   - role:   "Benediction"
     person: "By Invitation"
 
-# ── Announcements ─────────────────────────────────────────────
+# ── Announcements ─────────────────────────────────────────────────────────────
 
 building_cleaning:
   date:   "Saturday, May 30, 2026"
