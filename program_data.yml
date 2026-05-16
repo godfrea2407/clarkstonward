@@ -68,10 +68,10 @@ events:
   - image: "images/event4.jpg"
     alt:   "Walk With Me – Farmington Hills Stake Youth Conference – June 25–27, 2026 – Detroit"
 
-  - image: "images/event5.jpg"
-    alt:   "Stage Rush – Youth Variety Show Night – Thursday, June 25, 7:00 PM – Auditions due May 31"
-
 text_announcements:
+  - title: "Stage Rush – Youth Variety Show Night – June 25"
+    body: "Farmington Hills Stake Youth Conference presents Stage Rush — a youth talent variety show! Thursday, June 25 at 7:00 PM.\n\nSing, act, dance, tell a story, or show us something unique! Keep acts 3–4 minutes, clean and uplifting. Group performances encouraged.\n\nSubmit your audition video by May 31 to dnctchr01@gmail.com."
+
   - title: "Stake Seminary Graduation – June 3"
     body: "All youth, parents, and youth leaders are invited to the Farmington Hills Michigan Stake Seminary Graduation on Wednesday, June 3rd from 7:00–8:30 pm at the Stake Center.\n\nAll youth in the stake are welcome — this takes the place of ward youth activities for that week. Families are especially encouraged to attend if you have graduating seniors.\n\nRefreshments will be served."
 
