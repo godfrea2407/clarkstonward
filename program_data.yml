@@ -69,6 +69,9 @@ text_announcements:
   - title: "Aaronic Priesthood Commemoration Campout"
     body: "All men and boys are invited!\n\nFriday, June 19 at 3:00 PM through Saturday, June 20 at 12:00 PM\nLocation: Independence Oaks"
 
+  - image: "images/aaronic_campout.jpg"
+    alt:   "Aaronic Priesthood Commemoration Campout – June 19–20, 2026 – Independence Oaks"
+
   - image: "images/event5.jpg"
     alt:   "Stage Rush – Farmington Hills Stake Youth Variety Show – June 25, 2026"
 
