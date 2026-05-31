@@ -30,8 +30,8 @@ program:
   - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Speaker"
-    person: "Testimonies — By the congregation until ~09:50 AM"
+  - role:   "Testimonies"
+    person: "By the congregation until ~09:50 AM"
 
   - role:        "Closing Hymn"
     hymn_number: 30
@@ -44,7 +44,7 @@ program:
 
 building_cleaning:
   date:   "Saturday, June 6, 2026"
-  leader: "Seibold"
+  leader: "Seibold, B & B"
   families:
     - "Seibold, T & K"
     - "Abell"
