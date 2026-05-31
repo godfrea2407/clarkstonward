@@ -1,20 +1,16 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Edit this file each week, then push to GitHub.
-# GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, June 7, 2026"
 time: "9:00 AM – 10:00 AM"
 
-# ── Officers ──────────────────────────────────────────────────────────────────
 officers:
   presiding:  "Bishop Wilson"
   conducting: "Bro. Tim Morley, Second Counselor"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
-# ── Program items ─────────────────────────────────────────────────────────────
 program:
   - role:        "Opening Hymn"
     hymn_number: 27
@@ -40,18 +36,18 @@ program:
   - role:   "Benediction"
     person: "By Invitation"
 
-# ── Announcements ─────────────────────────────────────────────────────────────
-
 building_cleaning:
-  date:   "Saturday, June 6, 2026"
-  leader: "Seibold, B & B"
+  date:   "Saturday, June 20, 2026"
+  leader: "Ruby"
   families:
-    - "Seibold, T & K"
-    - "Abell"
-    - "Wilson"
-    - "Jenkins"
-    - "Castro"
-    - "Barrett, B"
+    - "Johnson"
+    - "Tatoris, C & J"
+    - "Jorgensen"
+    - "Hooker"
+    - "Allen"
+    - "Allred"
+    - "Bennet"
+    - "Bartkowiak"
 
 text_announcements:
   - title: "Aaronic Priesthood Commemoration Campout"
