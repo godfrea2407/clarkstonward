@@ -19,7 +19,7 @@ BASE_HYMN_URL = "https://www.churchofjesuschrist.org/media/music/songs/{slug}?la
 
 def hymn_url(title: str) -> str:
     slug = title.lower()
-    slug = re.sub(r"[',\.'‘’“”]", "", slug)
+    slug = re.sub(r"[',\.‘’“”]", "", slug)
     slug = re.sub(r"[^a-z0-9\s-]", "", slug)
     slug = re.sub(r"\s+", "-", slug.strip())
     slug = re.sub(r"-+", "-", slug)
@@ -35,28 +35,30 @@ def esc(s: str) -> str:
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 # ── Section renderers ─────────────────────────────────────────────
-CENTERED_ROLES      = {
+# Roles rendered as a single centered bold italic cell (colspan=2)
+CENTERED_ROLES = {
     "Blessing & Passing of the Sacrament",
     "Administration of Sacrament",
     "Program as Directed by the Stake Presidency",
 }
-BOLD_CENTERED_ROLES = {"Testimonies"}
+# Roles rendered centered bold with person text appended after em-dash
+TESTIMONIES_ROLES = {"Testimonies"}
 
 def render_program_row(item: dict) -> str:
-    role = esc(item.get("role", ""))
-    if item.get("role", "") in CENTERED_ROLES:
-        return f'          <tr><td class="centered-row" colspan="2">{role}</td></tr>'
-    if item.get("role", "") in BOLD_CENTERED_ROLES:
-        right = esc(item.get("person", ""))
-        return (f'          <tr>'
-                f'<td class="centered-role">{role}</td>'
-                f'<td class="centered-person">{right}</td>'
-                f'</tr>')
+    role = item.get("role", "")
+    role_esc = esc(role)
+    if role in CENTERED_ROLES:
+        return f'          <tr><td class="centered-row" colspan="2">{role_esc}</td></tr>'
+    if role in TESTIMONIES_ROLES:
+        person = item.get("person", "")
+        person_esc = esc(person)
+        text = role_esc + (f" &mdash; {person_esc}" if person_esc else "")
+        return f'          <tr><td class="centered-row" colspan="2">{text}</td></tr>'
     if "hymn_number" in item:
         right = hymn_link(item["hymn_number"], item["hymn_title"])
     else:
         right = esc(item.get("person", ""))
-    return f'          <tr><td>{role}</td><td>{right}</td></tr>'
+    return f'          <tr><td>{role_esc}</td><td>{right}</td></tr>'
 
 def render_cleaning(bc: dict) -> str:
     if not bc:
@@ -72,11 +74,8 @@ def render_cleaning(bc: dict) -> str:
       </div>"""
 
 def render_text_announcements(items: list) -> str:
-    """Render text announcements in order. Items with an 'image' key render as flyer images,
-    allowing flyers to be positioned anywhere within the announcements flow."""
     parts = []
     for item in items:
-        # Image flyer embedded within announcements
         if "image" in item:
             img = esc(item.get("image", ""))
             alt = esc(item.get("alt", ""))
@@ -129,7 +128,7 @@ def build(data: dict) -> str:
         ann_parts.append(cleaning_html)
     if text_anns_html:
         ann_parts.append(text_anns_html)
-    if events_html:  # legacy: top-level events still render after text_announcements
+    if events_html:
         ann_parts.append(events_html)
     ann_body = "\n      <hr class='ann-rule' />\n".join(ann_parts)
 
@@ -161,7 +160,7 @@ def build(data: dict) -> str:
       line-height: 1.4;
     }}
 
-    /* ── Page wrapper — single-column, max 680px ── */
+    /* ── Page wrapper ── */
     .page {{
       max-width: 680px;
       margin: 0 auto;
@@ -190,10 +189,8 @@ def build(data: dict) -> str:
     header .htime {{ font-size: .8rem; color: var(--gold); margin-top: .1rem; }}
 
     /* ── Shared card styles ── */
-    .card {{
-      border-bottom: 1px solid var(--rule);
-    }}
-    .card-body {{ padding: .55rem .9rem; }}
+    .card {{ border-bottom: 1px solid var(--rule); }}
+    .card-body {{ padding: .7rem .9rem; }}
 
     /* ── Full-width section banner ── */
     .banner {{
@@ -211,7 +208,7 @@ def build(data: dict) -> str:
     .officers {{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: .15rem .6rem;
+      gap: .25rem .6rem;
       font-size: .8rem;
     }}
     .off-item  {{ display: flex; gap: .25rem; align-items: baseline; }}
@@ -220,10 +217,10 @@ def build(data: dict) -> str:
     .off-name  {{ color: var(--muted); }}
 
     /* ── Program table ── */
-    .prog-table {{ width: 100%; border-collapse: collapse; font-size: .82rem; }}
+    .prog-table {{ width: 100%; border-collapse: collapse; font-size: .85rem; }}
     .prog-table tr {{ border-bottom: 1px solid var(--rule); }}
     .prog-table tr:last-child {{ border-bottom: none; }}
-    .prog-table td {{ padding: .32rem .15rem; vertical-align: top; }}
+    .prog-table td {{ padding: .65rem .15rem; vertical-align: top; }}
     .prog-table td:first-child {{
       font-weight: bold; color: var(--navy);
       width: 50%; padding-right: .6rem;
@@ -239,21 +236,7 @@ def build(data: dict) -> str:
       font-weight: bold;
       color: var(--navy);
       font-style: italic;
-      padding: .4rem 0;
-    }}
-    .centered-role {{
-      text-align: center;
-      font-weight: bold;
-      color: var(--navy);
-      font-style: italic;
-      padding: .4rem 0;
-    }}
-    .centered-person {{
-      text-align: center;
-      font-weight: bold;
-      color: var(--muted);
-      font-style: italic;
-      padding: .4rem 0;
+      padding: .65rem 0;
     }}
 
     /* ── Announcements ── */
@@ -288,7 +271,7 @@ def build(data: dict) -> str:
       width: calc(100% + 1.8rem);
     }}
 
-    /* ── Page spacer (forces page break before announcements in PDF) ── */
+    /* ── Page spacer ── */
     .page-spacer {{ height: 1.5rem; }}
     @media print {{
       .page-spacer {{ height: 0; page-break-after: always; }}
@@ -336,9 +319,10 @@ def build(data: dict) -> str:
       .pdf-btn {{ display: none; }}
       a {{ color: inherit !important; border-bottom: none !important; }}
       header {{ padding: 1.1rem 1rem 1rem; }}
-      .card-body {{ padding: .75rem .9rem; }}
-      .officers {{ gap: .3rem .6rem; font-size: .88rem; }}
-      .prog-table td {{ padding: .42rem .15rem; }}
+      .card-body {{ padding: .85rem .9rem; }}
+      .officers {{ gap: .35rem .6rem; font-size: .88rem; }}
+      .prog-table {{ font-size: .9rem; }}
+      .prog-table td {{ padding: .85rem .15rem; }}
       .ann-block {{ margin-bottom: .75rem; }}
       .ann-text {{ line-height: 1.8; }}
     }}
@@ -434,7 +418,7 @@ if __name__ == "__main__":
         import subprocess, os
         env = os.environ.copy()
         env["PATH"] = env.get("PATH", "") + ":/sessions/awesome-nifty-allen/.local/bin"
-        base_url = out_html.parent.as_uri() + "/"   # lets WeasyPrint resolve images/
+        base_url = out_html.parent.as_uri() + "/"
         result = subprocess.run(
             ["weasyprint", "--base-url", base_url, str(out_html), str(out_pdf)],
             capture_output=True, text=True, env=env
