@@ -4,48 +4,38 @@
 # GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, May 24, 2026"
+date: "Sunday, June 7, 2026"
 time: "9:00 AM – 10:00 AM"
 
 # ── Officers ──────────────────────────────────────────────────────────────────
 officers:
   presiding:  "Bishop Wilson"
-  conducting: "Bro. Brock Seibold, First Counselor"
-  chorister:  "Sis. Sophie Abell"
+  conducting: "Bro. Tim Morley, Second Counselor"
+  chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
 # ── Program items ─────────────────────────────────────────────────────────────
 program:
   - role:        "Opening Hymn"
-    hymn_number: 84
-    hymn_title:  "Faith of Our Fathers"
+    hymn_number: 27
+    hymn_title:  "Praise to the Man"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 185
-    hymn_title:  "Reverently and Meekly Now"
+    hymn_number: 171
+    hymn_title:  "With Humble Heart"
 
   - role:   "Administration of Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Sis. Gracie Richards"
-
-  - role:   "Speaker"
-    person: "Bro. Munroe Jackson"
-
-  - role:        "Intermediate Hymn"
-    hymn_number: 137
-    hymn_title:  "Testimony"
-
-  - role:   "Speaker"
-    person: "Bro. Justin Wong, High Council"
+    person: "Testimonies — By the congregation until ~09:50 AM"
 
   - role:        "Closing Hymn"
-    hymn_number: 81
-    hymn_title:  "Press Forward, Saints"
+    hymn_number: 30
+    hymn_title:  "Come, Come, Ye Saints"
 
   - role:   "Benediction"
     person: "By Invitation"
@@ -53,18 +43,16 @@ program:
 # ── Announcements ─────────────────────────────────────────────────────────────
 
 building_cleaning:
-  date:   "Saturday, May 30, 2026"
-  leader: "Harrison"
+  date:   "Saturday, June 6, 2026"
+  leader: "Seibold"
   families:
-    - "Godfrey"
-    - "Bell, Z & C"
-    - "Zundel"
-    - "Warren"
-    - "Mickle"
-    - "Bean"
-    - "Crisp"
+    - "Seibold, T & K"
+    - "Abell"
+    - "Wilson"
+    - "Jenkins"
+    - "Castro"
+    - "Barrett, B"
 
-# Note: image items can be placed anywhere in text_announcements to control order
 text_announcements:
   - title: "Aaronic Priesthood Commemoration Campout"
     body: "All men and boys are invited!\n\nFriday, June 19 at 3:00 PM through Saturday, June 20 at 12:00 PM\nLocation: Independence Oaks"
@@ -75,14 +63,8 @@ text_announcements:
   - image: "images/event5.jpg"
     alt:   "Stage Rush – Farmington Hills Stake Youth Variety Show – June 25, 2026"
 
-  - title: "Stake Seminary Graduation – June 3"
-    body: "All youth, parents, and youth leaders are invited to the Farmington Hills Michigan Stake Seminary Graduation on Wednesday, June 3rd from 7:00–8:30 pm at the Stake Center.\n\nAll youth in the stake are welcome — this takes the place of ward youth activities for that week. Families are especially encouraged to attend if you have graduating seniors.\n\nRefreshments will be served."
-
   - title: "Gospel Questions – June 7"
     body: "The Bells' Gospel Questions class will next meet on Sunday, June 7th in the Family Search Center during second hour. All are invited to join us! We will discuss and determine upcoming topics."
-
-  - title: "Stake Conference Family Choir – May 31"
-    body: "We invite you and your family to join a special choir at the Stake Conference general session on Sunday, May 31st, welcoming Elder Ronald M. Barcellos of the Seventy. The choir will sing \"I Am a Child of God,\" including a portion in Spanish. All are welcome — even if you cannot attend a practice!\n\nFinal Choir Practice:\n· May 31 – 8:30 am, Bloomfield Hills Building (Primary/RS room)\n\nQuestions? Call 313-870-7482."
 
   - image: "images/event4.jpg"
     alt:   "Walk With Me – Farmington Hills Stake Youth Conference – June 25–27, 2026 – Detroit"
