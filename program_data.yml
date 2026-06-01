@@ -1,16 +1,20 @@
-# ─────────────────────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# ─────────────────────────────────────────────────────────────────────────────
+# Edit this file each week, then push to GitHub.
+# GitHub Actions will auto-generate index.html.
+# ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, June 7, 2026"
 time: "9:00 AM – 10:00 AM"
 
+# ── Officers ──────────────────────────────────────────────────────────────────────────
 officers:
   presiding:  "Bishop Wilson"
   conducting: "Bro. Tim Morley, Second Counselor"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
+# ── Program items ─────────────────────────────────────────────────────────────────────
 program:
   - role:        "Opening Hymn"
     hymn_number: 27
@@ -27,7 +31,7 @@ program:
     person: ""
 
   - role:   "Testimonies"
-    person: "By the congregation until ~09:50 AM"
+    person: "Open — by the congregation until ~09:50 AM"
 
   - role:        "Closing Hymn"
     hymn_number: 30
@@ -36,22 +40,24 @@ program:
   - role:   "Benediction"
     person: "By Invitation"
 
-building_cleaning:
-  date:   "Saturday, June 20, 2026"
-  leader: "Ruby"
-  families:
-    - "Johnson"
-    - "Tatoris, C & J"
-    - "Jorgensen"
-    - "Hooker"
-    - "Allen"
-    - "Allred"
-    - "Bennet"
-    - "Bartkowiak"
+# ── Announcements ─────────────────────────────────────────────────────────────────────────
 
+building_cleaning:
+  date:   "Saturday, June 6, 2026"
+  leader: "Seibold"
+  families:
+    - "Seibold, B & B"
+    - "Seibold, T & K"
+    - "Abell"
+    - "Wilson"
+    - "Jenkins"
+    - "Castro"
+    - "Barrett, B"
+
+# Note: image items can be placed anywhere in text_announcements to control order
 text_announcements:
   - title: "Gospel Questions – June 7"
-    body: "The Bells' Gospel Questions class will next meet on Sunday, June 7th in the Family Search Center during second hour. All are invited to join us! We will discuss and determine upcoming topics."
+    body: "The Bells\u2019 Gospel Questions class will next meet on Sunday, June 7th in the Family Search Center during second hour. All are invited to join us! We will discuss and determine upcoming topics."
 
   - title: "Aaronic Priesthood Commemoration Campout"
     body: "All men and boys are invited!\n\nFriday, June 19 at 3:00 PM through Saturday, June 20 at 12:00 PM\nLocation: Independence Oaks"
