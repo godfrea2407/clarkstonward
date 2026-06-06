@@ -95,19 +95,9 @@
     .card--program .card-body {
       padding: 1.4rem 1.1rem 1.4rem 1.1rem;
     }
-    .program-label {
-      font-family: system-ui, 'Segoe UI', sans-serif;
-      font-size: .6rem;
-      font-weight: 700;
-      letter-spacing: .2em;
-      text-transform: uppercase;
-      color: var(--navy);
-      text-align: center;
-      display: block;
-      margin-bottom: 1rem;
-      padding-bottom: .5rem;
-      border-bottom: 1px solid var(--rule);
-    }
+
+    /* ─── Spacer between program and announcements ─── */
+    .section-break { height: 1.8rem; background: var(--light); }
 
     /* ─── Program table ─── */
     .prog-table { width: 100%; border-collapse: collapse; font-size: 1rem; }
@@ -235,6 +225,7 @@
       .officers { gap: .35rem .6rem; font-size: .88rem; }
       .prog-table { font-size: 1rem; }
       .prog-table td { padding: .9rem .1rem; }
+      .section-break { display: none; }
       .secondary-zone {
         background: white;
         page-break-before: always;
@@ -272,7 +263,6 @@
   <!-- Program — the main event -->
   <div class="card card--program">
     <div class="card-body">
-      <span class="program-label">Order of Service</span>
       <table class="prog-table">
         <tbody>
           <tr><td>Opening Hymn</td><td><a class="hymn-link" href="https://www.churchofjesuschrist.org/media/music/songs/praise-to-the-man?lang=eng" target="_blank">#27 Praise to the Man</a></td></tr>
@@ -289,6 +279,8 @@
 
   <!-- PDF button — bridge between program and secondary content -->
   <a class="pdf-btn" href="program.pdf" target="_blank">&#x1F4C4;&nbsp; Download / Print Program (PDF)</a>
+
+  <div class="section-break"></div>
 
   <!-- Secondary zone: Announcements + Links -->
   <div class="secondary-zone">
