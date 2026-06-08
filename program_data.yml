@@ -14,15 +14,16 @@ officers:
   pianist:    "Sister Laura Zundel"
 
 program:
-  - role:   "Opening Hymn"
-    person: "TBD"
+  - role:        "Opening Hymn"
+    hymn_number: 271
+    hymn_title:  "Oh, Holy Words of Truth and Love"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 175
-    hymn_title:  "O God, the Eternal Father"
+    hymn_number: 176
+    hymn_title:  "'Tis Sweet to Sing the Matchless Love"
 
   - role:   "Administration of Sacrament"
     person: ""
@@ -33,14 +34,16 @@ program:
   - role:   "Speaker"
     person: "Bro. Gary Neumann"
 
-  - role:   "Rest Hymn"
-    person: "TBD"
+  - role:        "Intermediate Hymn"
+    hymn_number: 308
+    hymn_title:  "Love One Another"
 
   - role:   "Speaker"
     person: "Sis. Rebekah Wilson"
 
-  - role:   "Closing Hymn"
-    person: "TBD"
+  - role:        "Closing Hymn"
+    hymn_number: 232
+    hymn_title:  "Let Us Oft Speak Kind Words"
 
   - role:   "Benediction"
     person: "By Invitation"
