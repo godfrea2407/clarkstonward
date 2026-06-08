@@ -29,14 +29,14 @@ program:
   - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Garrison Richards"
-    person: "The Impact of the Love of Others"
+  - role:   "Speaker"
+    person: "Bro. Garrison Richards"
 
-  - role:   "Gary Neumann"
-    person: "Fulfilling the Lord's Will"
+  - role:   "Speaker"
+    person: "Bro. Gary Neumann"
 
-  - role:   "Rebekah Wilson"
-    person: "Loving Actions of Others & the Lord's Work"
+  - role:   "Speaker"
+    person: "Sis. Rebekah Wilson"
 
   - role:   "Closing Hymn"
     person: "TBD"
