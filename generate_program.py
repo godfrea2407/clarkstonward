@@ -54,6 +54,8 @@ def render_program_row(item: dict) -> str:
         person_esc = esc(person)
         text = role_esc + (f" &mdash; {person_esc}" if person_esc else "")
         return f'          <tr><td class="centered-row" colspan="2">{text}</td></tr>'
+    if "hymn_number" not in item and not str(item.get("person", "")).strip():
+        return f'          <tr><td class="centered-row" colspan="2">{role_esc}</td></tr>'
     if "hymn_number" in item:
         right = hymn_link(item["hymn_number"], item["hymn_title"])
     else:
