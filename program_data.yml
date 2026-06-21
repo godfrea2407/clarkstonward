@@ -3,71 +3,69 @@
 # Edit this file each week, then push to GitHub.
 # GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────────────────────────
-# Auto-generated HTML/PDF via GitHub Actions. Last touched 2026-06-20.
+# Auto-generated HTML/PDF via GitHub Actions. Last touched 2026-06-21.
 
-date: "Sunday, June 21, 2026"
+date: "Sunday, June 28, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
-  presiding:  "President Day"
+  presiding:  "Bishop Wilson"
   conducting: "Bro. Tim Morley, Second Counselor"
   chorister:  "To Be Announced"
   pianist:    "Sister Laura Zundel"
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 296
-    hymn_title:  "Our Father, by Whose Name"
+    hymn_number: 277
+    hymn_title:  "As I Search the Holy Scriptures"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 175
-    hymn_title:  "O God, the Eternal Father"
+    hymn_number: 117
+    hymn_title:  "Come Unto Jesus"
 
   - role:   "Administration of Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Aiden Pabst"
+    person: "Bro. Anders Benson"
 
   - role:   "Speaker"
-    person: "Bro. Parker Price"
-
-  - role:   "Special Musical Number by Primary & Youth"
-    person: ""
+    person: "Bro. Andrew Wilson"
 
   - role:   "Speaker"
-    person: "Bro. Oskar Benson"
+    person: "Sis. Sophie Abell"
+
+  - role:        "Intermediate Hymn"
+    hymn_number: 272
+    hymn_title:  "Oh Say, What Is Truth?"
+
+  - role:   "Speaker"
+    person: "Bro. Ryan Corless"
 
   - role:        "Closing Hymn"
-    hymn_number: 292
-    hymn_title:  "O My Father"
+    hymn_number: 85
+    hymn_title:  "How Firm a Foundation"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, June 27, 2026"
-  leader: "Greve"
+  date:   "Saturday, July 18, 2026"
+  leader: "Benson"
   families:
-    - "Price"
-    - "Mora"
-    - "Peatross"
-    - "Barrett K&D"
-    - "Villereal"
-    - "Jones"
-    - "Marceau"
-    - "Matsura"
+    - "Neumann"
+    - "Stucki"
+    - "Corless"
+    - "Christensen"
+    - "Bailey"
+    - "Cincinelli"
+    - "Ortwein"
+    - "Tremonti"
 
 text_announcements:
-  - image: "images/event5.jpg"
-    alt:   "Stage Rush – Farmington Hills Stake Youth Variety Show – June 25, 2026"
-
-  - image: "images/event4.jpg"
-    alt:   "Walk With Me – Farmington Hills Stake Youth Conference – June 25–27, 2026 – Detroit"
-
   - title: "Sunday Class Schedule Changes – September 2026"
     url: "https://www.churchofjesuschrist.org/feature/sunday-meeting-schedule?lang=eng"
     body: "Beginning the first week of September 2026, the Sunday class schedule will change. Sacrament meeting continues at 60 minutes, followed by a weekly 25-minute Sunday School class and a 25-minute Elders Quorum, Relief Society, or Young Women meeting. Primary will continue weekly and last 55 minutes."
