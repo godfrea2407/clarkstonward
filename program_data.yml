@@ -3,51 +3,38 @@
 # Edit this file each week, then push to GitHub.
 # GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────────────────────────
-# Auto-generated HTML/PDF via GitHub Actions. Last touched 2026-06-21.
+# Auto-generated HTML/PDF via GitHub Actions. Last touched 2026-06-29.
 
-date: "Sunday, June 28, 2026"
+date: "Sunday, July 5, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Wilson"
-  conducting: "Bro. Tim Morley, Second Counselor"
+  conducting: "Bishop Wilson"
   chorister:  "To Be Announced"
   pianist:    "Sister Laura Zundel"
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 277
-    hymn_title:  "As I Search the Holy Scriptures"
+    hymn_number: 340
+    hymn_title:  "The Star-Spangled Banner"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 117
-    hymn_title:  "Come Unto Jesus"
+    hymn_number: 195
+    hymn_title:  "How Great the Wisdom and the Love"
 
   - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Speaker"
-    person: "Bro. Anders Benson"
-
-  - role:   "Speaker"
-    person: "Bro. Andrew Wilson"
-
-  - role:   "Speaker"
-    person: "Sis. Sophie Abell"
-
-  - role:        "Intermediate Hymn"
-    hymn_number: 272
-    hymn_title:  "Oh Say, What Is Truth?"
-
-  - role:   "Speaker"
-    person: "Bro. Ryan Corless"
+  - role:   "Testimonies"
+    person: "By the congregation until ~09:50 AM"
 
   - role:        "Closing Hymn"
-    hymn_number: 85
-    hymn_title:  "How Firm a Foundation"
+    hymn_number: 338
+    hymn_title:  "America the Beautiful"
 
   - role:   "Benediction"
     person: "By Invitation"
