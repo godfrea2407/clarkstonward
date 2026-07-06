@@ -3,38 +3,48 @@
 # Edit this file each week, then push to GitHub.
 # GitHub Actions will auto-generate index.html.
 # ─────────────────────────────────────────────────────────────────────────────────
-# Auto-generated HTML/PDF via GitHub Actions. Last touched 2026-07-04.
+# Auto-generated HTML/PDF via GitHub Actions. Last touched 2026-07-06.
 
-date: "Sunday, July 5, 2026"
+date: "Sunday, July 12, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
-  presiding:  "Bro. Brock Seibold, First Counselor"
-  conducting: "Bro. Brock Seibold, First Counselor"
+  presiding:  "Bishop Wilson"
+  conducting: "Bishop Wilson"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 340
-    hymn_title:  "The Star-Spangled Banner"
+    hymn_number: 9
+    hymn_title:  "Come, Rejoice"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 195
-    hymn_title:  "How Great the Wisdom and the Love"
+    hymn_number: 169
+    hymn_title:  "As Now We Take the Sacrament"
 
   - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Testimonies"
-    person: "By the congregation until ~09:50 AM"
+  - role:   "Speaker"
+    person: "Sis. Nora Corless"
+
+  - role:   "Speaker"
+    person: "Sis. Charlotte Greve"
+
+  - role:        "Intermediate Hymn"
+    hymn_number: 116
+    hymn_title:  "Come, Follow Me"
+
+  - role:   "Speaker"
+    person: "Bro. Chuck Asbury"
 
   - role:        "Closing Hymn"
-    hymn_number: 338
-    hymn_title:  "America the Beautiful"
+    hymn_number: 114
+    hymn_title:  "Come unto Him"
 
   - role:   "Benediction"
     person: "By Invitation"
@@ -53,6 +63,9 @@ building_cleaning:
     - "Tremonti"
 
 text_announcements:
+  - title: "Youth Car Wash Service Project"
+    body: "The youth of our ward invite you, your family, and friends to a Youth Car Wash on Saturday, July 18, from 12:00–2:00 PM in the church parking lot. Food will be available, so come enjoy lunch while supporting our youth."
+
   - title: "Sunday Class Schedule Changes – September 2026"
     url: "https://www.churchofjesuschrist.org/feature/sunday-meeting-schedule?lang=eng"
     body: "Beginning the first week of September 2026, the Sunday class schedule will change. Sacrament meeting continues at 60 minutes, followed by a weekly 25-minute Sunday School class and a 25-minute Elders Quorum, Relief Society, or Young Women meeting. Primary will continue weekly and last 55 minutes."
