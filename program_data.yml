@@ -1,11 +1,9 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Edit this file each week, then push to GitHub.
-# GitHub Actions will auto-generate index.html.
+# Hermes smoke publish 2026-07-17 for Sunday 2026-07-19
 # ─────────────────────────────────────────────────────────────────────────────────
-# Auto-generated HTML/PDF via GitHub Actions. Last touched 2026-07-06.
 
-date: "Sunday, July 12, 2026"
+date: "Sunday, July 19, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
@@ -16,55 +14,60 @@ officers:
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 9
-    hymn_title:  "Come, Rejoice"
+    hymn_number: 301
+    hymn_title:  "I Am a Child of God"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 169
-    hymn_title:  "As Now We Take the Sacrament"
+    hymn_number: 191
+    hymn_title:  "Behold the Great Redeemer Die"
 
   - role:   "Administration of Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Sis. Nora Corless"
+    person: "Bro. Duncan Ruby"
 
   - role:   "Speaker"
-    person: "Sis. Charlotte Greve"
+    person: "Sis. Alisha Johnson"
 
   - role:        "Intermediate Hymn"
-    hymn_number: 116
-    hymn_title:  "Come, Follow Me"
+    hymn_number: 124
+    hymn_title:  "Be Still, My Soul"
 
   - role:   "Speaker"
-    person: "Bro. Chuck Asbury"
+    person: "Bro. GL Pabst"
 
   - role:        "Closing Hymn"
-    hymn_number: 114
-    hymn_title:  "Come unto Him"
+    hymn_number: 78
+    hymn_title:  "God of Our Fathers, Whose Almighty Hand"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, July 18, 2026"
-  leader: "Benson"
+  date:   "Saturday, July 25, 2026"
+  leader: "Belknap"
   families:
-    - "Neumann"
-    - "Stucki"
-    - "Corless"
-    - "Christensen"
-    - "Bailey"
-    - "Cincinelli"
-    - "Ortwein"
-    - "Tremonti"
+    - "Allred"
+    - "Cardona"
+    - "Devor"
+    - "Gulley"
+    - "Hoff"
+    - "Love"
+    - "Phillips"
+    - "Phipps"
+    - "Rosenhan"
+    - "Zimmerman"
 
 text_announcements:
-  - title: "Youth Car Wash Service Project"
-    body: "The youth of our ward invite you, your family, and friends to a Youth Car Wash on Saturday, July 18, from 12:00–2:00 PM in the church parking lot. Food will be available, so come enjoy lunch while supporting our youth."
+  - title: "Ward Temple Night"
+    body: "Beginning this month, Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
+
+  - title: "Youth Music Festival"
+    body: "The Youth Music Festival is coming — we need performances and friends to come. This event is for all youth turning 12 this year and older. See the flyer for details, and please share it with friends from neighboring stakes."
 
   - title: "Sunday Class Schedule Changes – September 2026"
     url: "https://www.churchofjesuschrist.org/feature/sunday-meeting-schedule?lang=eng"
