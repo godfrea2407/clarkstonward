@@ -48,19 +48,17 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, July 25, 2026"
-  leader: "Belknap"
+  date:   "Saturday, August 1, 2026"
+  leader: "Pabst"
   families:
-    - "Allred"
-    - "Cardona"
-    - "Devor"
-    - "Gulley"
-    - "Hoff"
-    - "Love"
-    - "Phillips"
-    - "Phipps"
-    - "Rosenhan"
-    - "Zimmerman"
+    - "Pabst, GL & K"
+    - "Condie"
+    - "Mayo"
+    - "Asbury"
+    - "Lee"
+    - "Morley"
+    - "Briggs"
+    - "Turner"
 
 text_announcements:
   - title: "Primary Pioneer Day Celebration"
