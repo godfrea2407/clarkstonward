@@ -48,19 +48,24 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, August 1, 2026"
-  leader: "Pabst"
+  date:   "Saturday, August 15, 2026"
+  leader: "Cornell"
   families:
-    - "Pabst, GL & K"
-    - "Condie"
-    - "Mayo"
-    - "Asbury"
-    - "Lee"
-    - "Morley"
-    - "Briggs"
-    - "Turner"
+    - "Allen, J&D"
+    - "Forsyth"
+    - "Johnson"
+    - "Locke"
+    - "McCampbell"
+    - "McLean"
+    - "Mulligan"
+    - "Ostrom"
+    - "Taylor-Ellis"
+    - "Vos"
 
 text_announcements:
+  - title: "Primary Pioneer Day Celebration"
+    body: "This Saturday, July 25, from 2:00–3:30 p.m., Primary will celebrate Pioneer Day at the church. Join us for pioneer games! Feel free to wear pioneer clothing, and come ready to have fun. Refreshments will be served."
+
   - title: "Ward Temple Night"
     body: "Beginning this month, Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
 
