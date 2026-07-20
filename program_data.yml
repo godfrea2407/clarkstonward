@@ -1,9 +1,9 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes smoke publish 2026-07-17 for Sunday 2026-07-19
+# Hermes publish 2026-07-19 for Sunday 2026-07-26
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, July 19, 2026"
+date: "Sunday, July 26, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
@@ -14,51 +14,53 @@ officers:
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 301
-    hymn_title:  "I Am a Child of God"
+    hymn_number: 30
+    hymn_title:  "Come, Come, Ye Saints"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 191
-    hymn_title:  "Behold the Great Redeemer Die"
+    hymn_number: 181
+    hymn_title:  "Jesus of Nazareth, Savior and King"
 
   - role:   "Administration of Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Duncan Ruby"
+    person: "Bro. Rex Corless"
 
   - role:   "Speaker"
-    person: "Sis. Alisha Johnson"
+    person: "Sis. Nan Lichtenberg (Stake Companion Speaker)"
 
   - role:        "Intermediate Hymn"
-    hymn_number: 124
-    hymn_title:  "Be Still, My Soul"
+    hymn_number: 36
+    hymn_title:  "They, the Builders of the Nation"
 
   - role:   "Speaker"
-    person: "Bro. GL Pabst"
+    person: "Sis. Kaye Sommer (Stake Primary 1st Counselor)"
 
   - role:        "Closing Hymn"
-    hymn_number: 78
-    hymn_title:  "God of Our Fathers, Whose Almighty Hand"
+    hymn_number: 122
+    hymn_title:  "Though Deepening Trials"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, August 1, 2026"
-  leader: "Pabst"
+  date:   "Saturday, August 15, 2026"
+  leader: "Cornell"
   families:
-    - "Pabst, GL & K"
-    - "Condie"
-    - "Mayo"
-    - "Asbury"
-    - "Lee"
-    - "Morley"
-    - "Briggs"
-    - "Turner"
+    - "Allen, J&D"
+    - "Forsyth"
+    - "Johnson"
+    - "Locke"
+    - "McCampbell"
+    - "McLean"
+    - "Mulligan"
+    - "Ostrom"
+    - "Taylor-Ellis"
+    - "Vos"
 
 text_announcements:
   - title: "Primary Pioneer Day Celebration"
