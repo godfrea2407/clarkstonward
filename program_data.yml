@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-07-25 — cleaning → Pabst 8/1 (Adam); Sunday 2026-07-26
+# Hermes publish 2026-07-25 — speaker label polish; Sunday 2026-07-26
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, July 26, 2026"
@@ -31,14 +31,14 @@ program:
     person: "Bro. Rex Corless"
 
   - role:   "Speaker"
-    person: "Sis. Nan Lichtenberg (Stake Companion Speaker)"
+    person: "Sis. Nan Lichtenberg"
 
   - role:        "Intermediate Hymn"
     hymn_number: 36
     hymn_title:  "They, the Builders of the Nation"
 
   - role:   "Speaker"
-    person: "Sis. Kaye Sommer (Stake Primary 1st Counselor)"
+    person: "Sis. Kaye Sommer, Stake Primary 1st Counselor"
 
   - role:        "Closing Hymn"
     hymn_number: 122
