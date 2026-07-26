@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-07-25 — drop expired Pioneer Day; Sunday 2026-07-26
+# Hermes publish 2026-07-25 — cleaning → Pabst 8/1 (Adam); Sunday 2026-07-26
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, July 26, 2026"
@@ -48,19 +48,17 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, August 15, 2026"
-  leader: "Cornell"
+  date:   "Saturday, August 1, 2026"
+  leader: "Pabst"
   families:
-    - "Allen, J&D"
-    - "Forsyth"
-    - "Johnson"
-    - "Locke"
-    - "McCampbell"
-    - "McLean"
-    - "Mulligan"
-    - "Ostrom"
-    - "Taylor-Ellis"
-    - "Vos"
+    - "Pabst, GL & K"
+    - "Condie"
+    - "Mayo"
+    - "Asbury"
+    - "Lee"
+    - "Morley"
+    - "Briggs"
+    - "Turner"
 
 text_announcements:
   - title: "Ward Temple Night"
