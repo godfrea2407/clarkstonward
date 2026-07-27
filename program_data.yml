@@ -1,64 +1,56 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-07-25 — speaker label polish; Sunday 2026-07-26
+# Hermes publish 2026-07-27 — Fast Sunday 2026-08-02
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, July 26, 2026"
+date: "Sunday, August 2, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Wilson"
-  conducting: "Bishop Wilson"
+  conducting: "Bro. Brock Seibold, First Counselor"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 30
-    hymn_title:  "Come, Come, Ye Saints"
+    hymn_number: 1001
+    hymn_title:  "Come, Thou Fount of Every Blessing"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 181
-    hymn_title:  "Jesus of Nazareth, Savior and King"
+    hymn_number: 1007
+    hymn_title:  "As Bread Is Broken"
 
   - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Speaker"
-    person: "Bro. Rex Corless"
-
-  - role:   "Speaker"
-    person: "Sis. Nan Lichtenberg"
-
-  - role:        "Intermediate Hymn"
-    hymn_number: 36
-    hymn_title:  "They, the Builders of the Nation"
-
-  - role:   "Speaker"
-    person: "Sis. Kaye Sommer, Stake Primary 1st Counselor"
+  - role:   "Bearing of Testimonies"
+    person: "The congregation is invited to bear brief testimonies"
 
   - role:        "Closing Hymn"
-    hymn_number: 122
-    hymn_title:  "Though Deepening Trials"
+    hymn_number: 1032
+    hymn_title:  "Look unto Christ"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, August 1, 2026"
-  leader: "Pabst"
+  date:   "Saturday, August 15, 2026"
+  leader: "Cornell"
   families:
-    - "Pabst, GL & K"
-    - "Condie"
-    - "Mayo"
-    - "Asbury"
-    - "Lee"
-    - "Morley"
-    - "Briggs"
-    - "Turner"
+    - "Allen, J&D"
+    - "Forsyth"
+    - "Johnson"
+    - "Locke"
+    - "McCampbell"
+    - "McLean"
+    - "Mulligan"
+    - "Ostrom"
+    - "Taylor-Ellis"
+    - "Vos"
 
 text_announcements:
   - title: "Ward Temple Night"
