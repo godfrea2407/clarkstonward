@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-07-27 — Fast Sunday 2026-08-02; conducting→Bishop; cleaning Team10 Cornell 8/15
+# Hermes publish 2026-07-27 — Fast Sunday 2026-08-02; conducting→Bishop; cleaning Team13 Harrison 9/5 (Sep Clarkston; skip Aug teams)
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, August 2, 2026"
@@ -38,19 +38,16 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, August 15, 2026"
-  leader: "Cornell"
+  date:   "Saturday, September 5, 2026"
+  leader: "Harrison"
   families:
-    - "Allen, J&D"
-    - "Forsyth"
-    - "Johnson"
-    - "Locke"
-    - "McCampbell"
-    - "McLean"
-    - "Mulligan"
-    - "Ostrom"
-    - "Taylor-Ellis"
-    - "Vos"
+    - "Godfrey"
+    - "Bell, Z & C"
+    - "Zundel"
+    - "Warren"
+    - "Mickle"
+    - "Bean"
+    - "Crisp"
 
 text_announcements:
   - title: "Ward Temple Night"
