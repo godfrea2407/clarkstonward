@@ -1,9 +1,9 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-07-27 — Fast Sunday 2026-08-02; conducting→Bishop; cleaning Team13 Harrison 9/5 (Sep Clarkston; skip Aug teams)
+# Hermes publish 2026-08-06 — Sunday 2026-08-09; cleaning Team11 Lichtenberg 8/22 (≥7d; skip Cornell 8/15)
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, August 2, 2026"
+date: "Sunday, August 9, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
@@ -14,42 +14,59 @@ officers:
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 1001
-    hymn_title:  "Come, Thou Fount of Every Blessing"
+    hymn_number: 239
+    hymn_title:  "Choose the Right"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 1007
-    hymn_title:  "As Bread Is Broken"
+    hymn_number: 182
+    hymn_title:  "We'll Sing All Hail to Jesus' Name"
 
   - role:   "Administration of Sacrament"
     person: ""
 
-  - role:   "Bearing of Testimonies"
-    person: "The congregation is invited to bear brief testimonies"
+  - role:   "Speaker"
+    person: "Sis. Savannah Seibold"
+
+  - role:   "Speaker"
+    person: "Elder Jensen"
+
+  - role:        "Intermediate Hymn"
+    hymn_number: 249
+    hymn_title:  "Called to Serve"
+
+  - role:   "Speaker"
+    person: "Elder Kahuhu"
 
   - role:        "Closing Hymn"
-    hymn_number: 1032
-    hymn_title:  "Look unto Christ"
+    hymn_number: 100
+    hymn_title:  "Nearer, My God, to Thee"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, September 5, 2026"
-  leader: "Harrison"
+  date:   "Saturday, August 22, 2026"
+  leader: "Lichtenberg"
   families:
-    - "Godfrey"
-    - "Bell, Z & C"
-    - "Zundel"
-    - "Warren"
-    - "Mickle"
-    - "Bean"
-    - "Crisp"
+    - "Carss"
+    - "Fairbanks, A&K"
+    - "Anderson-Grether"
+    - "Wilson, P&T"
+    - "Fairbanks, S&C"
+    - "Francisco"
+    - "Harsch, R&V"
+    - "Harsch, Will"
+    - "Keith"
+    - "Strate"
+    - "Powell, C&K"
 
 text_announcements:
+  - title: "Family History & Temple Work Lunch and Learn"
+    body: "Saturday, August 22, 2026, from 10:00 a.m. to 2:00 p.m. at the Farmington Hills Stake Center. The Commerce Ward Temple and Family History Committee invites all Farmington Hills Stake members — beginners and experienced researchers alike. Classes may include first steps in temple and family history, digitizing photos and documents, family spotlights, and family storybooks. Please bring your own lunch and a laptop or tablet with internet access if available."
+
   - title: "Ward Temple Night"
     body: "Beginning this month, Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
 
