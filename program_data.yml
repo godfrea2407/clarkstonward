@@ -1,14 +1,14 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-08-08 — full reship Sunday 2026-08-09; Brock Seibold preside+conduct (Wilson out next 2); RS/YW flyer
+# Hermes publish 2026-08-08 — full reship Sunday 2026-08-09; Brock Seibold, 1st Counselor + Ward/Stake Business (Wilson out next 2); RS/YW flyer
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, August 9, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
-  presiding:  "Bro. Brock Seibold"
-  conducting: "Bro. Brock Seibold"
+  presiding:  "Bro. Brock Seibold, 1st Counselor"
+  conducting: "Bro. Brock Seibold, 1st Counselor"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
@@ -19,6 +19,9 @@ program:
 
   - role:   "Invocation"
     person: "By Invitation"
+
+  - role:   "Ward or Stake Business"
+    person: "Bro. Brock Seibold, 1st Counselor"
 
   - role:        "Sacrament Hymn"
     hymn_number: 182
