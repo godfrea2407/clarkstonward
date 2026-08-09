@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-08-06 — Sunday 2026-08-09; cleaning Team11 Lichtenberg 8/22 (≥7d; skip Cornell 8/15)
+# Hermes publish 2026-08-08 — Sunday 2026-08-09; +RS/YW FamilySearch activity Sep 26
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, August 9, 2026"
@@ -79,6 +79,9 @@ text_announcements:
 
   - title: "Relief Society Stake Temple Day"
     body: "All sisters are invited to the Farmington Hills Stake Relief Society Temple Day on Saturday, September 19, 2026. Watch for the invitation flyer with details, and plan to attend!"
+
+  - title: "Relief Society & Young Women FamilySearch Activity"
+    body: "Saturday, September 26, 2026, from 10:00 a.m. to noon at the Clarkston church building. Young Women and Relief Society join for a morning of discovering family through FamilySearch — refreshments, a devotional, companionship, music, and learning as we discover the divine design in our families. Laptops will be provided; feel free to bring your own. For daycare, contact Sis. Leelannee Godfrey or Sis. Nancy Castro."
 
   - banner: "Ward Temple and Family History Plan"
     body: "DISCOVER — Find out who your family members are.\nGATHER — Collect names and information of family members and ancestors and add them to your family tree.\nUNITE — Attend the Temple. Unite yourself and your ancestors to the Lord. Seal families together for eternity.\n\nWard Temple and Family History Leader: Bro. John Tremonti — jtcarwash@comcast.net"
