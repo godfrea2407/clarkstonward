@@ -39,6 +39,7 @@ def esc(s: str) -> str:
 CENTERED_ROLES = {
     "Blessing & Passing of the Sacrament",
     "Administration of Sacrament",
+    "Administration of the Sacrament",
     "Program as Directed by the Stake Presidency",
 }
 # Roles rendered centered bold with person text appended after em-dash
