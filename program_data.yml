@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-08-08 — full reship Sunday 2026-08-09; Brock Seibold, 1st Counselor + Ward/Stake Business (Wilson out next 2); RS/YW flyer
+# Hermes publish 2026-08-08 — full reship Sunday 2026-08-09; Brock 1st Counselor; Ward/Stake Business; Admin of the Sacrament; cleaning Team3 Greve 10/3 (+Godfrey)
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, August 9, 2026"
@@ -27,7 +27,7 @@ program:
     hymn_number: 182
     hymn_title:  "We'll Sing All Hail to Jesus' Name"
 
-  - role:   "Administration of Sacrament"
+  - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
@@ -51,20 +51,18 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, August 22, 2026"
-  leader: "Lichtenberg"
+  date:   "Saturday, October 3, 2026"
+  leader: "Greve"
   families:
-    - "Carss"
-    - "Fairbanks, A&K"
-    - "Anderson-Grether"
-    - "Wilson, P&T"
-    - "Fairbanks, S&C"
-    - "Francisco"
-    - "Harsch, R&V"
-    - "Harsch, Will"
-    - "Keith"
-    - "Strate"
-    - "Powell, C&K"
+    - "Price"
+    - "Mora"
+    - "Peatross"
+    - "Barrett, K&D"
+    - "Villereal"
+    - "Jones"
+    - "Marceau"
+    - "Matsura"
+    - "Godfrey"
 
 text_announcements:
   - title: "Family History & Temple Work Lunch and Learn"
