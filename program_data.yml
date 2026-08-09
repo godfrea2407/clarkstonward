@@ -1,14 +1,14 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-08-08 — full reship Sunday 2026-08-09; proper generate_program.py + RS/YW flyer
+# Hermes publish 2026-08-08 — full reship Sunday 2026-08-09; Brock Seibold preside+conduct (Wilson out next 2); RS/YW flyer
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, August 9, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
-  presiding:  "Bishop Wilson"
-  conducting: "Bishop Wilson"
+  presiding:  "Bro. Brock Seibold"
+  conducting: "Bro. Brock Seibold"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
