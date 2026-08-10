@@ -1,9 +1,9 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-08-08 — full reship Sunday 2026-08-09; Brock 1st Counselor; Ward/Stake Business; Admin of the Sacrament; cleaning Team3 Greve 10/3 (+Godfrey)
+# Hermes publish 2026-08-10 — Sunday 2026-08-16; Brock 1st Counselor (Wilson out); Ward/Stake Business; cleaning Team12 High 8/29
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, August 9, 2026"
+date: "Sunday, August 16, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
@@ -14,8 +14,8 @@ officers:
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 239
-    hymn_title:  "Choose the Right"
+    hymn_number: 241
+    hymn_title:  "Count Your Blessings"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -24,45 +24,47 @@ program:
     person: "Bro. Brock Seibold, 1st Counselor"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 182
-    hymn_title:  "We'll Sing All Hail to Jesus' Name"
+    hymn_number: 172
+    hymn_title:  "In Humility, Our Savior"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Sis. Savannah Seibold"
+    person: "Bro. Griffin Johnson"
 
   - role:   "Speaker"
-    person: "Elder Jensen"
+    person: "Sis. Nancy Castro"
 
   - role:        "Intermediate Hymn"
-    hymn_number: 249
-    hymn_title:  "Called to Serve"
+    hymn_number: 125
+    hymn_title:  "How Gentle God's Commands"
 
   - role:   "Speaker"
-    person: "Elder Kahuhu"
+    person: "Sis. Emily Christensen"
 
   - role:        "Closing Hymn"
-    hymn_number: 100
-    hymn_title:  "Nearer, My God, to Thee"
+    hymn_number: 228
+    hymn_title:  "You Can Make the Pathway Bright"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, October 3, 2026"
-  leader: "Greve"
+  date:   "Saturday, August 29, 2026"
+  leader: "High"
   families:
-    - "Price"
-    - "Mora"
-    - "Peatross"
-    - "Barrett, K&D"
-    - "Villereal"
-    - "Jones"
-    - "Marceau"
-    - "Matsura"
-    - "Godfrey"
+    - "Boling, D&R"
+    - "Boling, P&V"
+    - "Breen"
+    - "Heil"
+    - "Jackson"
+    - "Malcolm"
+    - "Miles"
+    - "Neumann"
+    - "Ryan"
+    - "Troger"
+    - "Wharton"
 
 text_announcements:
   - title: "Family History & Temple Work Lunch and Learn"
@@ -84,7 +86,7 @@ text_announcements:
   - title: "Relief Society & Young Women FamilySearch Activity"
     body: "Saturday, September 26, 2026, from 10:00 a.m. to noon at the Clarkston church building. Young Women and Relief Society join for a morning of discovering family through FamilySearch. Laptops provided; bring your own if you prefer. Daycare: Sis. Leelannee Godfrey or Sis. Nancy Castro."
 
-  - image: "images/discover-family-with-me.jpg"
+  - image: "/images/discover-family-with-me.jpg"
     alt: "Discover Family With Me — Relief Society and Young Women FamilySearch activity, Saturday September 26, 2026, 10 a.m.–noon, Clarkston building"
 
   - banner: "Ward Temple and Family History Plan"
