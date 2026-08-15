@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-08-10 — Sunday 2026-08-16; Brock 1st Counselor (Wilson out); Ward/Stake Business; cleaning Team12 High 8/29
+# Hermes publish 2026-08-10 — Sunday 2026-08-16; Brock 1st Counselor (Wilson out); Ward/Stake Business; cleaning Team13 Harrison 9/5 Godfrey
 # Mid-week add 2026-08-15 — Light of the World RS Christmas Workshop save-the-date (Oct 10) only; no rebuild of hymns/speakers/officers/cleaning
 # ─────────────────────────────────────────────────────────────────────────────────
 
@@ -52,20 +52,16 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, August 29, 2026"
-  leader: "High"
+  date:   "Saturday, September 5, 2026"
+  leader: "Harrison"
   families:
-    - "Boling, D&R"
-    - "Boling, P&V"
-    - "Breen"
-    - "Heil"
-    - "Jackson"
-    - "Malcolm"
-    - "Miles"
-    - "Neumann"
-    - "Ryan"
-    - "Troger"
-    - "Wharton"
+    - "Godfrey"
+    - "Bell Z & C"
+    - "Zundel"
+    - "Warren"
+    - "Mickle"
+    - "Bean"
+    - "Crisp"
 
 text_announcements:
   - title: "Family History & Temple Work Lunch and Learn"
