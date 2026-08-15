@@ -80,7 +80,10 @@ def render_text_announcements(items: list) -> str:
     parts = []
     for item in items:
         if "image" in item:
-            img = esc(item.get("image", ""))
+            img = item.get("image", "") or ""
+            if img.startswith("/"):
+                img = img.lstrip("/")  # GitHub Pages is /clarkstonward, not domain root
+            img = esc(img)
             alt = esc(item.get("alt", ""))
             parts.append(f'      <div class="ann-block"><img class="flyer" src="{img}" alt="{alt}" /></div>')
             continue
@@ -101,7 +104,10 @@ def render_text_announcements(items: list) -> str:
 def render_events(events: list) -> str:
     parts = []
     for ev in events:
-        img = esc(ev.get("image", ""))
+        img = ev.get("image", "") or ""
+        if img.startswith("/"):
+            img = img.lstrip("/")
+        img = esc(img)
         alt = esc(ev.get("alt", ""))
         parts.append(f'      <div class="ann-block"><img class="flyer" src="{img}" alt="{alt}" /></div>')
     return "\n".join(parts)
