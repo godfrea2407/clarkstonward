@@ -1,6 +1,7 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
 # Hermes publish 2026-08-10 — Sunday 2026-08-16; Brock 1st Counselor (Wilson out); Ward/Stake Business; cleaning Team12 High 8/29
+# Mid-week add 2026-08-15 — Light of the World RS Christmas Workshop save-the-date (Oct 10) only; no rebuild of hymns/speakers/officers/cleaning
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, August 16, 2026"
@@ -88,6 +89,12 @@ text_announcements:
 
   - image: "/images/discover-family-with-me.jpg"
     alt: "Discover Family With Me — Relief Society and Young Women FamilySearch activity, Saturday September 26, 2026, 10 a.m.–noon, Clarkston building"
+
+  - title: "Light of the World — Relief Society Christmas Workshop"
+    body: "Combined Clarkston and White Lake Wards. Saturday, October 10, 9:00 a.m. to 1:30 p.m. Save the date. More information coming shortly."
+
+  - image: "/images/light-of-the-world.png"
+    alt: "Light of the World — Relief Society Christmas Workshop save-the-date flyer. Combined Clarkston and White Lake Wards, Saturday October 10, 9:00 a.m. to 1:30 p.m."
 
   - banner: "Ward Temple and Family History Plan"
     body: |
