@@ -1,53 +1,51 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Hermes publish 2026-08-10 — Sunday 2026-08-16; Brock 1st Counselor (Wilson out); Ward/Stake Business; cleaning Team13 Harrison 9/5 Godfrey
-# Mid-week add 2026-08-15 — Light of the World RS Christmas Workshop save-the-date (Oct 10) only; no rebuild of hymns/speakers/officers/cleaning
-# Mid-week add 2026-08-20 — announcements + flyers only (Youth Music Festival details, Winter Clothing Giveaway, Young Married Couples Class, Emotional Resilience class, Keith Erekson Oct 10–11); no rebuild of hymns/speakers/officers/cleaning
+# Publish 2026-08-20 — Sunday 2026-08-23 from Master List (updated 08/20/2026)
+# Meeting: Bishop Wilson preside; Bro. Brock Seibold conduct; speakers Spencer Wilson, Ashlynn Majeske, Kimberly Majewske (Stake YWP)
+# Announcements kept from mid-week 2026-08-20 add (Youth Music Festival, Winter Clothing, Young Married, Emotional Resilience, Keith Erekson)
+# Cleaning unchanged: Team 13 Harrison Saturday September 5
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, August 16, 2026"
+date: "Sunday, August 23, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
-  presiding:  "Bro. Brock Seibold, 1st Counselor"
-  conducting: "Bro. Brock Seibold, 1st Counselor"
+  presiding:  "Bishop Mike Wilson"
+  conducting: "Bro. Brock Seibold"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 241
-    hymn_title:  "Count Your Blessings"
+    hymn_number: 224
+    hymn_title:  "I Have Work Enough to Do"
 
   - role:   "Invocation"
     person: "By Invitation"
 
-  - role:   "Ward or Stake Business"
-    person: "Bro. Brock Seibold, 1st Counselor"
-
   - role:        "Sacrament Hymn"
-    hymn_number: 172
-    hymn_title:  "In Humility, Our Savior"
+    hymn_number: 193
+    hymn_title:  "I Stand All Amazed"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Griffin Johnson"
+    person: "Bro. Spencer Wilson"
 
   - role:   "Speaker"
-    person: "Sis. Nancy Castro"
+    person: "Sis. Ashlynn Majeske"
 
   - role:        "Intermediate Hymn"
-    hymn_number: 125
-    hymn_title:  "How Gentle God's Commands"
+    hymn_number: 237
+    hymn_title:  "Do What Is Right"
 
   - role:   "Speaker"
-    person: "Sis. Emily Christensen"
+    person: "Sis. Kimberly Majewske (Stake YWP)"
 
   - role:        "Closing Hymn"
-    hymn_number: 228
-    hymn_title:  "You Can Make the Pathway Bright"
+    hymn_number: 303
+    hymn_title:  "Keep the Commandments"
 
   - role:   "Benediction"
     person: "By Invitation"
