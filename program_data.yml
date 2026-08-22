@@ -1,7 +1,7 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
 # Publish 2026-08-20 — Sunday 2026-08-23 from Master List (updated 08/20/2026)
-# Meeting: Bishop Wilson preside; Bro. Brock Seibold conduct; speakers Spencer Wilson, Ashlynn Majeske, Kimberly Majewske (Stake YWP)
+# Meeting: Bishop Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct (+ Ward/Stake Business); speakers Spencer Wilson, Ashlynn Majeske, Kimberly Majewske (Stake YWP)
 # Announcements kept from mid-week 2026-08-20 add (Youth Music Festival, Winter Clothing, Young Married, Emotional Resilience, Keith Erekson)
 # Cleaning unchanged: Team 13 Harrison Saturday September 5
 # ─────────────────────────────────────────────────────────────────────────────────
@@ -11,7 +11,7 @@ time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Mike Wilson"
-  conducting: "Bro. Tim Morley"
+  conducting: "Bro. Tim Morley, Bishopric 2nd Counselor"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
@@ -22,6 +22,9 @@ program:
 
   - role:   "Invocation"
     person: "By Invitation"
+
+  - role:   "Ward or Stake Business"
+    person: "Bro. Tim Morley, Bishopric 2nd Counselor"
 
   - role:        "Sacrament Hymn"
     hymn_number: 193
