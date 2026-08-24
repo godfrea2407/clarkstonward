@@ -1,54 +1,54 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Publish 2026-08-20 — Sunday 2026-08-23 from Master List (updated 08/20/2026)
-# Meeting: Bishop Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct (+ Ward/Stake Business); speakers Spencer Wilson, Ashlynn Majeske, Kimberly Majewske (Stake YWP)
-# Mid-week delta 2026-08-22: dropped expired Aug 22 Lunch & Learn + Youth Music Festival. Kept Winter Clothing, Young Married, Emotional Resilience, Keith Erekson, etc.
-# Cleaning unchanged: Team 13 Harrison Saturday September 5
+# Monday draft 2026-08-24 — Sunday 2026-08-30 from Master List (Last Updated 08/24/2026)
+# Bishop Mike Wilson preside; Bro. Brock Seibold, Bishopric 1st Counselor conduct + Ward/Stake Business
+# Speakers Jaxon Seibold, Ken Allred, Andrew Wilson; hymns 266, 1043, 287, 72
+# Cleaning Team 13 Harrison Saturday September 5 (next Godfrey Saturday after Aug 30)
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, August 23, 2026"
+date: "Sunday, August 30, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Mike Wilson"
-  conducting: "Bro. Tim Morley, Bishopric 2nd Counselor"
+  conducting: "Bro. Brock Seibold, Bishopric 1st Counselor"
   chorister:  "Sis. Laura Allen"
   pianist:    "Sister Laura Zundel"
 
 program:
   - role:        "Opening Hymn"
-    hymn_number: 224
-    hymn_title:  "I Have Work Enough to Do"
+    hymn_number: 266
+    hymn_title:  "The Time Is Far Spent"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:   "Ward or Stake Business"
-    person: "Bro. Tim Morley, Bishopric 2nd Counselor"
+    person: "Bro. Brock Seibold, Bishopric 1st Counselor"
 
   - role:        "Sacrament Hymn"
-    hymn_number: 193
-    hymn_title:  "I Stand All Amazed"
+    hymn_number: 1043
+    hymn_title:  "Help Us Remember"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Spencer Wilson"
+    person: "Bro. Jaxon Seibold"
 
   - role:   "Speaker"
-    person: "Sis. Ashlynn Majeske"
+    person: "Bro. Ken Allred"
 
   - role:        "Intermediate Hymn"
-    hymn_number: 237
-    hymn_title:  "Do What Is Right"
+    hymn_number: 287
+    hymn_title:  "Rise, Ye Saints, and Temples Enter"
 
   - role:   "Speaker"
-    person: "Sis. Kimberly Majewske (Stake YWP)"
+    person: "Bro. Andrew Wilson"
 
   - role:        "Closing Hymn"
-    hymn_number: 303
-    hymn_title:  "Keep the Commandments"
+    hymn_number: 72
+    hymn_title:  "Praise to the Lord, the Almighty"
 
   - role:   "Benediction"
     person: "By Invitation"
@@ -95,10 +95,10 @@ text_announcements:
     alt: "Winter Clothing Giveaway — Farmington Hills Stake Center, 33900 13 Mile Rd. Friday October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only); Saturday October 17, 9:00 a.m.–noon (open to the public)."
 
   - title: "Young Married Couples Class"
-    body: "Ann Arbor Institute, 914 Hill St. Young married couples ages 18–35. Friday nights August 28, September 25, and October 30: dinner 6:00–6:30, lesson 6:30–7:30, games 7:30–8:30. Contact Brother Scott Grimes, grimessm@churchofjesuschrist.org."
+    body: "Ann Arbor Institute, 914 Hill St. Young married couples ages 18–35. Friday nights September 25 and October 30: dinner 6:00–6:30, lesson 6:30–7:30, games 7:30–8:30. Contact Brother Scott Grimes, grimessm@churchofjesuschrist.org."
 
   - image: "/images/young-married-couples.png"
-    alt: "Young Married Couples Class — Ann Arbor Institute, 914 Hill St. Friday nights August 28, September 25, and October 30, 2026."
+    alt: "Young Married Couples Class — Ann Arbor Institute, 914 Hill St. Friday nights September 25 and October 30, 2026."
 
   - title: "Finding Strength in the Lord — Emotional Resilience Class"
     body: "Weekly Zoom class beginning Sunday, September 13, 2026, through November 15, 6:30–8:00 p.m. To join, email Sister Rebecca Behrends at sisterrbehrends@gmail.com with name, email, cell, and ward. Course manual required from the Church store."
