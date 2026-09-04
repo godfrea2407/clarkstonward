@@ -3,7 +3,7 @@
 # Publish 2026-09-04 — Sunday 2026-09-06 Fast Sunday from Master List (Last Updated 09/04/2026)
 # Bishop Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
 # Hymns / chorister / pianist TBA (sheet blank); testimonies only, no intermediate
-# Cleaning Team 13 Harrison Saturday December 12, 2026 (next Godfrey Saturday after Sep 6; Sep 5 was prior)
+# Cleaning Team 14 Seibold Saturday September 12, 2026 (Adam override for this Sunday)
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, September 6, 2026"
@@ -41,16 +41,16 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, December 12, 2026"
-  leader: "Harrison"
+  date:   "Saturday, September 12, 2026"
+  leader: "Seibold"
   families:
-    - "Godfrey"
-    - "Bell Z & C"
-    - "Zundel"
-    - "Warren"
-    - "Mickle"
-    - "Bean"
-    - "Crisp"
+    - "Seibold T&K"
+    - "Abell"
+    - "Wilson"
+    - "Jenkins"
+    - "Castro"
+    - "Barrett B"
+
 
 text_announcements:
   - title: "Ward Temple Night"
