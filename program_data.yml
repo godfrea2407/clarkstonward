@@ -1,60 +1,47 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Monday draft 2026-08-24 — Sunday 2026-08-30 from Master List (Last Updated 08/24/2026)
-# Bishop Mike Wilson preside; Bro. Brock Seibold, Bishopric 1st Counselor conduct + Ward/Stake Business
-# Speakers Jaxon Seibold, Ken Allred, Andrew Wilson; hymns 266, 1043, 287, 72
-# Cleaning Team 13 Harrison Saturday September 5 (next Godfrey Saturday after Aug 30)
+# Publish 2026-09-04 — Sunday 2026-09-06 Fast Sunday from Master List (Last Updated 09/04/2026)
+# Bishop Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
+# Hymns / chorister / pianist TBA (sheet blank); testimonies only, no intermediate
+# Cleaning Team 13 Harrison Saturday December 12, 2026 (next Godfrey Saturday after Sep 6; Sep 5 was prior)
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, August 30, 2026"
+date: "Sunday, September 6, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Mike Wilson"
-  conducting: "Bro. Brock Seibold, Bishopric 1st Counselor"
-  chorister:  "Sis. Laura Allen"
-  pianist:    "Sister Laura Zundel"
+  conducting: "Bro. Tim Morley, Bishopric 2nd Counselor"
+  chorister:  "TBA"
+  pianist:    "TBA"
 
 program:
-  - role:        "Opening Hymn"
-    hymn_number: 266
-    hymn_title:  "The Time Is Far Spent"
+  - role:   "Opening Hymn"
+    person: "TBA"
 
   - role:   "Invocation"
     person: "By Invitation"
 
   - role:   "Ward or Stake Business"
-    person: "Bro. Brock Seibold, Bishopric 1st Counselor"
+    person: "Bro. Tim Morley, Bishopric 2nd Counselor"
 
-  - role:        "Sacrament Hymn"
-    hymn_number: 1043
-    hymn_title:  "Help Us Remember"
+  - role:   "Sacrament Hymn"
+    person: "TBA"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
-  - role:   "Speaker"
-    person: "Bro. Jaxon Seibold"
+  - role:   "Testimonies"
+    person: ""
 
-  - role:   "Speaker"
-    person: "Bro. Ken Allred"
-
-  - role:        "Intermediate Hymn"
-    hymn_number: 287
-    hymn_title:  "Rise, Ye Saints, and Temples Enter"
-
-  - role:   "Speaker"
-    person: "Bro. Andrew Wilson"
-
-  - role:        "Closing Hymn"
-    hymn_number: 72
-    hymn_title:  "Praise to the Lord, the Almighty"
+  - role:   "Closing Hymn"
+    person: "TBA"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, September 5, 2026"
+  date:   "Saturday, December 12, 2026"
   leader: "Harrison"
   families:
     - "Godfrey"
