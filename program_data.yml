@@ -2,7 +2,7 @@
 # Clarkston Ward – Weekly Sacrament Program Data
 # Publish 2026-09-04 — Sunday 2026-09-06 Fast Sunday from Master List (Last Updated 09/04/2026)
 # Bishop Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
-# Hymns / chorister / pianist TBA (sheet blank); testimonies only, no intermediate
+# Hymns 274 / 194 / 259; chorister / pianist TBA; testimonies only, no intermediate
 # Cleaning Team 14 Seibold Saturday September 12, 2026 (Adam override for this Sunday)
 # ─────────────────────────────────────────────────────────────────────────────────
 
@@ -16,8 +16,9 @@ officers:
   pianist:    "TBA"
 
 program:
-  - role:   "Opening Hymn"
-    person: "TBA"
+  - role:        "Opening Hymn"
+    hymn_number: 274
+    hymn_title:  "The Iron Rod"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -25,8 +26,9 @@ program:
   - role:   "Ward or Stake Business"
     person: "Bro. Tim Morley, Bishopric 2nd Counselor"
 
-  - role:   "Sacrament Hymn"
-    person: "TBA"
+  - role:        "Sacrament Hymn"
+    hymn_number: 194
+    hymn_title:  "There Is a Green Hill Far Away"
 
   - role:   "Administration of the Sacrament"
     person: ""
@@ -34,8 +36,9 @@ program:
   - role:   "Testimonies"
     person: ""
 
-  - role:   "Closing Hymn"
-    person: "TBA"
+  - role:        "Closing Hymn"
+    hymn_number: 259
+    hymn_title:  "Hope of Israel"
 
   - role:   "Benediction"
     person: "By Invitation"
