@@ -1,9 +1,9 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Monday draft 2026-09-06 — Sunday 2026-09-13 from Master List (Last Updated 09/06/2026)
+# Monday draft 2026-09-07 — Sunday 2026-09-13 from Master List (Last Updated 09/07/2026)
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
 # Speakers Xavier Abell, Ken Barrett, Tanner Bean; hymns / chorister / pianist TBA
-# Cleaning Team 1 Sommer Saturday September 19, 2026
+# Cleaning Team 13 Harrison Saturday December 12, 2026 (skip WL Sommer Sep 19)
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, September 13, 2026"
@@ -50,20 +50,16 @@ program:
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, September 19, 2026"
-  leader: "Sommer"
+  date:   "Saturday, December 12, 2026"
+  leader: "Harrison"
   families:
-    - "Andrew"
-    - "Armstrong"
-    - "Belliston"
-    - "Burkart"
-    - "Davies"
-    - "Grubaugh"
-    - "Harding"
-    - "Lowrey-Danic"
-    - "Serote"
-    - "Solocinski"
-    - "Stimbert"
+    - "Godfrey"
+    - "Bell Z & C"
+    - "Zundel"
+    - "Warren"
+    - "Mickle"
+    - "Bean"
+    - "Crisp"
 
 text_announcements:
   - title: "Ward Temple Night"
@@ -79,25 +75,25 @@ text_announcements:
   - title: "Relief Society & Young Women FamilySearch Activity"
     body: "Saturday, September 26, 2026, from 10:00 a.m. to noon at the Clarkston church building. Young Women and Relief Society join for a morning of discovering family through FamilySearch. Laptops provided; bring your own if you prefer. Daycare: Sis. Leelannee Godfrey or Sis. Nancy Castro."
 
-  - image: "/images/discover-family-with-me.jpg"
+  - image: "images/discover-family-with-me.jpg"
     alt: "Discover Family With Me — Relief Society and Young Women FamilySearch activity, Saturday September 26, 2026, 10 a.m.–noon, Clarkston building"
 
   - title: "Light of the World — Relief Society Christmas Workshop"
     body: "Combined Clarkston and White Lake Wards. Saturday, October 10, 9:00 a.m. to 1:30 p.m. Save the date. More information coming shortly."
 
-  - image: "/images/light-of-the-world.png"
+  - image: "images/light-of-the-world.png"
     alt: "Light of the World — Relief Society Christmas Workshop save-the-date flyer. Combined Clarkston and White Lake Wards, Saturday October 10, 9:00 a.m. to 1:30 p.m."
 
   - title: "Winter Clothing Giveaway"
     body: "Farmington Hills Stake Center, 33900 13 Mile Rd. Friday, October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only). Saturday, October 17, 9:00 a.m.–noon (open to the public). Coat drive through September 30 — bring lightly worn coats to church. Sign up to help: https://www.signupgenius.com/go/20F0E49ADA829A1F94-64959790-2026 Vouchers: fh.ward.mi@gmail.com"
 
-  - image: "/images/winter-clothing-giveaway.jpg"
+  - image: "images/winter-clothing-giveaway.jpg"
     alt: "Winter Clothing Giveaway — Farmington Hills Stake Center, 33900 13 Mile Rd. Friday October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only); Saturday October 17, 9:00 a.m.–noon (open to the public)."
 
   - title: "Young Married Couples Class"
     body: "Ann Arbor Institute, 914 Hill St. Young married couples ages 18–35. Friday nights September 25 and October 30: dinner 6:00–6:30, lesson 6:30–7:30, games 7:30–8:30. Contact Brother Scott Grimes, grimessm@churchofjesuschrist.org."
 
-  - image: "/images/young-married-couples.png"
+  - image: "images/young-married-couples.png"
     alt: "Young Married Couples Class — Ann Arbor Institute, 914 Hill St. Friday nights September 25 and October 30, 2026."
 
   - title: "Finding Strength in the Lord — Emotional Resilience Class"
@@ -106,7 +102,7 @@ text_announcements:
   - title: "Keith Erekson — October 10–11"
     body: "Farmington Hills Stake Center, 33900 Thirteen Mile Rd. Saturday, October 10: Seminary and Institute teacher training 10:00–11:30 a.m., stake leadership training 5:00–6:30 p.m., adult devotional 7:00–8:30 p.m. Sunday, October 11: youth devotional 6:00–7:30 p.m."
 
-  - image: "/images/keith-erekson.png"
+  - image: "images/keith-erekson.png"
     alt: "Keith Erekson — Farmington Hills Stake Center, October 10–11, 2026. Seminary and Institute teacher training, stake leadership training, adult and youth devotionals."
 
   - banner: "Ward Temple and Family History Plan"
