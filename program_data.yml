@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Monday draft 2026-09-07 — Sunday 2026-09-13 from Master List (Last Updated 09/07/2026)
+# Updated 2026-09-07 — ADD tithing declaration (Sep 13–Nov 8) + Linger Longer Sep 20
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
 # Speakers Xavier Abell, Ken Barrett, Tanner Bean; hymns / chorister / pianist TBA
 # Cleaning Team 13 Harrison Saturday December 12, 2026 (skip WL Sommer Sep 19)
@@ -62,7 +62,16 @@ building_cleaning:
     - "Crisp"
 
 text_announcements:
-  - title: "Ward Temple Night"
+  -   - title: "2026 Clarkston Ward Tithing Declaration"
+    body: "Tithing Declaration is occurring from September 13 – November 8; most Sundays after the meeting block and Thursday evenings. Please access the SignUp Genius to see available times and reserve a slot for your family: https://www.signupgenius.com/go/10C0B49A8AE2BAAFAC34-65479167-clarkston Please reach out to Brother Tanner Bean with any questions, or if you need assistance reserving a time."
+
+  - title: "Linger Longer"
+    body: "Please join us for an Apple Cider & Donuts Linger Longer on Sunday, September 20, at 11:15 a.m. at the pavilion. Cider and donuts will be provided."
+
+  - image: "images/linger-longer-sep20.png"
+    alt: "Apple Cider & Donuts Linger Longer — Sunday, September 20, 11:15 a.m., pavilion. Cider and donuts will be provided."
+
+title: "Ward Temple Night"
     body: "Beginning this month, Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
 
   - title: "Sunday Class Schedule Changes – September 2026"
