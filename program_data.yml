@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Updated 2026-09-11 — Leelannee Linger Longer flyer; lead Winter Clothing volunteers ahead of giveaway
+# Updated 2026-09-11 — CES Edventure Sep 16; linger cache-bust Leelannee flyer; highlight Winter Clothing volunteers
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
 # Speakers Xavier Abell, Ken Barrett, Tanner Bean; hymns / chorister / pianist TBA
 # Cleaning Team 13 Harrison Saturday December 12, 2026 (skip WL Sommer Sep 19)
@@ -68,8 +68,8 @@ text_announcements:
   - title: "Linger Longer"
     body: "Please join us for an Apple Cider & Donuts Linger Longer on Sunday, September 20, at 11:15 a.m. at the pavilion. Cider and donuts will be provided."
 
-  - image: "images/linger-longer-sep20.png"
-    alt: "Apple Cider & Donuts Linger Longer — Sunday, September 20, 11:15 a.m., pavilion. Cider and donuts will be provided."
+  - image: "images/linger-longer-sep20-leelannee.png"
+    alt: "Apple Cider & Donuts Linger Longer — Sunday, September 20, 11:15 a.m., pavilion. Cider and donuts will be provided. (Leelannee flyer)"
 
   - title: "Ward Temple Night"
     body: "Beginning this month, Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
@@ -77,6 +77,13 @@ text_announcements:
   - title: "Sunday Class Schedule Changes – September 2026"
     url: "https://www.churchofjesuschrist.org/feature/sunday-meeting-schedule?lang=eng"
     body: "Beginning the first week of September 2026, the Sunday class schedule will change. Sacrament meeting continues at 60 minutes, followed by a weekly 25-minute Sunday School class and a 25-minute Elders Quorum, Relief Society, or Young Women meeting. Primary will continue weekly and last 55 minutes."
+
+
+  - title: "CES Edventure"
+    body: "Youth (11–18), parents, and youth leaders are invited Wednesday, September 16, 2026, at 7:00 p.m. at the Farmington Hills Stake Center. Presented by BYU, BYU-Idaho, and Seminary & Institute — team games about CES opportunities, parent Q&A with representatives, and chances to win SWAG. Come ready for fun and laughter!"
+
+  - image: "images/ces-edventure-sep16.jpg"
+    alt: "CES Edventure — Wednesday, September 16, 2026, 7:00 p.m., Farmington Hills Stake Center. Youth 11–18, parents, and youth leaders. BYU, BYU-Idaho, Seminary & Institute."
 
   - title: "Relief Society Stake Temple Day"
     body: "All sisters are invited to the Farmington Hills Stake Relief Society Temple Day on Saturday, September 19, 2026. Watch for the invitation flyer with details, and plan to attend!"
@@ -94,6 +101,7 @@ text_announcements:
     alt: "Light of the World Christmas Workshop — Combined Clarkston and White Lake Relief Societies, Saturday October 10, 2026, 9:00 a.m. to 1:30 p.m., classes and lunch. Sign-ups close Sunday, September 27."
 
   - title: "Winter Clothing Distribution — Volunteers & Coat Drive"
+    highlight: true
     body: "Please help: donate new or gently used winter coats by September 30 (donation boxes at the church), and sign up to volunteer for the Farmington Hills Stake Winter Clothing Distribution at 33900 Thirteen Mile Rd (Friday, October 16, 9:00 a.m.–7:00 p.m.; Saturday, October 17, 9:00 a.m.–noon). Last year required about 1,700 volunteer hours. Sign up on JustServe: https://www.justserve.org/projects/9fe30f26-4c55-41f4-af9f-7f9a27d5600c More info: https://sites.google.com/view/winter-clothing-giveaway26/home"
 
   - title: "Winter Clothing Giveaway"

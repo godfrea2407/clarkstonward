@@ -90,13 +90,17 @@ def render_text_announcements(items: list) -> str:
         title  = esc(item.get("title", ""))
         banner = esc(item.get("banner", ""))
         body   = esc(item.get("body", ""))
+        highlight = bool(item.get("highlight"))
+        block_class = "ann-block ann-highlight" if highlight else "ann-block"
+        title_class = "ann-title ann-title-highlight" if highlight else "ann-title"
+        text_class = "ann-text ann-text-highlight" if highlight else "ann-text"
         html = ""
         if banner:
             html += f'      <span class="ann-section-banner">{banner}</span>\n'
-        html += '      <div class="ann-block">\n'
+        html += f'      <div class="{block_class}">\n'
         if title:
-            html += f'        <div class="ann-title">{title}</div>\n'
-        html += f'        <div class="ann-text">{body}</div>\n'
+            html += f'        <div class="{title_class}">{title}</div>\n'
+        html += f'        <div class="{text_class}">{body}</div>\n'
         html += '      </div>'
         parts.append(html)
     return "\n".join(parts)
@@ -254,6 +258,27 @@ def build(data: dict) -> str:
     .ann-title {{ font-size: .8rem; font-weight: bold; color: var(--navy); margin-bottom: .15rem; }}
     .ann-date  {{ font-weight: normal; font-style: italic; color: var(--gold); }}
     .ann-rule  {{ border: none; border-top: 1px solid var(--rule); margin: .45rem 0; }}
+    .ann-highlight {{
+      text-align: center;
+      border: 2px solid var(--gold);
+      border-radius: 6px;
+      padding: .55rem .65rem;
+      background: linear-gradient(180deg, #fff8e8 0%, #fffdf7 100%);
+      box-shadow: 0 1px 6px rgba(201,168,76,.25);
+    }}
+    .ann-title-highlight {{
+      color: #b8860b;
+      font-size: .92rem;
+      font-weight: bold;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      letter-spacing: .02em;
+    }}
+    .ann-text-highlight {{
+      color: #5a4508;
+      font-weight: bold;
+      text-align: center;
+    }}
     .cleaning-leader {{
       text-align: center; font-weight: bold; color: var(--navy);
       font-size: .85rem; padding: .2rem 0 .25rem;
