@@ -4,3 +4,5 @@
 # Original uncompressed source flyers (keep only compressed versions)
 images/*.png
 !images/word_media_image1.png
+!images/linger-longer-sep20-leelannee.png
+!images/linger-longer-sep20.png

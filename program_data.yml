@@ -1,8 +1,8 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Updated 2026-09-11 — CES Edventure Sep 16; linger cache-bust Leelannee flyer; highlight Winter Clothing volunteers
+# Updated 2026-09-11 — CES Edventure Sep 16; linger cache-bust; Winter Clothing volunteer highlight; hymns 241/180/300/98
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
-# Speakers Xavier Abell, Ken Barrett, Tanner Bean; hymns / chorister / pianist TBA
+# Speakers Xavier Abell, Ken Barrett, Tanner Bean; chorister / pianist TBA
 # Cleaning Team 13 Harrison Saturday December 12, 2026 (skip WL Sommer Sep 19)
 # ─────────────────────────────────────────────────────────────────────────────────
 
@@ -17,7 +17,8 @@ officers:
 
 program:
   - role:   "Opening Hymn"
-    person: "TBA"
+    hymn_number: 241
+    hymn_title:  "Count Your Blessings"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -26,7 +27,8 @@ program:
     person: "Bro. Tim Morley, Bishopric 2nd Counselor"
 
   - role:   "Sacrament Hymn"
-    person: "TBA"
+    hymn_number: 180
+    hymn_title:  "Father in Heaven, We Do Believe"
 
   - role:   "Administration of the Sacrament"
     person: ""
@@ -38,13 +40,15 @@ program:
     person: "Bro. Ken Barrett"
 
   - role:   "Intermediate Hymn"
-    person: "TBA"
+    hymn_number: 300
+    hymn_title:  "Families Can Be Together Forever"
 
   - role:   "Speaker"
     person: "Bro. Tanner Bean"
 
   - role:   "Closing Hymn"
-    person: "TBA"
+    hymn_number: 98
+    hymn_title:  "I Need Thee Every Hour"
 
   - role:   "Benediction"
     person: "By Invitation"
