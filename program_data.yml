@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Updated 2026-09-07 — ADD tithing declaration (Sep 13–Nov 8) + Linger Longer Sep 20
+# Updated 2026-09-11 — Split Winter Clothing event vs volunteers; ADD Find a Better Job; LOTW poster+registration
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
 # Speakers Xavier Abell, Ken Barrett, Tanner Bean; hymns / chorister / pianist TBA
 # Cleaning Team 13 Harrison Saturday December 12, 2026 (skip WL Sommer Sep 19)
@@ -88,16 +88,22 @@ text_announcements:
     alt: "Discover Family With Me — Relief Society and Young Women FamilySearch activity, Saturday September 26, 2026, 10 a.m.–noon, Clarkston building"
 
   - title: "Light of the World — Relief Society Christmas Workshop"
-    body: "Combined Clarkston and White Lake Wards. Saturday, October 10, 9:00 a.m. to 1:30 p.m. Save the date. More information coming shortly."
+    body: "Combined Clarkston and White Lake Relief Societies. Saturday, October 10, 2026, 9:00 a.m. to 1:30 p.m. — classes and lunch. Register online: https://forms.gle/pHATaGRVBGrmtHoBA Sign-ups also in the Relief Society Room; close Sunday, September 27."
 
   - image: "images/light-of-the-world.png"
-    alt: "Light of the World — Relief Society Christmas Workshop save-the-date flyer. Combined Clarkston and White Lake Wards, Saturday October 10, 9:00 a.m. to 1:30 p.m."
+    alt: "Light of the World Christmas Workshop — Combined Clarkston and White Lake Relief Societies, Saturday October 10, 2026, 9:00 a.m. to 1:30 p.m., classes and lunch. Sign-ups close Sunday, September 27."
 
   - title: "Winter Clothing Giveaway"
-    body: "Farmington Hills Stake Center, 33900 13 Mile Rd. Friday, October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only). Saturday, October 17, 9:00 a.m.–noon (open to the public). Coat drive through September 30 — bring lightly worn coats to church. Sign up to help: https://www.signupgenius.com/go/20F0E49ADA829A1F94-64959790-2026 Vouchers: fh.ward.mi@gmail.com"
+    body: "Farmington Hills Stake Center, 33900 13 Mile Rd. Friday, October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only). Saturday, October 17, 9:00 a.m.–noon (open to the public). Coat drive through September 30 — bring new or gently used winter coats to church. Vouchers: fh.ward.mi@gmail.com. More info: https://sites.google.com/view/winter-clothing-giveaway26/home"
 
   - image: "images/winter-clothing-giveaway.jpg"
     alt: "Winter Clothing Giveaway — Farmington Hills Stake Center, 33900 13 Mile Rd. Friday October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only); Saturday October 17, 9:00 a.m.–noon (open to the public)."
+
+  - title: "Winter Clothing Distribution — Volunteers Needed"
+    body: "Help is needed for the Farmington Hills Stake Winter Clothing Distribution (Friday, October 16, 9:00 a.m.–7:00 p.m.; Saturday, October 17, 9:00 a.m.–noon at 33900 Thirteen Mile Rd). Last year required about 1,700 volunteer hours. Sign up on JustServe: https://www.justserve.org/projects/9fe30f26-4c55-41f4-af9f-7f9a27d5600c Details and other locations: https://sites.google.com/view/winter-clothing-giveaway26/home"
+
+  - title: "Find a Better Job — Self-Reliance Class"
+    body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
 
   - title: "Young Married Couples Class"
     body: "Ann Arbor Institute, 914 Hill St. Young married couples ages 18–35. Friday nights September 25 and October 30: dinner 6:00–6:30, lesson 6:30–7:30, games 7:30–8:30. Contact Brother Scott Grimes, grimessm@churchofjesuschrist.org."
