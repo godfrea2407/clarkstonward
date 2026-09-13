@@ -1,24 +1,26 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Updated 2026-09-11 — Ward_ID Clarkston-only cleaning → Team 2 Ruby Sep 26; CES Edventure Sep 16; hymns 241/180/300/98
+# Monday preview 2026-09-13 — Sunday 2026-09-20 from Master List (Last Updated 09/13/2026)
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
-# Speakers Xavier Abell, Ken Barrett, Tanner Bean; chorister / pianist TBA
-# Cleaning Team 2 Ruby Saturday September 26, 2026 (Ward_ID Clarkston-only; skip WL Team1 Sep 19)
+# Speakers Georgia Christensen, TBA (HC companion), Matt Marshall (HC); hymns 26/176/117/100
+# Chorister TBA (sheet TBD); pianist Sis. Laura Zundel
+# Cleaning Team 2 Ruby Saturday September 26, 2026 (Ward_ID Clarkston-only; next after Sep 20)
+# Dropped expired: CES Edventure Sep 16, RS Stake Temple Day Sep 19
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, September 13, 2026"
+date: "Sunday, September 20, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Mike Wilson"
   conducting: "Bro. Tim Morley, Bishopric 2nd Counselor"
   chorister:  "TBA"
-  pianist:    "TBA"
+  pianist:    "Sis. Laura Zundel"
 
 program:
   - role:   "Opening Hymn"
-    hymn_number: 241
-    hymn_title:  "Count Your Blessings"
+    hymn_number: 26
+    hymn_title:  "Joseph Smith's First Prayer"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -27,28 +29,28 @@ program:
     person: "Bro. Tim Morley, Bishopric 2nd Counselor"
 
   - role:   "Sacrament Hymn"
-    hymn_number: 180
-    hymn_title:  "Father in Heaven, We Do Believe"
+    hymn_number: 176
+    hymn_title:  "'Tis Sweet to Sing the Matchless Love"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Xavier Abell"
+    person: "Sis. Georgia Christensen"
 
   - role:   "Speaker"
-    person: "Bro. Ken Barrett"
+    person: "TBA"
 
   - role:   "Intermediate Hymn"
-    hymn_number: 300
-    hymn_title:  "Families Can Be Together Forever"
+    hymn_number: 117
+    hymn_title:  "Come unto Jesus"
 
   - role:   "Speaker"
-    person: "Bro. Tanner Bean"
+    person: "Bro. Matt Marshall (High Council)"
 
   - role:   "Closing Hymn"
-    hymn_number: 98
-    hymn_title:  "I Need Thee Every Hour"
+    hymn_number: 100
+    hymn_title:  "Nearer, My God, to Thee"
 
   - role:   "Benediction"
     person: "By Invitation"
@@ -83,16 +85,6 @@ text_announcements:
     url: "https://www.churchofjesuschrist.org/feature/sunday-meeting-schedule?lang=eng"
     body: "Beginning the first week of September 2026, the Sunday class schedule will change. Sacrament meeting continues at 60 minutes, followed by a weekly 25-minute Sunday School class and a 25-minute Elders Quorum, Relief Society, or Young Women meeting. Primary will continue weekly and last 55 minutes."
 
-
-  - title: "CES Edventure"
-    body: "Youth (11–18), parents, and youth leaders are invited Wednesday, September 16, 2026, at 7:00 p.m. at the Farmington Hills Stake Center. Presented by BYU, BYU-Idaho, and Seminary & Institute — team games about CES opportunities, parent Q&A with representatives, and chances to win SWAG. Come ready for fun and laughter!"
-
-  - image: "images/ces-edventure-sep16.jpg"
-    alt: "CES Edventure — Wednesday, September 16, 2026, 7:00 p.m., Farmington Hills Stake Center. Youth 11–18, parents, and youth leaders. BYU, BYU-Idaho, Seminary & Institute."
-
-  - title: "Relief Society Stake Temple Day"
-    body: "All sisters are invited to the Farmington Hills Stake Relief Society Temple Day on Saturday, September 19, 2026. Watch for the invitation flyer with details, and plan to attend!"
-
   - title: "Relief Society & Young Women FamilySearch Activity"
     body: "Saturday, September 26, 2026, from 10:00 a.m. to noon at the Clarkston church building. Young Women and Relief Society join for a morning of discovering family through FamilySearch. Laptops provided; bring your own if you prefer. Daycare: Sis. Leelannee Godfrey or Sis. Nancy Castro."
 
@@ -110,10 +102,10 @@ text_announcements:
     body: "Please help: donate new or gently used winter coats by September 30 (donation boxes at the church), and sign up to volunteer for the Farmington Hills Stake Winter Clothing Distribution at 33900 Thirteen Mile Rd (Friday, October 16, 9:00 a.m.–7:00 p.m.; Saturday, October 17, 9:00 a.m.–noon). Last year required about 1,700 volunteer hours. Sign up on JustServe: https://www.justserve.org/projects/9fe30f26-4c55-41f4-af9f-7f9a27d5600c More info: https://sites.google.com/view/winter-clothing-giveaway26/home"
 
   - title: "Winter Clothing Giveaway"
-    body: "Farmington Hills Stake Center, 33900 13 Mile Rd. Friday, October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only). Saturday, October 17, 9:00 a.m.–noon (open to the public). Vouchers: fh.ward.mi@gmail.com. More info: https://sites.google.com/view/winter-clothing-giveaway26/home"
+    body: "Farmington Hills Stake Center, 33900 13 Mile Rd. Friday, October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only). Saturday, October 17, 2026, 9:00 a.m.–noon (open to the public). Vouchers: fh.ward.mi@gmail.com. More info: https://sites.google.com/view/winter-clothing-giveaway26/home"
 
   - image: "images/winter-clothing-giveaway.jpg"
-    alt: "Winter Clothing Giveaway — Farmington Hills Stake Center, 33900 13 Mile Rd. Friday October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only); Saturday October 17, 9:00 a.m.–noon (open to the public)."
+    alt: "Winter Clothing Giveaway — Farmington Hills Stake Center, 33900 13 Mile Rd. Friday October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only); Saturday October 17, 2026, 9:00 a.m.–noon (open to the public)."
 
   - title: "Find a Better Job — Self-Reliance Class"
     body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
