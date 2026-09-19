@@ -1,8 +1,9 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Monday preview 2026-09-13 — Sunday 2026-09-20 from Master List (Last Updated 09/13/2026)
+# Monday preview 2026-09-13 — Sunday 2026-09-20 from Master List
+# Speaker corrections 2026-09-18 from Adam Master List screenshot (Seibold + Mora HC)
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
-# Speakers Georgia Christensen, TBA (HC companion), Matt Marshall (HC); hymns 26/176/117/100
+# Speakers Georgia Christensen, Brock Seibold, Dave Mora (HC); hymns 26/176/117/100
 # Chorister TBA (sheet TBD); pianist Sis. Laura Zundel
 # Cleaning Team 2 Ruby Saturday September 26, 2026 (Ward_ID Clarkston-only; next after Sep 20)
 # Dropped expired: CES Edventure Sep 16, RS Stake Temple Day Sep 19
@@ -39,14 +40,14 @@ program:
     person: "Sis. Georgia Christensen"
 
   - role:   "Speaker"
-    person: "TBA"
+    person: "Bro. Brock Seibold"
 
   - role:   "Intermediate Hymn"
     hymn_number: 117
     hymn_title:  "Come unto Jesus"
 
   - role:   "Speaker"
-    person: "Bro. Matt Marshall (High Council)"
+    person: "Bro. Dave Mora (High Council)"
 
   - role:   "Closing Hymn"
     hymn_number: 100
