@@ -1,15 +1,15 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Monday preview 2026-09-13 — Sunday 2026-09-20 from Master List
-# Speaker corrections 2026-09-18 from Adam Master List screenshot (Seibold + Mora HC)
+# Monday preview 2026-09-20 — Sunday 2026-09-27 from Master List (Last Updated 09/20/2026)
 # Bishop Mike Wilson preside; Bro. Tim Morley, Bishopric 2nd Counselor conduct + Ward/Stake Business
-# Speakers Georgia Christensen, Brock Seibold, Dave Mora (HC); hymns 26/176/117/100
+# Speakers Jay Wilson, Taylor Seibold, Bruce Greve; hymns 264/1008/13/3
 # Chorister TBA (sheet TBD); pianist Sis. Laura Zundel
-# Cleaning Team 2 Ruby Saturday September 26, 2026 (Ward_ID Clarkston-only; next after Sep 20)
-# Dropped expired: CES Edventure Sep 16, RS Stake Temple Day Sep 19
+# Cleaning Team 3 Greve Saturday October 3, 2026 (Ward_ID Clarkston-only; next after Sep 27)
+# Dropped expired: Linger Longer Sep 20 (+flyer), RS/YW FamilySearch Sep 26 (+flyer)
+# YMC body trimmed: Sep 25 past → keep Oct 30 only
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, September 20, 2026"
+date: "Sunday, September 27, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
@@ -20,8 +20,8 @@ officers:
 
 program:
   - role:   "Opening Hymn"
-    hymn_number: 26
-    hymn_title:  "Joseph Smith's First Prayer"
+    hymn_number: 264
+    hymn_title:  "Hark, All Ye Nations!"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -30,54 +30,48 @@ program:
     person: "Bro. Tim Morley, Bishopric 2nd Counselor"
 
   - role:   "Sacrament Hymn"
-    hymn_number: 176
-    hymn_title:  "'Tis Sweet to Sing the Matchless Love"
+    hymn_number: 1008
+    hymn_title:  "Bread of Life, Living Water"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Sis. Georgia Christensen"
+    person: "Bro. Jay Wilson"
 
   - role:   "Speaker"
-    person: "Bro. Brock Seibold"
+    person: "Bro. Taylor Seibold"
 
   - role:   "Intermediate Hymn"
-    hymn_number: 117
-    hymn_title:  "Come unto Jesus"
+    hymn_number: 13
+    hymn_title:  "An Angel from on High"
 
   - role:   "Speaker"
-    person: "Bro. Dave Mora (High Council)"
+    person: "Bro. Bruce Greve"
 
   - role:   "Closing Hymn"
-    hymn_number: 100
-    hymn_title:  "Nearer, My God, to Thee"
+    hymn_number: 3
+    hymn_title:  "Now Let Us Rejoice"
 
   - role:   "Benediction"
     person: "By Invitation"
 
 building_cleaning:
-  date:   "Saturday, September 26, 2026"
-  leader: "Ruby"
+  date:   "Saturday, October 3, 2026"
+  leader: "Greve"
   families:
-    - "Johnson"
-    - "Tatoris C&J"
-    - "Jorgensen"
-    - "Hooker"
-    - "Allen"
-    - "Allred"
-    - "Bennet"
-    - "Bartkowiak"
+    - "Price"
+    - "Mora"
+    - "Peatross"
+    - "Barrett K&D"
+    - "Villereal"
+    - "Jones"
+    - "Marceau"
+    - "Matsura"
 
 text_announcements:
   - title: "2026 Clarkston Ward Tithing Declaration"
     body: "Tithing Declaration is occurring from September 13 – November 8; most Sundays after the meeting block and Thursday evenings. Please access the SignUp Genius to see available times and reserve a slot for your family: https://www.signupgenius.com/go/10C0B49A8AE2BAAFAC34-65479167-clarkston Please reach out to Brother Tanner Bean with any questions, or if you need assistance reserving a time."
-
-  - title: "Linger Longer"
-    body: "Please join us for an Apple Cider & Donuts Linger Longer on Sunday, September 20, at 11:15 a.m. at the pavilion. Cider and donuts will be provided."
-
-  - image: "images/linger-longer-sep20-leelannee.png"
-    alt: "Apple Cider & Donuts Linger Longer — Sunday, September 20, 11:15 a.m., pavilion. Cider and donuts will be provided. (Leelannee flyer)"
 
   - title: "Ward Temple Night"
     body: "Beginning this month, Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
@@ -85,12 +79,6 @@ text_announcements:
   - title: "Sunday Class Schedule Changes – September 2026"
     url: "https://www.churchofjesuschrist.org/feature/sunday-meeting-schedule?lang=eng"
     body: "Beginning the first week of September 2026, the Sunday class schedule will change. Sacrament meeting continues at 60 minutes, followed by a weekly 25-minute Sunday School class and a 25-minute Elders Quorum, Relief Society, or Young Women meeting. Primary will continue weekly and last 55 minutes."
-
-  - title: "Relief Society & Young Women FamilySearch Activity"
-    body: "Saturday, September 26, 2026, from 10:00 a.m. to noon at the Clarkston church building. Young Women and Relief Society join for a morning of discovering family through FamilySearch. Laptops provided; bring your own if you prefer. Daycare: Sis. Leelannee Godfrey or Sis. Nancy Castro."
-
-  - image: "images/discover-family-with-me.jpg"
-    alt: "Discover Family With Me — Relief Society and Young Women FamilySearch activity, Saturday September 26, 2026, 10 a.m.–noon, Clarkston building"
 
   - title: "Light of the World — Relief Society Christmas Workshop"
     body: "Combined Clarkston and White Lake Relief Societies. Saturday, October 10, 2026, 9:00 a.m. to 1:30 p.m. — classes and lunch. Register online: https://forms.gle/pHATaGRVBGrmtHoBA Sign-ups also in the Relief Society Room; close Sunday, September 27."
@@ -112,10 +100,10 @@ text_announcements:
     body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
 
   - title: "Young Married Couples Class"
-    body: "Ann Arbor Institute, 914 Hill St. Young married couples ages 18–35. Friday nights September 25 and October 30: dinner 6:00–6:30, lesson 6:30–7:30, games 7:30–8:30. Contact Brother Scott Grimes, grimessm@churchofjesuschrist.org."
+    body: "Ann Arbor Institute, 914 Hill St. Young married couples ages 18–35. Friday night October 30: dinner 6:00–6:30, lesson 6:30–7:30, games 7:30–8:30. Contact Brother Scott Grimes, grimessm@churchofjesuschrist.org."
 
   - image: "images/young-married-couples.png"
-    alt: "Young Married Couples Class — Ann Arbor Institute, 914 Hill St. Friday nights September 25 and October 30, 2026."
+    alt: "Young Married Couples Class — Ann Arbor Institute, 914 Hill St. Friday night October 30, 2026."
 
   - title: "Finding Strength in the Lord — Emotional Resilience Class"
     body: "Weekly Zoom class beginning Sunday, September 13, 2026, through November 15, 6:30–8:00 p.m. To join, email Sister Rebecca Behrends at sisterrbehrends@gmail.com with name, email, cell, and ward. Course manual required from the Church store."
