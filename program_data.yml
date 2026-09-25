@@ -7,6 +7,7 @@
 # Cleaning Team 3 Greve Saturday October 3, 2026 (Ward_ID Clarkston-only; next after Sep 27)
 # Dropped expired: Linger Longer Sep 20 (+flyer), RS/YW FamilySearch Sep 26 (+flyer)
 # YMC body trimmed: Sep 25 past → keep Oct 30 only
+# Fri 2026-09-25: added Stake Youth Mission Prep (Sep 27 6–7:30 PM, Farmington Hills Chapel) — Adam approved; text only (no flyer in stake email)
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, September 27, 2026"
@@ -72,6 +73,9 @@ building_cleaning:
 text_announcements:
   - title: "2026 Clarkston Ward Tithing Declaration"
     body: "Tithing Declaration is occurring from September 13 – November 8; most Sundays after the meeting block and Thursday evenings. Please access the SignUp Genius to see available times and reserve a slot for your family: https://www.signupgenius.com/go/10C0B49A8AE2BAAFAC34-65479167-clarkston Please reach out to Brother Tanner Bean with any questions, or if you need assistance reserving a time."
+
+  - title: "Stake Youth Mission Prep"
+    body: "Sunday, September 27, 2026, 6:00–7:30 p.m. (lesson and refreshments). Farmington Hills Chapel, 33900 W. 13 Mile Rd. (meet in the chapel). Open to all youth ages 12 and older who are interested in serving missions or sharing the gospel. Lesson topic: The Invitation to Be Baptized and Confirmed (Lesson 7)."
 
   - title: "Ward Temple Night"
     body: "Beginning this month, Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
