@@ -8,6 +8,7 @@
 # Dropped expired: Linger Longer Sep 20 (+flyer), RS/YW FamilySearch Sep 26 (+flyer)
 # YMC body trimmed: Sep 25 past → keep Oct 30 only
 # Fri 2026-09-25: added Stake Youth Mission Prep (Sep 27 6–7:30 PM, Farmington Hills Chapel) — Adam approved; text only (no flyer in stake email)
+# Sat 2026-09-26: added Annual Primary Program (Oct 18, sacrament meeting; text only) + Giving Machine Volunteer Signup (JustServe, sign-ups until Oct 18; flyer) — Adam approved
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, September 27, 2026"
@@ -99,6 +100,15 @@ text_announcements:
 
   - image: "images/winter-clothing-giveaway.jpg"
     alt: "Winter Clothing Giveaway — Farmington Hills Stake Center, 33900 13 Mile Rd. Friday October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only); Saturday October 17, 2026, 9:00 a.m.–noon (open to the public)."
+
+  - title: "Clarkston Ward Annual Primary Program — October 18"
+    body: "Sunday, October 18, 2026, during sacrament meeting at 9:00 a.m. The Primary children will share their annual Children's Sacrament Meeting Presentation with songs and messages. Families and all ward members are invited to come and support the children. Primary families: please help your children practice their parts and the songs at home."
+
+  - title: "Giving Machine Volunteer Signup"
+    body: "The Light the World Giving Machine returns to Campus Martius in Detroit, November 14 – December 6, 2026. Volunteer shifts are open to members and the public and will be posted on JustServe until October 18 — time to sign up is limited. Sign up on JustServe: https://www.justserve.org/projects/a7579f5a-7391-47d9-9b1f-0619cabc78af"
+
+  - image: "images/giving-machine-2026.png"
+    alt: "Light the World Giving Machine — Campus Martius, Detroit, November 14 – December 6, 2026. Volunteer sign-ups on JustServe until October 18."
 
   - title: "Find a Better Job — Self-Reliance Class"
     body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
