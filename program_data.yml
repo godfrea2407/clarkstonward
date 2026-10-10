@@ -63,11 +63,11 @@ building_cleaning:
     - "Tremonti"
 
 text_announcements:
-  - title: "2026 Clarkston Ward Tithing Declaration"
-    body: "Tithing Declaration is occurring from September 13 – November 8; most Sundays after the meeting block and Thursday evenings. Please access the SignUp Genius to see available times and reserve a slot for your family: https://www.signupgenius.com/go/10C0B49A8AE2BAAFAC34-65479167-clarkston Please reach out to Brother Tanner Bean with any questions, or if you need assistance reserving a time."
+  - title: "Keith Erekson — October 10–11"
+    body: "Farmington Hills Stake Center, 33900 Thirteen Mile Rd. Saturday, October 10: Seminary and Institute teacher training 10:00–11:30 a.m., stake leadership training 5:00–6:30 p.m., adult devotional 7:00–8:30 p.m. Sunday, October 11: youth devotional 6:00–7:30 p.m."
 
-  - title: "Ward Temple Night"
-    body: "Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
+  - image: "images/keith-erekson.png"
+    alt: "Keith Erekson — Farmington Hills Stake Center, October 10–11, 2026. Seminary and Institute teacher training, stake leadership training, adult and youth devotionals."
 
   - title: "Winter Clothing Distribution — Volunteers & Coat Drive"
     highlight: true
@@ -79,6 +79,9 @@ text_announcements:
   - image: "images/winter-clothing-giveaway.jpg"
     alt: "Winter Clothing Giveaway — Farmington Hills Stake Center, 33900 13 Mile Rd. Friday October 16, 2026, 9:00 a.m.–7:00 p.m. (voucher only); Saturday October 17, 2026, 9:00 a.m.–noon (open to the public)."
 
+  - title: "Ward Temple Night"
+    body: "Ward Temple Night has been rescheduled to the third Friday of each month (instead of the third Thursday). Come serve together in the house of the Lord."
+
   - title: "Clarkston Ward Annual Primary Program — October 18"
     body: "Sunday, October 18, 2026, during sacrament meeting at 9:00 a.m. The Primary children will share their annual Children's Sacrament Meeting Presentation with songs and messages. Families and all ward members are invited to come and support the children. Primary families: please help your children practice their parts and the songs at home."
 
@@ -87,9 +90,6 @@ text_announcements:
 
   - image: "images/giving-machine-2026.png"
     alt: "Light the World Giving Machine — Campus Martius, Detroit, November 14 – December 6, 2026. Volunteer sign-ups on JustServe until October 18."
-
-  - title: "Find a Better Job — Self-Reliance Class"
-    body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
 
   - title: "Valiant Activity Boys: Fire Station Tour"
     body: "Tuesday, October 27, 7:00–8:00 PM. Boys will meet at Independence Township Fire Station #1, 6500 Citation Dr., Clarkston. Please plan drop-off and pick-up at the station."
@@ -100,14 +100,11 @@ text_announcements:
   - image: "images/young-married-couples.png"
     alt: "Young Married Couples Class — Ann Arbor Institute, 914 Hill St. Friday night October 30, 2026."
 
-  - title: "Finding Strength in the Lord — Emotional Resilience Class"
-    body: "Weekly Zoom class beginning Sunday, September 13, 2026, through November 15, 6:30–8:00 p.m. To join, email Sister Rebecca Behrends at sisterrbehrends@gmail.com with name, email, cell, and ward. Course manual required from the Church store."
+  - title: "2026 Clarkston Ward Tithing Declaration"
+    body: "Tithing Declaration is occurring from September 13 – November 8; most Sundays after the meeting block and Thursday evenings. Please access the SignUp Genius to see available times and reserve a slot for your family: https://www.signupgenius.com/go/10C0B49A8AE2BAAFAC34-65479167-clarkston Please reach out to Brother Tanner Bean with any questions, or if you need assistance reserving a time."
 
-  - title: "Keith Erekson — October 10–11"
-    body: "Farmington Hills Stake Center, 33900 Thirteen Mile Rd. Saturday, October 10: Seminary and Institute teacher training 10:00–11:30 a.m., stake leadership training 5:00–6:30 p.m., adult devotional 7:00–8:30 p.m. Sunday, October 11: youth devotional 6:00–7:30 p.m."
-
-  - image: "images/keith-erekson.png"
-    alt: "Keith Erekson — Farmington Hills Stake Center, October 10–11, 2026. Seminary and Institute teacher training, stake leadership training, adult and youth devotionals."
+  - title: "Find a Better Job — Self-Reliance Class"
+    body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
 
   - banner: "Ward Temple and Family History Plan"
     body: |
