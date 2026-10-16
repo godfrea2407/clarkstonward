@@ -41,6 +41,7 @@ program:
 
   - role:   "Primary Program"
     person: ""
+    note:   "The Primary children will share their annual Children's Sacrament Meeting Presentation with songs and messages. Families and all ward members are invited to come and support the children."
 
   - role:   "Closing Hymn"
     hymn_number: 134

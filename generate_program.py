@@ -48,6 +48,9 @@ TESTIMONIES_ROLES = {"Testimonies"}
 def render_program_row(item: dict) -> str:
     role = item.get("role", "")
     role_esc = esc(role)
+    note = str(item.get("note", "") or "").strip()
+    if note:
+        role_esc += f'<div class="row-note">{esc(note)}</div>'
     if role in CENTERED_ROLES:
         return f'          <tr><td class="centered-row" colspan="2">{role_esc}</td></tr>'
     if role in TESTIMONIES_ROLES:
@@ -244,6 +247,7 @@ def build(data: dict) -> str:
       border-bottom: 1px dotted var(--gold);
     }}
     .hymn-link:hover {{ border-bottom-style: solid; }}
+    .row-note {{ font-size: 0.8em; font-style: italic; font-weight: normal; margin-top: 2px; }}
     .centered-row {{
       text-align: center;
       font-weight: bold;
