@@ -103,6 +103,11 @@ def render_text_announcements(items: list) -> str:
         html += f'      <div class="{block_class}">\n'
         if title:
             html += f'        <div class="{title_class}">{title}</div>\n'
+        link = item.get("link", "") or ""
+        if link:
+            link_text = esc(item.get("link_text", "") or link.split("://", 1)[-1].rstrip("/"))
+            anchor = f'<a href="{esc(link)}" target="_blank">{link_text}</a>'
+            body = body.replace(link_text, anchor, 1) if link_text in body else f"{body} {anchor}"
         html += f'        <div class="{text_class}">{body}</div>\n'
         html += '      </div>'
         parts.append(html)
