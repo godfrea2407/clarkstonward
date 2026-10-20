@@ -100,6 +100,14 @@ text_announcements:
   - title: "Find a Better Job — Self-Reliance Class"
     body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
 
+  # Light the World Giving Machine (Maureen Corless, approved Oct 20, 2026).
+  # Expires after Dec 6, 2026 -- drop title + flyer from the Dec 13 program.
+  - title: "Light the World Giving Machine – Campus Martius, Detroit"
+    body: "Visit Detroit's Giving Machine at Campus Martius, November 14 – December 6. 100% of donations go to the charity of your choice. The QR codes on the flyer link to the Giving Machine's Facebook and Instagram (givingmachine_detroit)."
+
+  - image: "images/giving-machine-campus-martius-2026.png"
+    alt: "Light the World — Visit Detroit's Giving Machine, Campus Martius, Nov. 14 – Dec. 6. 100% of donations to charity of choice. QR codes for Facebook and Instagram (givingmachine_detroit)."
+
   - banner: "Ward Temple and Family History Plan"
     body: |
       DISCOVER — Find out who your family members are.
