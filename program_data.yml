@@ -2,7 +2,7 @@
 # Clarkston Ward – Weekly Sacrament Program Data
 # Monday-style preview 2026-10-18 — Sunday 2026-10-25 from Master List (Last Updated 10/18/2026)
 # Bishop Mike Wilson preside + conduct + Ward/Stake Business
-# Speakers OT Benson, Dawn Barrett, Hazel Christensen (tithing topics); hymns 60/171/277/113
+# Speakers Hazel Christensen, Dawn Barrett, OT Benson (order per Adam Oct 24; Master List shows OT/Dawn/Hazel); hymns 60/171/277/113
 # Chorister Bro. Rex Coreless (sheet spelling); pianist Sis. Laura Zundel
 # Cleaning Team 8 Pabst Saturday November 7, 2026 (Ward_ID Clarkston-only; next after Oct 25)
 #   skipped Team 7 Belknap Oct 31 (White Lake)
@@ -39,7 +39,7 @@ program:
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. OT Benson"
+    person: "Sis. Hazel Christensen"
 
   - role:   "Speaker"
     person: "Sis. Dawn Barrett"
@@ -49,7 +49,7 @@ program:
     hymn_title:  "As I Search the Holy Scriptures"
 
   - role:   "Speaker"
-    person: "Sis. Hazel Christensen"
+    person: "Bro. OT Benson"
 
   - role:   "Closing Hymn"
     hymn_number: 113
