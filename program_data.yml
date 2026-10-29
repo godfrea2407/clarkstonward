@@ -4,9 +4,10 @@
 # Fast Sunday: testimonies only, no intermediate hymn
 # Bishop Mike Wilson preside; Bro. Brock Seibold, Bishopric 1st Counselor conduct + Ward/Stake Business
 # Hymns 116 / 173 / 130 from Master List
-# Chorister LJ Bensen (sheet spelling; no Bro./Sis. prefix — gender unconfirmed); pianist Sis. Laura Zundel
+# Chorister LJ Benson (Adam confirmed spelling Oct 29; sheet says Bensen; no Bro./Sis. prefix — gender unconfirmed); pianist Sis. Laura Zundel
 # Cleaning Team 8 Pabst Saturday November 7, 2026 (Ward_ID Clarkston-only; next after Nov 1)
 # Dropped expired (event before Nov 1): Valiant Fire Station Tour Oct 27; Young Married Couples Oct 30 (+flyer)
+# Added Oct 29: Come, Follow Me manual order (Alisha Johnson LCR email Oct 27; Adam approved)
 # Kept: Ward Temple Night; FSY 2027; Tithing Declaration (thru Nov 8); Find a Better Job (thru Nov 29);
 #   Giving Machine Campus Martius (thru Dec 6 program); Temple/FH banner last
 # ─────────────────────────────────────────────────────────────────────────────────
@@ -17,7 +18,7 @@ time: "9:00 AM – 10:00 AM"
 officers:
   presiding:  "Bishop Mike Wilson"
   conducting: "Bro. Brock Seibold, Bishopric 1st Counselor"
-  chorister:  "LJ Bensen"
+  chorister:  "LJ Benson"
   pianist:    "Sis. Laura Zundel"
 
 program:
@@ -68,6 +69,11 @@ text_announcements:
   - title: "FSY 2027 Registration Now Open"
     body: "Registration for 2027 For the Strength of Youth (FSY) conferences opened Tuesday, October 20 at 8:00 AM at fsy.churchofjesuschrist.org. It's for youth who turn 14–18 during 2027. Our stake's sessions are June 21–26 and June 28–July 3 at Heidelberg University (Tiffin, OH), and July 26–31 at Saginaw Valley State University (Saginaw, MI). Families arrange their own transportation. Register early to get your preferred session."
     link: "https://fsy.churchofjesuschrist.org"
+
+  # Come, Follow Me manual order (Alisha Johnson LCR ward email Oct 27, 2026; Adam approved Oct 29).
+  # Expires after Nov 7, 2026 -- drop from the Nov 8 program. No flyer.
+  - title: "Order a Printed 2027 Come, Follow Me Manual"
+    body: "Next year we will be studying the New Testament. If you would like a physical copy of the Come, Follow Me manual, please email or text Sis. Alisha Johnson, Sunday School President, by Saturday, November 7 so she can order them for you: ryanalisha@comcast.net"
 
   - title: "2026 Clarkston Ward Tithing Declaration"
     body: "Tithing Declaration is occurring from September 13 – November 8; most Sundays after the meeting block and Thursday evenings. Please access the SignUp Genius to see available times and reserve a slot for your family: https://www.signupgenius.com/go/10C0B49A8AE2BAAFAC34-65479167-clarkston Please reach out to Brother Tanner Bean with any questions, or if you need assistance reserving a time."
