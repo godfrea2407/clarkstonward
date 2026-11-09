@@ -1,29 +1,28 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Preview 2026-11-04 (Adam approved Nov 4) — Sunday 2026-11-08 from Master List
-# Bishop Mike Wilson preside; Bro. Brock Seibold, Bishopric 1st Counselor conduct + Ward/Stake Business
-# Speakers Jameson Ruby, Leelannee Godfrey, Adam Christensen (sheet order); hymns 226/185/218/246
-# Chorister Bro. Duncan Ruby; pianist Sis. Laura Zundel
-# Cleaning Team 13 Harrison Saturday December 12, 2026 (Ward_ID Clarkston-only; next after Nov 8;
-#   skipped White Lake Teams 9-12 Nov 14-Dec 5)
-# Dropped: Come, Follow Me manual order (expired Nov 7)
-# Kept: Ward Temple Night; FSY 2027; Tithing Declaration (thru Nov 8); Find a Better Job (thru Nov 29);
-#   Giving Machine Campus Martius (thru Dec 6 program); Temple/FH banner last
+# Preview 2026-11-09 (Monday auto-draft) — Sunday 2026-11-15 from Master List (sheet updated 11/09/2026)
+# Bishop Mike Wilson presides; Bro. Brock Seibold, Bishopric 1st Counselor conducts + Ward/Stake Business
+# Speakers Adam Christensen, Heather Wilson, Tim Morley (sheet order); hymns 232/187/308/294
+# Chorister Sis. Nora Corless; pianist Sis. Laura Zundel
+# Cleaning Team 13 Harrison Saturday December 12, 2026 (Clarkston-only; next after Nov 15)
+# Dropped: Winter Wonderland dance + flyer (Nov 14), Tithing Declaration (ended Nov 8)
+# Kept: Ward Temple Night; FSY 2027; Find a Better Job (thru Nov 29); Giving Machine (thru Dec 6);
+#   Stake Conf youth session Dec 6; Stake youth activity Jan 2; Temple/FH banner last
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, November 8, 2026"
+date: "Sunday, November 15, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Mike Wilson"
   conducting: "Bro. Brock Seibold, Bishopric 1st Counselor"
-  chorister:  "Bro. Duncan Ruby"
+  chorister:  "Sis. Nora Corless"
   pianist:    "Sis. Laura Zundel"
 
 program:
   - role:   "Opening Hymn"
-    hymn_number: 226
-    hymn_title:  "Improve the Shining Moments"
+    hymn_number: 232
+    hymn_title:  "Let Us Oft Speak Kind Words"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -32,28 +31,28 @@ program:
     person: "Bro. Brock Seibold, Bishopric 1st Counselor"
 
   - role:   "Sacrament Hymn"
-    hymn_number: 185
-    hymn_title:  "Reverently and Meekly Now"
+    hymn_number: 187
+    hymn_title:  "God Loved Us, So He Sent His Son"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Jameson Ruby"
-
-  - role:   "Speaker"
-    person: "Sis. Leelannee Godfrey"
-
-  - role:   "Intermediate Hymn"
-    hymn_number: 218
-    hymn_title:  "We Give Thee But Thine Own"
-
-  - role:   "Speaker"
     person: "Bro. Adam Christensen"
 
+  - role:   "Speaker"
+    person: "Sis. Heather Wilson"
+
+  - role:   "Intermediate Hymn"
+    hymn_number: 308
+    hymn_title:  "Love One Another"
+
+  - role:   "Speaker"
+    person: "Bro. Tim Morley"
+
   - role:   "Closing Hymn"
-    hymn_number: 246
-    hymn_title:  "Onward, Christian Soldiers"
+    hymn_number: 294
+    hymn_title:  "Love at Home"
 
   - role:   "Benediction"
     person: "By Invitation"
@@ -78,21 +77,12 @@ text_announcements:
     body: "Registration for 2027 For the Strength of Youth (FSY) conferences opened Tuesday, October 20 at 8:00 AM at fsy.churchofjesuschrist.org. It's for youth who turn 14–18 during 2027. Our stake's sessions are June 21–26 and June 28–July 3 at Heidelberg University (Tiffin, OH), and July 26–31 at Saginaw Valley State University (Saginaw, MI). Families arrange their own transportation. Register early to get your preferred session."
     link: "https://fsy.churchofjesuschrist.org"
 
-  - title: "2026 Clarkston Ward Tithing Declaration"
-    body: "Tithing Declaration is occurring from September 13 – November 8; most Sundays after the meeting block and Thursday evenings. Please access the SignUp Genius to see available times and reserve a slot for your family: https://www.signupgenius.com/go/10C0B49A8AE2BAAFAC34-65479167-clarkston Please reach out to Brother Tanner Bean with any questions, or if you need assistance reserving a time."
-
   - title: "Find a Better Job — Self-Reliance Class"
     body: "Weekly Zoom class beginning Sunday, September 27, 2026, through November 29, 6:30 p.m. Learn to identify opportunities, network, present yourself professionally, and prepare for interviews. To join, email Sister Susan Locke at sisterslocke@churchofjesuschrist.org with name, email, and ward. Course manual required from the Church store: https://store.churchofjesuschrist.org/find-a-better-job/5638682636.p"
 
   # Light the World Giving Machine (Maureen Corless, approved Oct 20, 2026).
   # Expires after Dec 6, 2026 -- drop title + flyer from the Dec 13 program.
-  # Julie Tatoris November newsletter; Adam approved all three Nov 7, 2026.
-  - title: "Winter Wonderland — Multi-Stake Formal Dance"
-    body: "Saturday, November 14, 2026, 6–9 p.m. at the Bloomfield Hills Stake Center, 37425 Woodward Ave, Bloomfield Hills, MI 48304. For youth ages 14+. Formal wear. Bring your friends! Hosted by the Bloomfield Hills Stake."
-
-  - image: "images/winter-wonderland-dance-nov14-2026.jpg"
-    alt: "Winter Wonderland multi-stake dance — November 14, 6–9 p.m.; ages 14+; formal wear; Bloomfield Hills Stake Center, 37425 Woodward Ave."
-
+  # Julie Tatoris November newsletter; Adam approved Nov 7, 2026.
   - title: "Light the World Giving Machine – Campus Martius, Detroit"
     body: "Visit Detroit's Giving Machine at Campus Martius, November 14 – December 6. 100% of donations go to the charity of your choice. The QR codes on the flyer link to the Giving Machine's Facebook and Instagram (givingmachine_detroit)."
 
