@@ -6,6 +6,7 @@
 # Chorister Sis. Nora Corless; pianist Sis. Laura Zundel
 # Cleaning Team 13 Harrison Saturday December 12, 2026 (Clarkston-only; next after Nov 15)
 # Dropped: Winter Wonderland dance + flyer (Nov 14), Tithing Declaration (ended Nov 8)
+# Added (Adam via Dispatch Nov 9): Stake Choir volunteers (practices Nov 15/22/29); Youth Discussion Nov 15
 # Kept: Ward Temple Night; FSY 2027; Find a Better Job (thru Nov 29); Giving Machine (thru Dec 6);
 #   Stake Conf youth session Dec 6; Stake youth activity Jan 2; Temple/FH banner last
 # ─────────────────────────────────────────────────────────────────────────────────
@@ -88,6 +89,18 @@ text_announcements:
 
   - image: "images/giving-machine-campus-martius-2026.png"
     alt: "Light the World — Visit Detroit's Giving Machine, Campus Martius, Nov. 14 – Dec. 6. 100% of donations to charity of choice. QR codes for Facebook and Instagram (givingmachine_detroit)."
+
+  # Stake Choir for Dec 6 stake conference (Justin Wong LCR relaying Brett Rowberry; Adam approved Nov 9 2026 via Dispatch).
+  # Keep through the Nov 29 program; drop for Dec 6.
+  - title: "Stake Choir Volunteers – Stake Conference"
+    body: "Singers of all ages (Primary and up) are needed for the December 6 stake conference general session musical number, \"Tuya Es La Gloria,\" sung in English and Spanish. Practices are Sundays, November 15, 22, and 29, 4–5 p.m., at the Farmington Hills chapel. Stake Music Coordinator: Brother Brett Rowberry (message relayed by Justin Wong)."
+    link: "https://www.youtube.com/watch?v=1Xa_rtbCGow"
+
+  # Youth Discussion Nov 15 (Bishop Mike Wilson LCR; Adam approved Nov 9 2026 via Dispatch).
+  # Drop after Nov 15.
+  - title: "Youth Discussion"
+    body: "Sunday, November 15, 6–7 p.m., at the Wilson home, hosted by Bishop Mike Wilson. All Young Men, Young Women, and leaders are invited; friends are welcome. Submit questions or topics ahead with the form linked below."
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfwOT2IHcZA4arpp2SfQGoCGFzL7_fgvl0_H_W2yce4YqxmNw/viewform?usp=publish-editor"
 
   - title: "Youth Session of Stake Conference"
     body: "Sunday, December 6, 2026, at 8:30 a.m. All youth are invited. The focus will be on Patriarchal Blessings."
