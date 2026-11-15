@@ -1,29 +1,30 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Preview 2026-11-09 (Monday auto-draft) — Sunday 2026-11-15 from Master List (sheet updated 11/09/2026)
+# Preview 2026-11-15 — Sunday 2026-11-22 from Master List (Last Updated 11/15/2026)
 # Bishop Mike Wilson presides; Bro. Brock Seibold, Bishopric 1st Counselor conducts + Ward/Stake Business
-# Speakers Adam Christensen, Heather Wilson, Tim Morley (sheet order); hymns 232/187/308/294
-# Chorister Sis. Nora Corless; pianist Sis. Laura Zundel
-# Cleaning Team 13 Harrison Saturday December 12, 2026 (Clarkston-only; next after Nov 15)
-# Dropped: Winter Wonderland dance + flyer (Nov 14), Tithing Declaration (ended Nov 8)
-# Added (Adam via Dispatch Nov 9): Stake Choir volunteers (practices Nov 15/22/29); Youth Discussion Nov 15
+# Speakers Sis. Aubrey Ruby, then Bro. Harrison (High Council), sheet order; Special Musical Number: Primary
+# Hymns 251 / 182 / 243; chorister Bro. Jaxon Seibold; pianist Sis. Laura Zundel
+# Prayers By Invitation (sheet TBD)
+# Cleaning Team 13 Harrison Saturday December 12, 2026 (Clarkston-only; next after Nov 22)
+#   skipped WL Team 11 Nov 28 and WL Team 12 Dec 5
+# Dropped: Youth Discussion (Nov 15, past)
 # Kept: Ward Temple Night; FSY 2027; Find a Better Job (thru Nov 29); Giving Machine (thru Dec 6);
-#   Stake Conf youth session Dec 6; Stake youth activity Jan 2; Temple/FH banner last
+#   Stake Choir (thru Nov 29); Stake Conf youth session Dec 6; Stake youth activity Jan 2; Temple/FH banner last
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, November 15, 2026"
+date: "Sunday, November 22, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Mike Wilson"
   conducting: "Bro. Brock Seibold, Bishopric 1st Counselor"
-  chorister:  "Sis. Nora Corless"
+  chorister:  "Bro. Jaxon Seibold"
   pianist:    "Sis. Laura Zundel"
 
 program:
   - role:   "Opening Hymn"
-    hymn_number: 232
-    hymn_title:  "Let Us Oft Speak Kind Words"
+    hymn_number: 251
+    hymn_title:  "Behold! A Royal Army"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -32,28 +33,24 @@ program:
     person: "Bro. Brock Seibold, Bishopric 1st Counselor"
 
   - role:   "Sacrament Hymn"
-    hymn_number: 187
-    hymn_title:  "God Loved Us, So He Sent His Son"
+    hymn_number: 182
+    hymn_title:  "We'll Sing All Hail to Jesus' Name"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
   - role:   "Speaker"
-    person: "Bro. Adam Christensen"
+    person: "Sis. Aubrey Ruby"
+
+  - role:   "Special Musical Number"
+    person: "Primary"
 
   - role:   "Speaker"
-    person: "Sis. Heather Wilson"
-
-  - role:   "Intermediate Hymn"
-    hymn_number: 308
-    hymn_title:  "Love One Another"
-
-  - role:   "Speaker"
-    person: "Bro. Tim Morley"
+    person: "Bro. Harrison (High Council)"
 
   - role:   "Closing Hymn"
-    hymn_number: 294
-    hymn_title:  "Love at Home"
+    hymn_number: 243
+    hymn_title:  "Let Us All Press On"
 
   - role:   "Benediction"
     person: "By Invitation"
@@ -95,12 +92,6 @@ text_announcements:
   - title: "Stake Choir Volunteers – Stake Conference"
     body: "Singers of all ages (Primary and up) are needed for the December 6 stake conference general session musical number, \"Tuya Es La Gloria,\" sung in English and Spanish. Practices are Sundays, November 15, 22, and 29, 4–5 p.m., at the Farmington Hills chapel. Stake Music Coordinator: Brother Brett Rowberry (message relayed by Justin Wong)."
     link: "https://www.youtube.com/watch?v=1Xa_rtbCGow"
-
-  # Youth Discussion Nov 15 (Bishop Mike Wilson LCR; Adam approved Nov 9 2026 via Dispatch).
-  # Drop after Nov 15.
-  - title: "Youth Discussion"
-    body: "Sunday, November 15, 6–7 p.m., at the Wilson home, hosted by Bishop Mike Wilson. All Young Men, Young Women, and leaders are invited; friends are welcome. Submit questions or topics ahead with the form linked below."
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfwOT2IHcZA4arpp2SfQGoCGFzL7_fgvl0_H_W2yce4YqxmNw/viewform?usp=publish-editor"
 
   - title: "Youth Session of Stake Conference"
     body: "Sunday, December 6, 2026, at 8:30 a.m. All youth are invited. The focus will be on Patriarchal Blessings."
