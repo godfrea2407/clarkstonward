@@ -9,7 +9,8 @@
 #   skipped WL Team 11 Nov 28 and WL Team 12 Dec 5
 # Dropped: Youth Discussion (Nov 15, past)
 # Kept: Ward Temple Night; FSY 2027; Find a Better Job (thru Nov 29); Giving Machine (thru Dec 6);
-#   Stake Choir (thru Nov 29); Stake Conf youth session Dec 6; Stake youth activity Jan 2; Temple/FH banner last
+#   Stake Choir (thru Nov 29); Stake Conf youth session Dec 6; Ward Christmas Brunch Dec 12 (thru Dec 6);
+#   Stake youth activity Jan 2; Temple/FH banner last
 # ─────────────────────────────────────────────────────────────────────────────────
 
 date: "Sunday, November 22, 2026"
@@ -95,6 +96,15 @@ text_announcements:
 
   - title: "Youth Session of Stake Conference"
     body: "Sunday, December 6, 2026, at 8:30 a.m. All youth are invited. The focus will be on Patriarchal Blessings."
+
+
+  # Ward Christmas Brunch — Gifts of the Season (Leelannee email; Adam approved Nov 22, 2026 via Dispatch).
+  # Keep on Nov 29 and Dec 6 programs; drop starting Dec 13 (event is Saturday, December 12).
+  - title: "Gifts of the Season — Ward Christmas Brunch & Family Craft"
+    body: "Saturday, December 12, 2026, 10:00 AM–noon at the Clarkston Ward Building. Come cozy in pajamas or favorite Christmas attire for brunch, hot chocolate, music, and the first gifts of the season. All welcome."
+
+  - image: "images/gifts-of-the-season-brunch.jpg"
+    alt: "Gifts of the Season — Ward Christmas Brunch & Family Craft, Saturday, December 12, 10:00 AM–noon, Clarkston Ward Building. Come in pajamas or Christmas attire. All welcome."
 
   - title: "Stake Youth End of Year Activity"
     body: "Saturday, January 2, 2027, 6–9 p.m. All current youth and those turning 12 in 2027 are invited. Held at the Elite Sportsplex, 2220 Mall Dr. E, Waterford Township."
