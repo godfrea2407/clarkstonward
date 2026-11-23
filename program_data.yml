@@ -1,31 +1,30 @@
 # ─────────────────────────────────────────────────────────────────────────────────
 # Clarkston Ward – Weekly Sacrament Program Data
-# Preview 2026-11-15 — Sunday 2026-11-22 from Master List (Last Updated 11/15/2026)
+# Preview 2026-11-23 — Sunday 2026-11-29 from Master List (Last Updated 11/23/2026)
+# Fast Sunday (moved from Dec 6 for stake conference): testimonies only, no intermediate hymn
 # Bishop Mike Wilson presides; Bro. Brock Seibold, Bishopric 1st Counselor conducts + Ward/Stake Business
-# Speakers Sis. Aubrey Ruby, then Bro. Harrison (High Council), sheet order; Special Musical Number: Primary
-# Hymns 251 / 182 / 243; chorister Bro. Jaxon Seibold; pianist Sis. Laura Zundel
+# Hymns 94 / 196 / 156 from Master List; chorister Bro. Jay Wilson; pianist Sis. Laura Zundel
 # Prayers By Invitation (sheet TBD)
-# Cleaning Team 13 Harrison Saturday December 12, 2026 (Clarkston-only; next after Nov 22)
-#   skipped WL Team 11 Nov 28 and WL Team 12 Dec 5
-# Dropped: Youth Discussion (Nov 15, past)
+# Cleaning Team 13 Harrison Saturday December 12, 2026 (Clarkston-only; next after Nov 29)
+# Dropped: none expired (nothing dated before Nov 29)
 # Kept: Ward Temple Night; FSY 2027; Find a Better Job (thru Nov 29); Giving Machine (thru Dec 6);
 #   Stake Choir (thru Nov 29); Stake Conf youth session Dec 6; Ward Christmas Brunch Dec 12 (thru Dec 6);
 #   Stake youth activity Jan 2; Temple/FH banner last
 # ─────────────────────────────────────────────────────────────────────────────────
 
-date: "Sunday, November 22, 2026"
+date: "Sunday, November 29, 2026"
 time: "9:00 AM – 10:00 AM"
 
 officers:
   presiding:  "Bishop Mike Wilson"
   conducting: "Bro. Brock Seibold, Bishopric 1st Counselor"
-  chorister:  "Bro. Jaxon Seibold"
+  chorister:  "Bro. Jay Wilson"
   pianist:    "Sis. Laura Zundel"
 
 program:
   - role:   "Opening Hymn"
-    hymn_number: 251
-    hymn_title:  "Behold! A Royal Army"
+    hymn_number: 94
+    hymn_title:  "Come, Ye Thankful People"
 
   - role:   "Invocation"
     person: "By Invitation"
@@ -34,24 +33,18 @@ program:
     person: "Bro. Brock Seibold, Bishopric 1st Counselor"
 
   - role:   "Sacrament Hymn"
-    hymn_number: 182
-    hymn_title:  "We'll Sing All Hail to Jesus' Name"
+    hymn_number: 196
+    hymn_title:  "Jesus, Once of Humble Birth"
 
   - role:   "Administration of the Sacrament"
     person: ""
 
-  - role:   "Speaker"
-    person: "Sis. Aubrey Ruby"
-
-  - role:   "Special Musical Number"
-    person: "Primary"
-
-  - role:   "Speaker"
-    person: "Bro. Harrison (High Council)"
+  - role:   "Testimonies"
+    person: ""
 
   - role:   "Closing Hymn"
-    hymn_number: 243
-    hymn_title:  "Let Us All Press On"
+    hymn_number: 156
+    hymn_title:  "Sing We Now at Parting"
 
   - role:   "Benediction"
     person: "By Invitation"
